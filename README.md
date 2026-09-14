@@ -4,6 +4,21 @@ Reference implementation for the paper:
 
 > **Image Watermarking Robustness under MLLM-Guided Semantic Editing: Benchmark, Defense, and Diagnosis**
 
+![Method overview](assets/framework.png)
+
+*Overview of the proposed pipeline. **Embedding** (top) writes a payload bit and a
+pseudo-random check bit into two different mid-frequency DCT coefficients `(4,1)` and `(3,2)`
+of every 8x8 block; the two coefficients are redundant with respect to each other rather than
+identical, so an edit need not destroy both. **Attack** (middle) has an MLLM read the image,
+emit a semantic editing instruction with a bounding box, and a diffusion inpainting model
+execute it; the damage heat map shows that damage is concentrated inside the box but still
+leaks into neighbouring blocks. **Extraction** (bottom) demodulates each block's check bit and
+assigns a continuous vote weight: intact blocks keep a high weight, partially damaged blocks
+are down-weighted, and check-failing blocks approach zero; neighbouring blocks of a failing
+block are additionally down-weighted (spatial dilation) before weighted-majority voting.*
+
+---
+
 This repository contains the code for (i) generating a semantic-editing attack benchmark driven
 by a multimodal LLM, (ii) the training-free **signal-check** defense, and (iii) the analysis and
 figure-generation scripts.
@@ -103,6 +118,11 @@ python analyze_second_mllm.py
 ---
 
 ## Key findings
+
+![Teaser: damage is not confined to the edit region](assets/teaser.png)
+
+*A semantic edit is locally invisible but the watermark damage is not local: orange marks
+check-bit failures, which leak well outside the declared edit box.*
 
 1. **Semantic edits damage the watermark outside the edited region.** A bounding-box oracle that
    discards only the declared edit box underperforms the check-bit defense, because the damage
