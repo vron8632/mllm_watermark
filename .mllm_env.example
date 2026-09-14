@@ -1,0 +1,23 @@
+# ============================================================
+#  MLLM API 配置模板
+#  用法: cp .mllm_env.example .mllm_env  然后填入真实密钥
+#  .mllm_env 已被 .gitignore 排除，不会被提交
+# ============================================================
+
+# ---------- 攻击用 MLLM（必需）----------
+# 论文主实验使用 mimo-v2.5。任何 OpenAI 兼容的多模态模型均可替换。
+MIMO_API_KEY=your_key_here
+MIMO_BASE_URL=https://api.xiaomimimo.com/v1
+MIMO_MODEL=mimo-v2.5
+
+# ---------- 可选: 第二个攻击者 MLLM（用于跨模型验证）----------
+# 示例: 阿里云百炼 Qwen3-VL-Plus
+#   QWEN_BASE_URL=https://dashscope.aliyuncs.com/compatible-mode/v1
+QWEN_API_KEY=
+QWEN_BASE_URL=
+QWEN_MODEL=qwen3-vl-plus
+
+# ---------- 可选: DeepSeek（诊断/文本任务）----------
+DEEPSEEK_API_KEY=
+DEEPSEEK_BASE_URL=https://api.deepseek.com
+DEEPSEEK_MODEL=deepseek-v4-flash
