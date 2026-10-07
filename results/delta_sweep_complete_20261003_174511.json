@@ -1,0 +1,103 @@
+{
+  "meta": {
+    "attackset": "attackset_ip2p_20260908_075547",
+    "images": 200,
+    "msglen": 256,
+    "deltas": [
+      10,
+      12,
+      13,
+      15,
+      17,
+      20,
+      25
+    ],
+    "ts": "2026-10-03T17:45:11.414488"
+  },
+  "summary": {
+    "10": {
+      "psnr_dual": 48.58,
+      "psnr_single": 49.14,
+      "uniform": 88.39,
+      "sc_hard": 91.76,
+      "sc_soft": 92.63,
+      "sc": 93.81,
+      "oracle": 94.35,
+      "single": 76.04,
+      "ckfail": 14.4,
+      "gain": 5.42
+    },
+    "12": {
+      "psnr_dual": 48.01,
+      "psnr_single": 48.99,
+      "uniform": 88.59,
+      "sc_hard": 92.18,
+      "sc_soft": 93.51,
+      "sc": 95.08,
+      "oracle": 94.95,
+      "single": 84.38,
+      "ckfail": 13.47,
+      "gain": 6.49
+    },
+    "13": {
+      "psnr_dual": 47.71,
+      "psnr_single": 48.73,
+      "uniform": 88.63,
+      "sc_hard": 92.33,
+      "sc_soft": 93.75,
+      "sc": 95.36,
+      "oracle": 95.14,
+      "single": 86.75,
+      "ckfail": 13.29,
+      "gain": 6.73
+    },
+    "15": {
+      "psnr_dual": 47.13,
+      "psnr_single": 48.12,
+      "uniform": 88.48,
+      "sc_hard": 92.37,
+      "sc_soft": 93.9,
+      "sc": 95.54,
+      "oracle": 95.27,
+      "single": 88.51,
+      "ckfail": 13.26,
+      "gain": 7.06
+    },
+    "17": {
+      "psnr_dual": 46.57,
+      "psnr_single": 47.7,
+      "uniform": 88.21,
+      "sc_hard": 92.21,
+      "sc_soft": 93.84,
+      "sc": 95.55,
+      "oracle": 95.27,
+      "single": 88.29,
+      "ckfail": 13.22,
+      "gain": 7.34
+    },
+    "20": {
+      "psnr_dual": 45.72,
+      "psnr_single": 47.35,
+      "uniform": 88.02,
+      "sc_hard": 92.2,
+      "sc_soft": 93.76,
+      "sc": 95.52,
+      "oracle": 95.27,
+      "single": 88.01,
+      "ckfail": 13.21,
+      "gain": 7.5
+    },
+    "25": {
+      "psnr_dual": 44.36,
+      "psnr_single": 46.2,
+      "uniform": 87.67,
+      "sc_hard": 92.03,
+      "sc_soft": 93.72,
+      "sc": 95.58,
+      "oracle": 95.36,
+      "single": 87.73,
+      "ckfail": 13.14,
+      "gain": 7.92
+    }
+  }
+}

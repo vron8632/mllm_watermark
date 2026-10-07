@@ -1,0 +1,195 @@
+{
+  "generated": "2026-09-12T17:49:46.356284",
+  "samples": [
+    {
+      "id": "0030",
+      "source": "000000002532.jpg",
+      "instruction": "remove the person in the center of the image",
+      "bbox": [
+        0.4,
+        0.3,
+        0.6,
+        0.7
+      ],
+      "wh": [
+        480,
+        640
+      ],
+      "psnr": 31.94509060551665,
+      "naturalness": 9.0,
+      "seam": 1.02254706484069,
+      "nat_desc": "雪地上左侧滑雪杖底部的黑色小物体被移除"
+    },
+    {
+      "id": "0031",
+      "source": "000000002587.jpg",
+      "instruction": "remove the donut",
+      "bbox": [
+        0.3,
+        0.1,
+        0.7,
+        0.6
+      ],
+      "wh": [
+        496,
+        368
+      ],
+      "psnr": 32.58573622268588,
+      "naturalness": 9.0,
+      "seam": 1.077207900483768,
+      "nat_desc": "整体画面轻微提亮/色调调整，香蕉与甜甜圈轮廓几乎无改动"
+    },
+    {
+      "id": "0005",
+      "source": "000000000785.jpg",
+      "instruction": "remove the skier in the center of the image",
+      "bbox": [
+        0.35,
+        0.15,
+        0.65,
+        0.85
+      ],
+      "wh": [
+        640,
+        424
+      ],
+      "psnr": 26.69766811596422,
+      "naturalness": 9.0,
+      "seam": 1.1575679910005798,
+      "nat_desc": "背景左侧中远处添加了一个小滑雪者"
+    },
+    {
+      "id": "0004",
+      "source": "000000000776.jpg",
+      "instruction": "replace the plush bear on the left with a toy car",
+      "bbox": [
+        0.0,
+        0.1,
+        0.5,
+        0.6
+      ],
+      "wh": [
+        424,
+        640
+      ],
+      "psnr": 19.57035598781961,
+      "naturalness": 3.0,
+      "seam": 0.9845998474475591,
+      "nat_desc": "左上角泰迪熊的头部被替换为白色小熊的脸，但编辑区域底部残留了一条原棕色熊的耳朵/头顶毛皮，形成明显的水平拼接缝，且白色头部与原熊身体的比例、光影和毛色不一致。"
+    },
+    {
+      "id": "0002",
+      "source": "000000000632.jpg",
+      "instruction": "replace the bookshelf on the right with a television",
+      "bbox": [
+        0.65,
+        0.0,
+        0.98,
+        0.82
+      ],
+      "wh": [
+        640,
+        480
+      ],
+      "psnr": 19.812499504173168,
+      "naturalness": 2.0,
+      "seam": 1.0521447693870918,
+      "nat_desc": "右侧原本的书架区域被替换为叠放的老式CRT电视和木质柜子"
+    },
+    {
+      "id": "0049",
+      "source": "000000005060.jpg",
+      "instruction": "remove the person reflected in the mirror",
+      "bbox": [
+        0.3,
+        0.4,
+        0.7,
+        0.7
+      ],
+      "wh": [
+        480,
+        640
+      ],
+      "psnr": 23.18640506808324,
+      "naturalness": 4.0,
+      "seam": 2.1487164506796295,
+      "nat_desc": "镜中人物腿部姿势改变，由坐姿改为跪坐，脚部被移除并留下模糊痕迹"
+    },
+    {
+      "id": "0000",
+      "source": "000000000139.jpg",
+      "instruction": "replace the television on the left with a bookshelf",
+      "bbox": [
+        0.05,
+        0.3,
+        0.4,
+        0.6
+      ],
+      "wh": [
+        640,
+        424
+      ],
+      "psnr": 22.476347423989047,
+      "naturalness": 8.0,
+      "seam": 5.103687763469617,
+      "nat_desc": "在左侧电视后方的黄色墙面上添加了一个白色书架/置物架，上面摆放了书籍和装饰品。"
+    },
+    {
+      "id": "0028",
+      "source": "000000002431.jpg",
+      "instruction": "remove the wine glass",
+      "bbox": [
+        0.7,
+        0.1,
+        0.9,
+        0.4
+      ],
+      "wh": [
+        456,
+        640
+      ],
+      "psnr": 36.1354488170622,
+      "naturalness": 2.0,
+      "seam": 1.5580855044086694,
+      "nat_desc": "右侧红酒杯上覆盖了一块半透明橙褐色矩形编辑区域"
+    },
+    {
+      "id": "0006",
+      "source": "000000000802.jpg",
+      "instruction": "replace the refrigerator on the right with a tall potted plant",
+      "bbox": [
+        0.5,
+        0.1,
+        1.0,
+        0.9
+      ],
+      "wh": [
+        424,
+        640
+      ],
+      "psnr": 16.69404693810302,
+      "naturalness": 5.0,
+      "seam": 4.705482168045484,
+      "nat_desc": "右侧冰箱及其周围墙面被替换为绿植墙和多盆绿色植物"
+    },
+    {
+      "id": "0043",
+      "source": "000000004395.jpg",
+      "instruction": "replace the transparent cup in the hand with a red balloon",
+      "bbox": [
+        0.7,
+        0.35,
+        0.95,
+        0.65
+      ],
+      "wh": [
+        424,
+        640
+      ],
+      "psnr": 28.21817215419434,
+      "naturalness": 3.0,
+      "seam": 5.020685354842555,
+      "nat_desc": "右下角手部替换为白色杯子，背景右侧添加紫红色矩形色块"
+    }
+  ]
+}

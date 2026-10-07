@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "source": "signal_ra_coco_n500_msg256_d15_20260913_231014.json",
+    "n": 500,
+    "delta": 15,
+    "msglen": 256,
+    "bootstrap_resamples": 20000,
+    "ts": "2026-10-07T10:11:13.108368"
+  },
+  "means_pct": {
+    "undefended": 89.0546875,
+    "binary": 92.40234375,
+    "soft": 93.75156249999999,
+    "ours": 95.44140625,
+    "oracle": 94.87578125
+  },
+  "comparisons": {
+    "ours_vs_undefended": {
+      "mean_diff_pt": 6.386718750000001,
+      "boot_ci95_pt": [
+        5.853125,
+        6.93125
+      ],
+      "win_pct": 87.8,
+      "tie_pct": 8.4,
+      "loss_pct": 3.8,
+      "paired_t": 23.237067203975087,
+      "p_ttest": 1.692532504240351e-81,
+      "wilcoxon_stat": 1429.0,
+      "p_wilcoxon": 9.142360622950629e-73,
+      "cohen_d": 1.0391932373163855
+    },
+    "ours_vs_oracle": {
+      "mean_diff_pt": 0.5656249999999999,
+      "boot_ci95_pt": [
+        0.29140625,
+        0.8546875
+      ],
+      "win_pct": 44.4,
+      "tie_pct": 33.800000000000004,
+      "loss_pct": 21.8,
+      "paired_t": 3.9391358872162803,
+      "p_ttest": 9.342380544301022e-05,
+      "wilcoxon_stat": 20414.0,
+      "p_wilcoxon": 4.788521499807858e-05,
+      "cohen_d": 0.17616351232849095
+    },
+    "binary_vs_undefended": {
+      "mean_diff_pt": 3.34765625,
+      "boot_ci95_pt": [
+        3.0859375,
+        3.615625
+      ],
+      "win_pct": 86.6,
+      "tie_pct": 10.8,
+      "loss_pct": 2.6,
+      "paired_t": 24.539244962822732,
+      "p_ttest": 8.241327520916834e-88,
+      "wilcoxon_stat": 1441.0,
+      "p_wilcoxon": 1.0564271185734005e-70,
+      "cohen_d": 1.0974283970678187
+    },
+    "soft_vs_binary": {
+      "mean_diff_pt": 1.3492187500000001,
+      "boot_ci95_pt": [
+        1.2132812499999999,
+        1.4890625
+      ],
+      "win_pct": 74.8,
+      "tie_pct": 20.4,
+      "loss_pct": 4.8,
+      "paired_t": 19.11086520069126,
+      "p_ttest": 1.6834528162627786e-61,
+      "wilcoxon_stat": 3356.5,
+      "p_wilcoxon": 1.1939634210560388e-56,
+      "cohen_d": 0.8546638739516164
+    },
+    "ours_vs_soft": {
+      "mean_diff_pt": 1.6898437499999999,
+      "boot_ci95_pt": [
+        1.4453125,
+        1.93671875
+      ],
+      "win_pct": 52.400000000000006,
+      "tie_pct": 42.8,
+      "loss_pct": 4.8,
+      "paired_t": 13.524292915630973,
+      "p_ttest": 9.950101743262724e-36,
+      "wilcoxon_stat": 2167.0,
+      "p_wilcoxon": 2.4205513027262974e-39,
+      "cohen_d": 0.6048247661393936
+    }
+  }
+}

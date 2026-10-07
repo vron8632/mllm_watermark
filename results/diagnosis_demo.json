@@ -1,0 +1,25 @@
+{
+  "cid": "0045_42",
+  "source": "000000004765.jpg",
+  "bbox": [
+    0.35,
+    0.15,
+    0.65,
+    0.45
+  ],
+  "instruction": "change the surfer jacket from yellow to red",
+  "w": 608,
+  "h": 608,
+  "operation": "属性修改",
+  "diagnosis": "The color of the clothing has been altered from yellow to orange.",
+  "confidence": 0.95,
+  "evidence": "The clothing in both images shows identical shape, texture, and lighting, with only the color attribute differing, indicating a color modification.",
+  "raw": {
+    "operation": "属性修改",
+    "diagnosis": "The color of the clothing has been altered from yellow to orange.",
+    "confidence": 0.95,
+    "evidence": "The clothing in both images shows identical shape, texture, and lighting, with only the color attribute differing, indicating a color modification."
+  },
+  "mllm": "mimo-v2.5",
+  "ts": "2026-09-12T18:19:29.534755"
+}

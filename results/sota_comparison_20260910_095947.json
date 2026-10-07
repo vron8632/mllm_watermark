@@ -1,0 +1,270 @@
+{
+  "meta": {
+    "n": 10,
+    "msglen": 256,
+    "delta": 15,
+    "steps": 30,
+    "ts": "2026-09-10T09:54:36.322733"
+  },
+  "methods": {
+    "dwt_dct": {
+      "clean_ba": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "attacked_ba": [
+        0.984375
+      ]
+    },
+    "signal_check_v2": {
+      "clean_ba": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "attacked_ba": [
+        1.0
+      ]
+    },
+    "robust_wide": {
+      "clean_ba": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "attacked_ba": [
+        0.984375
+      ]
+    },
+    "trustmark": {
+      "clean_ba": [
+        1.0,
+        1.0,
+        0.8888888888888888,
+        1.0,
+        1.0,
+        0.8888888888888888,
+        0.8888888888888888,
+        1.0,
+        0.8888888888888888,
+        1.0
+      ],
+      "attacked_ba": [
+        1.0
+      ]
+    },
+    "stable_signature": {
+      "clean_ba": [
+        0.7291666666666666,
+        0.75,
+        0.75,
+        0.75,
+        0.6666666666666666,
+        0.7916666666666666,
+        0.7291666666666666,
+        0.7916666666666666,
+        0.8125,
+        0.7083333333333334
+      ],
+      "attacked_ba": [
+        0.7083333333333334
+      ]
+    },
+    "watermark_anything": {
+      "clean_ba": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "attacked_ba": [
+        1.0
+      ]
+    }
+  },
+  "per_image": [
+    {
+      "img": "000000000139.jpg",
+      "psnr_dwt": 47.811805725097656,
+      "psnr_sc": 46.84014129638672,
+      "psnr_rw": 35.36899948120117,
+      "psnr_tm": 43.509002685546875,
+      "clean_ba_dwt": 1.0,
+      "clean_ba_sc": 1.0,
+      "clean_ba_rw": 1.0,
+      "clean_ba_tm": 1.0,
+      "clean_ba_ss": 0.7291666666666666,
+      "clean_ba_wa": 1.0,
+      "edit_prompt": "\u5220\u9664\u753b\u9762\u5de6\u4fa7\u7684\u7535\u89c6",
+      "attacked_ba_dwt": 0.984375,
+      "attacked_ba_sc": 1.0,
+      "attacked_ba_rw": 0.984375,
+      "attacked_ba_tm": 1.0,
+      "attacked_ba_ss": 0.7083333333333334,
+      "attacked_ba_wa": 1.0
+    },
+    {
+      "img": "000000000285.jpg",
+      "psnr_dwt": 47.888038635253906,
+      "psnr_sc": 46.919288635253906,
+      "psnr_rw": 31.740835189819336,
+      "psnr_tm": 39.61372756958008,
+      "clean_ba_dwt": 1.0,
+      "clean_ba_sc": 1.0,
+      "clean_ba_rw": 1.0,
+      "clean_ba_tm": 1.0,
+      "clean_ba_ss": 0.75,
+      "clean_ba_wa": 1.0,
+      "edit_prompt": "\u7ed9\u718a\u6234\u4e0a\u4e00\u526f\u9ed1\u8272\u7684\u58a8\u955c",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000000632.jpg",
+      "psnr_dwt": 47.975006103515625,
+      "psnr_sc": 47.01106643676758,
+      "psnr_rw": 31.753467559814453,
+      "psnr_tm": 40.8828010559082,
+      "clean_ba_dwt": 1.0,
+      "clean_ba_sc": 1.0,
+      "clean_ba_rw": 1.0,
+      "clean_ba_tm": 0.8888888888888888,
+      "clean_ba_ss": 0.75,
+      "clean_ba_wa": 1.0,
+      "edit_prompt": "\u5220\u9664\u4e66\u67b6\u4e0a\u7684\u6240\u6709\u4e66",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000000724.jpg",
+      "psnr_dwt": 48.1662712097168,
+      "psnr_sc": 47.138248443603516,
+      "psnr_rw": 31.19779396057129,
+      "psnr_tm": 41.042171478271484,
+      "clean_ba_dwt": 1.0,
+      "clean_ba_sc": 1.0,
+      "clean_ba_rw": 1.0,
+      "clean_ba_tm": 1.0,
+      "clean_ba_ss": 0.75,
+      "clean_ba_wa": 1.0,
+      "edit_prompt": "\u5220\u9664\u753b\u9762\u4e2d\u7684STOP\u6807\u5fd7",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000000776.jpg",
+      "psnr_dwt": 47.972110748291016,
+      "psnr_sc": 46.95240020751953,
+      "psnr_rw": 33.263275146484375,
+      "psnr_tm": 41.998294830322266,
+      "clean_ba_dwt": 1.0,
+      "clean_ba_sc": 1.0,
+      "clean_ba_rw": 1.0,
+      "clean_ba_tm": 1.0,
+      "clean_ba_ss": 0.6666666666666666,
+      "clean_ba_wa": 1.0,
+      "edit_prompt": "\u5220\u9664\u53f3\u4e0a\u89d2\u7684\u6d45\u68d5\u8272\u6cf0\u8fea\u718a",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000000785.jpg",
+      "psnr_dwt": 48.65129852294922,
+      "psnr_sc": 47.50422668457031,
+      "psnr_rw": 34.01748275756836,
+      "psnr_tm": 43.486053466796875,
+      "clean_ba_dwt": 1.0,
+      "clean_ba_sc": 1.0,
+      "clean_ba_rw": 1.0,
+      "clean_ba_tm": 0.8888888888888888,
+      "clean_ba_ss": 0.7916666666666666,
+      "clean_ba_wa": 1.0,
+      "edit_prompt": "\u5c06\u4eba\u7269\u7684\u7ea2\u8272\u5916\u5957\u66ff\u6362\u4e3a\u84dd\u8272\u5916\u5957",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000000802.jpg",
+      "psnr_dwt": 47.783241271972656,
+      "psnr_sc": 46.830589294433594,
+      "psnr_rw": 38.56605911254883,
+      "psnr_tm": 44.94319534301758,
+      "clean_ba_dwt": 1.0,
+      "clean_ba_sc": 1.0,
+      "clean_ba_rw": 1.0,
+      "clean_ba_tm": 0.8888888888888888,
+      "clean_ba_ss": 0.7291666666666666,
+      "clean_ba_wa": 1.0,
+      "edit_prompt": "\u5220\u9664\u753b\u9762\u53f3\u4fa7\u7684\u51b0\u7bb1",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000000872.jpg",
+      "psnr_dwt": 48.036865234375,
+      "psnr_sc": 47.12104034423828,
+      "psnr_rw": 31.806514739990234,
+      "psnr_tm": 38.61656188964844,
+      "clean_ba_dwt": 1.0,
+      "clean_ba_sc": 1.0,
+      "clean_ba_rw": 1.0,
+      "clean_ba_tm": 1.0,
+      "clean_ba_ss": 0.7916666666666666,
+      "clean_ba_wa": 1.0,
+      "edit_prompt": "\u5220\u9664\u753b\u9762\u5de6\u4fa7\u7684\u4eba\u7269",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000000885.jpg",
+      "psnr_dwt": 47.93988037109375,
+      "psnr_sc": 46.953956604003906,
+      "psnr_rw": 35.65830993652344,
+      "psnr_tm": 44.839229583740234,
+      "clean_ba_dwt": 1.0,
+      "clean_ba_sc": 1.0,
+      "clean_ba_rw": 1.0,
+      "clean_ba_tm": 0.8888888888888888,
+      "clean_ba_ss": 0.8125,
+      "clean_ba_wa": 1.0,
+      "edit_prompt": "\u5220\u9664\u753b\u9762\u4e2d\u592e\u7684\u7f51\u7403\u8fd0\u52a8\u5458",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000001000.jpg",
+      "psnr_dwt": 47.888023376464844,
+      "psnr_sc": 46.96126937866211,
+      "psnr_rw": 30.374835968017578,
+      "psnr_tm": 39.15565490722656,
+      "clean_ba_dwt": 1.0,
+      "clean_ba_sc": 1.0,
+      "clean_ba_rw": 1.0,
+      "clean_ba_tm": 1.0,
+      "clean_ba_ss": 0.7083333333333334,
+      "clean_ba_wa": 1.0,
+      "edit_prompt": "\u5c06\u53f3\u4fa7\u7684\u7eff\u8272\u5c4f\u969c\u66ff\u6362\u4e3a\u84dd\u8272\u5929\u7a7a",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    }
+  ]
+}

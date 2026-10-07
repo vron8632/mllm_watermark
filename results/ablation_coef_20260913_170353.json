@@ -1,0 +1,148 @@
+{
+ "meta": {
+  "n": 50,
+  "msglen": 256,
+  "delta": 15,
+  "attackset": "/media/oyp/\u5de5\u4f5c/Projects/042_image_forensic/watermark-mllm-robustness/results/attackset_20260817_082819",
+  "ts": "2026-09-13T17:03:29.102381"
+ },
+ "A_coefficient": [
+  {
+   "payload": [
+    4,
+    1
+   ],
+   "check": [
+    3,
+    2
+   ],
+   "desc": "default: payload (4,1), check (3,2)",
+   "clean_ba": 0.997890625,
+   "att_uniform_ba": 0.878046875,
+   "att_v2_ba": 0.94734375,
+   "gain_pt": 6.9296875000000036
+  },
+  {
+   "payload": [
+    4,
+    1
+   ],
+   "check": [
+    1,
+    4
+   ],
+   "desc": "check moved to (1,4)",
+   "clean_ba": 0.998203125,
+   "att_uniform_ba": 0.877734375,
+   "att_v2_ba": 0.949140625,
+   "gain_pt": 7.140625
+  },
+  {
+   "payload": [
+    4,
+    1
+   ],
+   "check": [
+    2,
+    2
+   ],
+   "desc": "check at (2,2) - closer to payload",
+   "clean_ba": 0.99796875,
+   "att_uniform_ba": 0.877421875,
+   "att_v2_ba": 0.948515625,
+   "gain_pt": 7.109374999999996
+  },
+  {
+   "payload": [
+    4,
+    1
+   ],
+   "check": [
+    5,
+    1
+   ],
+   "desc": "check at (5,1) - lower freq, same row",
+   "clean_ba": 0.998359375,
+   "att_uniform_ba": 0.877109375,
+   "att_v2_ba": 0.95,
+   "gain_pt": 7.289062499999998
+  },
+  {
+   "payload": [
+    4,
+    1
+   ],
+   "check": [
+    4,
+    4
+   ],
+   "desc": "check at (4,4) - higher freq",
+   "clean_ba": 0.998359375,
+   "att_uniform_ba": 0.877734375,
+   "att_v2_ba": 0.94640625,
+   "gain_pt": 6.867187500000005
+  },
+  {
+   "payload": [
+    3,
+    1
+   ],
+   "check": [
+    4,
+    2
+   ],
+   "desc": "payload (3,1), check (4,2)",
+   "clean_ba": 0.99828125,
+   "att_uniform_ba": 0.880234375,
+   "att_v2_ba": 0.94921875,
+   "gain_pt": 6.898437499999998
+  },
+  {
+   "payload": [
+    5,
+    2
+   ],
+   "check": [
+    3,
+    2
+   ],
+   "desc": "payload (5,2) - lower freq, same check",
+   "clean_ba": 0.9978125,
+   "att_uniform_ba": 0.870859375,
+   "att_v2_ba": 0.95,
+   "gain_pt": 7.9140624999999964
+  },
+  {
+   "payload": [
+    6,
+    1
+   ],
+   "check": [
+    3,
+    2
+   ],
+   "desc": "payload (6,1) - high freq",
+   "clean_ba": 0.997890625,
+   "att_uniform_ba": 0.86921875,
+   "att_v2_ba": 0.949140625,
+   "gain_pt": 7.992187499999992
+  },
+  {
+   "payload": [
+    1,
+    1
+   ],
+   "check": [
+    3,
+    2
+   ],
+   "desc": "payload (1,1) - very low freq (near DC)",
+   "clean_ba": 0.9984375,
+   "att_uniform_ba": 0.886640625,
+   "att_v2_ba": 0.949375,
+   "gain_pt": 6.273437500000001
+  }
+ ],
+ "B_confidence": [],
+ "C_dilation": []
+}

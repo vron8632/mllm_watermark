@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "n": 24,
+    "datasets": "kodak",
+    "msglen": 256,
+    "delta": 15,
+    "steps": 30,
+    "check_coef": [
+      3,
+      2
+    ],
+    "diagnose": false,
+    "ts": "2026-08-17T07:27:35.501087"
+  },
+  "per_image": [
+    {
+      "img": "kodim01.png",
+      "psnr": 46.93001174926758,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u4e2d\u592e\u7684\u7ea2\u8272\u95e8",
+      "uniform_ba": 0.98828125,
+      "signal_ra_ba": 0.9921875,
+      "signal_soft_ba": 1.0,
+      "signal_soft_dilate_ba": 1.0,
+      "att_fail_frac": 0.0498046875,
+      "bbox_ra_ba": 1.0
+    },
+    {
+      "img": "kodim02.png",
+      "psnr": 46.84063720703125,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u628a\u767d\u8272\u7684\u95e8\u628a\u624b\u66ff\u6362\u6210\u91d1\u8272\u7684\u95e8\u628a\u624b",
+      "uniform_ba": 0.63671875,
+      "signal_ra_ba": 0.71484375,
+      "signal_soft_ba": 0.7734375,
+      "signal_soft_dilate_ba": 0.796875,
+      "att_fail_frac": 0.373046875,
+      "bbox_ra_ba": 0.63671875
+    }
+  ],
+  "summary": {},
+  "tmp_out": "../results/signal_ra_20260817_072735.tmp.json"
+}

@@ -1,0 +1,931 @@
+{
+  "meta": {
+    "n": 200,
+    "datasets": "coco",
+    "msglen": 256,
+    "delta": 15,
+    "steps": 30,
+    "check_coef": [
+      3,
+      2
+    ],
+    "diagnose": false,
+    "ts": "2026-09-08T19:32:37.617783"
+  },
+  "per_image": [
+    {
+      "img": "000000000139.jpg",
+      "psnr": 46.84014129638672,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "{\"instruction\": \"\u5c06\u753b\u9762\u53f3\u4e0b\u89d2\u684c\u5b50\u4e0a\u7684\u9ec4\u8272\u82b1\u74f6\u66ff\u6362\u4e3a\u4e00\u4e2a\u9ed1\u8272\u9676\u74f7\u82b1\u74f6\", \"bbox\": [0.81, 0.62, 0.86, 0.93]}",
+      "error": "OSError('Error no file named model.safetensors found in directory /home/oyp/.cache/huggingface/hub/models--runwayml--sta"
+    },
+    {
+      "img": "000000000285.jpg",
+      "psnr": 46.919288635253906,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5c06\u753b\u9762\u4e2d\u7684\u718a\u66ff\u6362\u6210\u4e00\u53ea\u72d0\u72f8",
+      "error": "OSError('Error no file named model.safetensors found in directory /home/oyp/.cache/huggingface/hub/models--runwayml--sta"
+    },
+    {
+      "img": "000000000632.jpg",
+      "psnr": 47.01106643676758,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u7a97\u53f0\u4e0a\u7684\u690d\u7269",
+      "error": "OSError('Error no file named model.safetensors found in directory /home/oyp/.cache/huggingface/hub/models--runwayml--sta"
+    },
+    {
+      "img": "000000000724.jpg",
+      "psnr": 47.138248443603516,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u753b\u9762\u4e2d\u592e\u7684\u505c\u8f66\u6807\u5fd7",
+      "error": "OSError('Error no file named model.safetensors found in directory /home/oyp/.cache/huggingface/hub/models--runwayml--sta"
+    },
+    {
+      "img": "000000000776.jpg",
+      "psnr": 46.95240020751953,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u753b\u9762\u5de6\u4e0a\u89d2\u7684\u6d45\u68d5\u8272\u6bdb\u7ed2\u718a",
+      "error": "OSError('Error no file named model.safetensors found in directory /home/oyp/.cache/huggingface/hub/models--runwayml--sta"
+    },
+    {
+      "img": "000000000785.jpg",
+      "psnr": 47.50422668457031,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u753b\u9762\u4e2d\u7684\u6ed1\u96ea\u8005",
+      "error": "OSError('Error no file named model.safetensors found in directory /home/oyp/.cache/huggingface/hub/models--runwayml--sta"
+    },
+    {
+      "img": "000000000802.jpg",
+      "psnr": 46.830589294433594,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u628a\u53f3\u4fa7\u7684\u53cc\u95e8\u51b0\u7bb1\u66ff\u6362\u4e3a\u4e00\u4e2a\u6728\u8d28\u50a8\u7269\u67dc",
+      "error": "OSError('Error no file named model.safetensors found in directory /home/oyp/.cache/huggingface/hub/models--runwayml--sta"
+    },
+    {
+      "img": "000000000872.jpg",
+      "psnr": 47.12104034423828,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u753b\u9762\u4e2d\u540e\u65b9\u6b63\u5728\u6295\u7403\u7684\u8fd0\u52a8\u5458",
+      "error": "OSError('Error no file named model.safetensors found in directory /home/oyp/.cache/huggingface/hub/models--runwayml--sta"
+    },
+    {
+      "img": "000000000885.jpg",
+      "psnr": 46.953956604003906,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u80cc\u666f\u4e2d\u7ad9\u5728\u5899\u8fb9\u7684\u5973\u4eba",
+      "error": "OSError('Error no file named model.safetensors found in directory /home/oyp/.cache/huggingface/hub/models--runwayml--sta"
+    },
+    {
+      "img": "000000001000.jpg",
+      "psnr": 46.96126937866211,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u753b\u9762\u5de6\u4fa7\u6234\u9ec4\u8272\u5e3d\u5b50\u7684\u5c0f\u5b69",
+      "error": "OSError('Error no file named model.safetensors found in directory /home/oyp/.cache/huggingface/hub/models--runwayml--sta"
+    },
+    {
+      "img": "000000001268.jpg",
+      "psnr": 47.336647033691406,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0009765625,
+      "edit_prompt": "\u5220\u9664\u753b\u9762\u53f3\u4fa7\u7684\u5973\u5b50",
+      "error": "OSError('Error no file named model.safetensors found in directory /home/oyp/.cache/huggingface/hub/models--runwayml--sta"
+    },
+    {
+      "img": "000000001296.jpg",
+      "psnr": 47.27035140991211,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.00390625,
+      "edit_prompt": "\u5c06\u624b\u4e2d\u7684Hello Kitty\u624b\u673a\u58f3\u66ff\u6362\u4e3a\u4e00\u4e2a\u7b80\u7ea6\u7684\u9ed1\u8272\u624b\u673a\u58f3",
+      "error": "OSError('Error no file named model.safetensors found in directory /home/oyp/.cache/huggingface/hub/models--runwayml--sta"
+    },
+    {
+      "img": "000000001353.jpg",
+      "psnr": 47.057830810546875,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u524d\u666f\u4e2d\u7684\u5973\u5b69",
+      "error": "OSError('Error no file named model.safetensors found in directory /home/oyp/.cache/huggingface/hub/models--runwayml--sta"
+    },
+    {
+      "img": "000000001425.jpg",
+      "psnr": 47.913978576660156,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u753b\u9762\u4e2d\u592e\u7684\u4e09\u660e\u6cbb",
+      "error": "OSError('Error no file named model.safetensors found in directory /home/oyp/.cache/huggingface/hub/models--runwayml--sta"
+    },
+    {
+      "img": "000000001490.jpg",
+      "psnr": 48.2430419921875,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "{\"instruction\": \"\u628a\u4eba\u7269\u811a\u4e0b\u7684\u51b2\u6d6a\u677f\u66ff\u6362\u6210\u4e00\u8258\u5c0f\u8239\", \"bbox\": [0.45, 0.75, 0.85, 0.8]}",
+      "error": "OSError('Error no file named model.safetensors found in directory /home/oyp/.cache/huggingface/hub/models--runwayml--sta"
+    },
+    {
+      "img": "000000001503.jpg",
+      "psnr": 47.48786926269531,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u53f0\u5f0f\u7535\u8111\u663e\u793a\u5668",
+      "error": "OSError('Error no file named model.safetensors found in directory /home/oyp/.cache/huggingface/hub/models--runwayml--sta"
+    },
+    {
+      "img": "000000001532.jpg",
+      "psnr": 46.638240814208984,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "{\"instruction\": \"\u5c06\u8def\u724c\u4e0a\u7684'Hollywood Blvd'\u6587\u5b57\u66ff\u6362\u4e3a'Central Blvd'\", \"bbox\": [0.42, 0.36,",
+      "error": "OSError('Error no file named model.safetensors found in directory /home/oyp/.cache/huggingface/hub/models--runwayml--sta"
+    },
+    {
+      "img": "000000001584.jpg",
+      "psnr": 47.20225524902344,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u628a\u7ea2\u8272\u53cc\u5c42\u5df4\u58eb\u66ff\u6362\u6210\u4e00\u8f86\u767d\u8272\u5c0f\u8f7f\u8f66",
+      "error": "OSError('Error no file named model.safetensors found in directory /home/oyp/.cache/huggingface/hub/models--runwayml--sta"
+    },
+    {
+      "img": "000000001675.jpg",
+      "psnr": 46.954593658447266,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5c06\u9ed1\u732b\u66ff\u6362\u6210\u4e00\u53ea\u767d\u72d7",
+      "error": "OSError('Error no file named model.safetensors found in directory /home/oyp/.cache/huggingface/hub/models--runwayml--sta"
+    },
+    {
+      "img": "000000001761.jpg",
+      "psnr": 47.419185638427734,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "{\"instruction\": \"\u5220\u9664\u53f3\u4fa7\u7684\u98de\u673a\", \"bbox\": [0.6, 0.2, 0.8, 0.3]}",
+      "error": "OSError('Error no file named model.safetensors found in directory /home/oyp/.cache/huggingface/hub/models--runwayml--sta"
+    },
+    {
+      "img": "000000001818.jpg",
+      "psnr": 48.364524841308594,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u5de6\u4fa7\u7684\u6591\u9a6c\u5934",
+      "error": "OSError('Error no file named model.safetensors found in directory /home/oyp/.cache/huggingface/hub/models--runwayml--sta"
+    },
+    {
+      "img": "000000001993.jpg",
+      "psnr": 46.91381072998047,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u753b\u9762\u53f3\u4fa7\u7684\u5e8a",
+      "error": "OSError('Error no file named model.safetensors found in directory /home/oyp/.cache/huggingface/hub/models--runwayml--sta"
+    },
+    {
+      "img": "000000002006.jpg",
+      "psnr": 47.30539321899414,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5c06\u7d2b\u8272\u516c\u4ea4\u8f66\u66ff\u6362\u6210\u4e00\u68f5\u5927\u6811",
+      "error": "OSError('Error no file named model.safetensors found in directory /home/oyp/.cache/huggingface/hub/models--runwayml--sta"
+    },
+    {
+      "img": "000000002149.jpg",
+      "psnr": 47.08232879638672,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u628a\u4e2d\u592e\u7684\u82f9\u679c\u66ff\u6362\u6210\u4e00\u4e2a\u6a59\u5b50",
+      "error": "OSError('Error no file named model.safetensors found in directory /home/oyp/.cache/huggingface/hub/models--runwayml--sta"
+    },
+    {
+      "img": "000000002153.jpg",
+      "psnr": 46.879825592041016,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u753b\u9762\u4e0a\u65b9\u7684\u6295\u624b",
+      "error": "OSError('Error no file named model.safetensors found in directory /home/oyp/.cache/huggingface/hub/models--runwayml--sta"
+    },
+    {
+      "img": "000000002157.jpg",
+      "psnr": 47.06252670288086,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u753b\u9762\u4e2d\u7684\u86cb\u7cd5",
+      "error": "OSError('Error no file named model.safetensors found in directory /home/oyp/.cache/huggingface/hub/models--runwayml--sta"
+    },
+    {
+      "img": "000000002261.jpg",
+      "psnr": 47.12531280517578,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5c06\u6c34\u4e2d\u7684\u4eba\u7269\u66ff\u6362\u6210\u4e00\u53ea\u6d77\u8c5a",
+      "error": "OSError('Error no file named model.safetensors found in directory /home/oyp/.cache/huggingface/hub/models--runwayml--sta"
+    },
+    {
+      "img": "000000002299.jpg",
+      "psnr": 48.532875061035156,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0009765625,
+      "edit_prompt": "\u5220\u9664\u7b2c\u4e8c\u6392\u5de6\u4fa7\u7684\u4e00\u4e2a\u5973\u6027",
+      "error": "OSError('Error no file named model.safetensors found in directory /home/oyp/.cache/huggingface/hub/models--runwayml--sta"
+    },
+    {
+      "img": "000000002431.jpg",
+      "psnr": 47.270259857177734,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u628a\u53f3\u4e0b\u89d2\u7684\u91d1\u5c5e\u5c0f\u676f\u5b50\u66ff\u6362\u6210\u4e00\u4e2a\u63d2\u7740\u9ec4\u8272\u5c0f\u82b1\u7684\u767d\u8272\u5c0f\u82b1\u74f6",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000002473.jpg",
+      "psnr": 46.564430236816406,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5c06\u7a7a\u4e2d\u7684\u4eba\u7269\u66ff\u6362\u4e3a\u4e00\u4e2a\u60ac\u6d6e\u7684\u96ea\u4eba",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000002532.jpg",
+      "psnr": 46.752567291259766,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u753b\u9762\u4e2d\u592e\u7684\u4eba\u7269",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000002587.jpg",
+      "psnr": 46.937896728515625,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u753b\u9762\u4e2d\u7684\u9999\u8549",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000002592.jpg",
+      "psnr": 46.795005798339844,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u753b\u9762\u4e2d\u592e\u7684\u9a6c\u514b\u676f",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000002685.jpg",
+      "psnr": 46.89901351928711,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u753b\u9762\u4e2d\u592e\u6234\u767d\u5e3d\u7684\u4eba\u7269",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000002923.jpg",
+      "psnr": 47.06575393676758,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u753b\u9762\u4e2d\u592e\u7684\u4eba\u7269",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000003156.jpg",
+      "psnr": 48.32736587524414,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0009765625,
+      "edit_prompt": "\u628a\u53f3\u4fa7\u7684\u9a6c\u6876\u66ff\u6362\u6210\u4e00\u4e2a\u6d17\u624b\u6c60",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000003255.jpg",
+      "psnr": 47.019142150878906,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u628a\u753b\u9762\u4e2d\u7684\u96ea\u5c71\u5c71\u8109\u66ff\u6362\u6210\u6c99\u6f20\u6c99\u4e18",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000003501.jpg",
+      "psnr": 47.131046295166016,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5c06\u7897\u4e2d\u7684\u897f\u5170\u82b1\u66ff\u6362\u4e3a\u80e1\u841d\u535c",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000003553.jpg",
+      "psnr": 47.157569885253906,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u6ed1\u677f",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000003661.jpg",
+      "psnr": 46.922245025634766,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u753b\u9762\u4e2d\u592e\u4e0b\u65b9\u7684\u9999\u8549",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000003845.jpg",
+      "psnr": 47.060813903808594,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u76d8\u5b50\u4e2d\u7684\u7c73\u996d",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000003934.jpg",
+      "psnr": 46.94561767578125,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u524d\u666f\u4e2d\u73a9\u800d\u7684\u5c0f\u5973\u5b69",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000004134.jpg",
+      "psnr": 47.00828552246094,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u628a\u5de6\u8fb9\u7537\u4eba\u7684\u82b1\u886c\u886b\u66ff\u6362\u6210\u9ed1\u8272\u897f\u88c5",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000004395.jpg",
+      "psnr": 47.6490478515625,
+      "clean_ba": 0.9921875,
+      "clean_fail_frac": 0.0703125,
+      "edit_prompt": "\u628a\u6761\u7eb9\u9886\u5e26\u66ff\u6362\u6210\u7eaf\u8272\u9886\u5e26",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000004495.jpg",
+      "psnr": 46.8768310546875,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u5899\u4e0a\u7684\u9ed1\u767d\u7167\u7247",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000004765.jpg",
+      "psnr": 47.42855453491211,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u753b\u9762\u4e2d\u7684\u51b2\u6d6a\u8005",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000004795.jpg",
+      "psnr": 46.90142822265625,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u628a\u753b\u9762\u4e2d\u592e\u7684\u732b\u66ff\u6362\u6210\u4e00\u53ea\u72d7",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000005001.jpg",
+      "psnr": 48.280860900878906,
+      "clean_ba": 0.984375,
+      "clean_fail_frac": 0.08203125,
+      "edit_prompt": "{\"instruction\": \"\u5220\u9664\u753b\u9762\u4e2d\u7684\u84dd\u8272\u6c14\u7403\", \"bbox\": [0.45, 0.2, 0.55, 0.4]}",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000005037.jpg",
+      "psnr": 47.15571975708008,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0048828125,
+      "edit_prompt": "\u5220\u9664\u753b\u9762\u4e2d\u7684\u516c\u4ea4\u8f66",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000005060.jpg",
+      "psnr": 46.79530334472656,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u955c\u5b50\u4e2d\u7684\u4eba\u7269",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000005193.jpg",
+      "psnr": 47.273197174072266,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "{\"instruction\": \"\u5220\u9664\u80cc\u666f\u4e2d\u7684\u7a7a\u8c03\", \"bbox\": [0.05, 0.1, 0.15, 0.2]}",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000005477.jpg",
+      "psnr": 47.097312927246094,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5c06\u98de\u673a\u5c3e\u7ffc\u4e0a\u7684\u6807\u5fd7\u66ff\u6362\u4e3a\u4e00\u9897\u4e94\u89d2\u661f",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000005503.jpg",
+      "psnr": 48.10832977294922,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u628a\u9a6c\u6876\u7684\u7ed2\u9762\u5ea7\u5708\u66ff\u6362\u6210\u5149\u6ed1\u7684\u767d\u8272\u5851\u6599\u5ea7\u5708",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000005529.jpg",
+      "psnr": 46.94420623779297,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u753b\u9762\u4e2d\u592e\u7684\u6ed1\u96ea\u8005",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000005586.jpg",
+      "psnr": 47.131256103515625,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u753b\u9762\u4e2d\u592e\u7684\u7f51\u7403\u8fd0\u52a8\u5458",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000005600.jpg",
+      "psnr": 47.17542266845703,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5c06\u4e0a\u65b9\u91d1\u5c5e\u7897\u4e2d\u7684\u7092\u996d\u66ff\u6362\u4e3a\u4e00\u7897\u6d53\u6c64",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000005992.jpg",
+      "psnr": 47.02439880371094,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u753b\u9762\u6700\u53f3\u4fa7\u7684\u4e00\u53ea\u7f8a",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000006012.jpg",
+      "psnr": 47.05865478515625,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u4e2d\u592e\u7684\u82f9\u679c",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000006040.jpg",
+      "psnr": 47.05883026123047,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5c06\u753b\u9762\u4e2d\u7684\u84dd\u767d\u6709\u8f68\u7535\u8f66\u66ff\u6362\u4e3a\u4e00\u8f86\u9ec4\u8272\u7684\u89c2\u5149\u5c0f\u706b\u8f66",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000006213.jpg",
+      "psnr": 47.111610412597656,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u753b\u9762\u4e2d\u7684\u6d74\u5e18",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000006460.jpg",
+      "psnr": 48.50245666503906,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u753b\u9762\u4e2d\u7684\u51b2\u6d6a\u8005",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000006471.jpg",
+      "psnr": 47.44823455810547,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5c06\u6355\u624b\u66ff\u6362\u6210\u4e00\u4e2a\u673a\u5668\u4eba",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000006614.jpg",
+      "psnr": 48.38178634643555,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u4e2d\u592e\u7684\u767d\u8272\u7269\u4f53",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000006723.jpg",
+      "psnr": 47.063751220703125,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u753b\u9762\u53f3\u4fa7\u7684\u6811\u6728",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000006763.jpg",
+      "psnr": 47.273468017578125,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u753b\u9762\u5de6\u4fa7\u7684\u7537\u6027",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000006771.jpg",
+      "psnr": 46.85395050048828,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u753b\u9762\u4e2d\u592e\u7684\u4eba\u7269",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000006818.jpg",
+      "psnr": 47.114967346191406,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5c06\u8e72\u5f0f\u9a6c\u6876\u66ff\u6362\u6210\u4e00\u4e2a\u5750\u5f0f\u9a6c\u6876",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000006894.jpg",
+      "psnr": 47.246822357177734,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5c06\u753b\u9762\u53f3\u4fa7\u7684\u7537\u5b50\u66ff\u6362\u4e3a\u4e00\u53ea\u7a7f\u7740\u9ec4\u8272\u96e8\u8863\u7684\u5c0f\u72d7",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000006954.jpg",
+      "psnr": 47.056156158447266,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u628a\u53f3\u4fa7\u7684\u8db3\u7403\u66ff\u6362\u6210\u4e00\u4e2a\u7bee\u7403",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000007088.jpg",
+      "psnr": 47.08336639404297,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u628a\u96e8\u4f1e\u66ff\u6362\u6210\u4e00\u4e2a\u7ea2\u8272\u7684\u6c14\u7403",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000007108.jpg",
+      "psnr": 47.1381950378418,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5c06\u753b\u9762\u4e2d\u592e\u7684\u524d\u666f\u5927\u8c61\u66ff\u6362\u4e3a\u4e00\u53ea\u957f\u9888\u9e7f",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000007278.jpg",
+      "psnr": 46.94673156738281,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5c06\u51b2\u6d6a\u8005\u66ff\u6362\u6210\u4e00\u6761\u9ca8\u9c7c",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000007281.jpg",
+      "psnr": 46.856719970703125,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u9a91\u68d5\u8272\u9a6c\u7684\u4eba\u7269",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000007386.jpg",
+      "psnr": 47.081565856933594,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u628a\u6469\u6258\u8f66\u7684\u8f66\u8eab\u90e8\u5206\u66ff\u6362\u6210\u7ea2\u8272",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000007511.jpg",
+      "psnr": 47.008148193359375,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.001953125,
+      "edit_prompt": "{\"instruction\": \"\u628a\u5929\u7a7a\u4e2d\u7684\u98ce\u7b5d\u66ff\u6362\u4e3a\u4e00\u53ea\u9e1f\", \"bbox\": [0.2, 0.1, 0.3, 0.2]}",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000007574.jpg",
+      "psnr": 46.871238708496094,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u6c34\u69fd\u65c1\u7684\u7eff\u8272\u6e05\u6d01\u74f6",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000007784.jpg",
+      "psnr": 47.03401565551758,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u628a\u98ce\u7b5d\u66ff\u6362\u6210\u4e00\u53ea\u9e1f",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000007795.jpg",
+      "psnr": 47.143611907958984,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u5de6\u4fa7\u5e8a\u4e0a\u7684\u4e00\u4e2a\u6795\u5934",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000007816.jpg",
+      "psnr": 46.976585388183594,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u628a\u767d\u8272\u6469\u6258\u8f66\u66ff\u6362\u4e3a\u4e00\u8f86\u81ea\u884c\u8f66",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000007818.jpg",
+      "psnr": 47.80679702758789,
+      "clean_ba": 0.96875,
+      "clean_fail_frac": 0.064453125,
+      "edit_prompt": "\u628a\u4e2d\u592e\u7684\u82b1\u74f6\u66ff\u6362\u6210\u4e00\u4e2a\u6c34\u679c\u7bee",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000007888.jpg",
+      "psnr": 47.83495330810547,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5c06\u949f\u697c\u66ff\u6362\u6210\u4e00\u68f5\u6811",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000007977.jpg",
+      "psnr": 46.938262939453125,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u753b\u9762\u4e2d\u7684\u4eba\u7269",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000007991.jpg",
+      "psnr": 46.97754669189453,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u7897\u53f3\u4fa7\u7684\u84dd\u8272\u5939\u5b50",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000008021.jpg",
+      "psnr": 46.90525436401367,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u6295\u5f71\u5c4f\u5e55\u4e0a\u7684\u7537\u4eba",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000008211.jpg",
+      "psnr": 47.00185775756836,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u628a\u5e7f\u544a\u724c\u4e0a\u7684\u84dd\u8272\u673a\u5668\u4eba\u66ff\u6362\u6210\u4e00\u68f5\u6811",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000008277.jpg",
+      "psnr": 47.177886962890625,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u753b\u9762\u5de6\u4e0a\u89d2\u7684\u9ed1\u8272\u65b9\u5f62\u5bb9\u5668",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000008532.jpg",
+      "psnr": 46.85950469970703,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u753b\u9762\u4e2d\u592e\u7684\u4eba\u7269",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000008629.jpg",
+      "psnr": 47.18992614746094,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u628a\u5de6\u4e0a\u89d2\u7684\u62ab\u8428\u5207\u7247\u66ff\u6362\u6210\u4e00\u5757\u86cb\u7cd5",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000008690.jpg",
+      "psnr": 47.118797302246094,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u753b\u9762\u4e2d\u592e\u7684\u9ed1\u8272\u5c71\u7f8a",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000008762.jpg",
+      "psnr": 46.836814880371094,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "{\"instruction\": \"\u628a\u53f3\u4fa7\u7684\u8def\u724c\u66ff\u6362\u6210\u4e00\u4e2a\u65f6\u949f\", \"bbox\": [0.7, 0.35, 0.85, 0.4]}",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000008844.jpg",
+      "psnr": 46.94959259033203,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u753b\u9762\u5de6\u4fa7\u7684\u9999\u8549\u5806",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000008899.jpg",
+      "psnr": 46.89623260498047,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0009765625,
+      "edit_prompt": "\u5220\u9664\u53f3\u4fa7\u7684\u6811",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000009378.jpg",
+      "psnr": 47.27310562133789,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.005859375,
+      "edit_prompt": "\u5220\u9664\u753b\u9762\u4e2d\u7684\u98de\u76d8",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000009400.jpg",
+      "psnr": 47.02497863769531,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u753b\u9762\u5de6\u4fa7\u7684\u4e00\u4e2a\u4eba\u7269",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000009448.jpg",
+      "psnr": 47.10712432861328,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u753b\u9762\u4e2d\u7684\u5c0f\u5b69",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000009483.jpg",
+      "psnr": 46.739994049072266,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u955c\u5b50\u4e2d\u7684\u53cd\u5c04\u4eba\u5f71",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000009590.jpg",
+      "psnr": 47.23230743408203,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u5de6\u4fa7\u7684\u7537\u5b50",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000009769.jpg",
+      "psnr": 46.8686637878418,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u628a\u4e2d\u592e\u7684\u7ea2\u8272\u5361\u8f66\u66ff\u6362\u6210\u4e00\u8f86\u767d\u8272SUV",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000009772.jpg",
+      "psnr": 46.902587890625,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u955c\u5b50\u4e2d\u53cd\u5c04\u7684\u4eba\u7269",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000009891.jpg",
+      "psnr": 46.927146911621094,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u628a\u53f3\u4fa7\u7684\u767d\u8272\u6c7d\u8f66\u66ff\u6362\u6210\u4e00\u8f86\u81ea\u884c\u8f66",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000009914.jpg",
+      "psnr": 46.977516174316406,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u76d8\u4e2d\u7684\u85af\u6761",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000010092.jpg",
+      "psnr": 46.970375061035156,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u5e8a\u4e0a\u7684\u7eff\u8272\u868a\u5e10",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000010363.jpg",
+      "psnr": 46.86653137207031,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u753b\u9762\u4e2d\u7684\u732b",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000010583.jpg",
+      "psnr": 47.06928253173828,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u98df\u7269\u9876\u90e8\u7684\u867e",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000010707.jpg",
+      "psnr": 46.89393997192383,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u753b\u9762\u4e2d\u592e\u7684\u4eba\u7269",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000010764.jpg",
+      "psnr": 47.06183624267578,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u753b\u9762\u4e2d\u592e\u7684\u68d2\u7403\u6355\u624b",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000010977.jpg",
+      "psnr": 47.163917541503906,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5c06\u5de6\u4fa7\u7684\u6728\u8d28\u95e8\u66ff\u6362\u6210\u767d\u8272\u7684\u95e8",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000010995.jpg",
+      "psnr": 47.317081451416016,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0048828125,
+      "edit_prompt": "\u628a\u5de6\u4fa7\u7684\u7a97\u5e18\u66ff\u6362\u6210\u7ea2\u8272",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000011051.jpg",
+      "psnr": 46.9267463684082,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u753b\u9762\u53f3\u4fa7\u7684\u5973\u6027\u4eba\u7269",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000011122.jpg",
+      "psnr": 46.99579620361328,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u753b\u9762\u4e2d\u592e\u7684\u505c\u6b62\u6807\u5fd7",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000011149.jpg",
+      "psnr": 47.08635330200195,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u4e2d\u95f4\u7684\u9ec4\u8272\u81ea\u884c\u8f66",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000011197.jpg",
+      "psnr": 47.02296447753906,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5c06\u4eba\u884c\u9053\u4e0a\u7684\u9ec4\u8272\u90ae\u7b52\u66ff\u6362\u4e3a\u4e00\u4e2a\u7070\u8272\u7684\u5783\u573e\u6876",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000011511.jpg",
+      "psnr": 47.9295768737793,
+      "clean_ba": 0.9765625,
+      "clean_fail_frac": 0.083984375,
+      "edit_prompt": "\u5c06\u753b\u9762\u4e2d\u592e\u7684\u4e24\u4f4d\u96d5\u50cf\u66ff\u6362\u4e3a\u4e24\u4f4d\u771f\u4eba",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    },
+    {
+      "img": "000000011615.jpg",
+      "psnr": 47.109622955322266,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5c06\u7eff\u8272\u7684Koelnmesse\u8def\u724c\u66ff\u6362\u4e3a\u68d5\u8272\u7684L\u00f6wenbr\u00e4u\u8def\u724c",
+      "error": "BrokenPipeError(32, 'Broken pipe')"
+    }
+  ],
+  "summary": {},
+  "tmp_out": "../results/signal_ra_20260908_193237.tmp.json"
+}

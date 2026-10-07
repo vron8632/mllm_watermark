@@ -1,0 +1,78 @@
+{
+  "clean_64": {
+    "adaptive_ba": 1.0,
+    "adaptive_std": 0.0,
+    "uniform_ba": 1.0,
+    "uniform_std": 0.0,
+    "adaptive_psnr": 48.7998046875,
+    "uniform_psnr": 48.75436019897461
+  },
+  "jpeg95_64": {
+    "adaptive_ba": 1.0,
+    "adaptive_std": 0.0,
+    "uniform_ba": 1.0,
+    "uniform_std": 0.0,
+    "adaptive_psnr": 48.78763961791992,
+    "uniform_psnr": 48.73906326293945
+  },
+  "jpeg75_64": {
+    "adaptive_ba": 1.0,
+    "adaptive_std": 0.0,
+    "uniform_ba": 1.0,
+    "uniform_std": 0.0,
+    "adaptive_psnr": 48.78874969482422,
+    "uniform_psnr": 48.74234390258789
+  },
+  "jpeg75_256": {
+    "adaptive_ba": 0.9978515625,
+    "adaptive_std": 0.007305314144244158,
+    "uniform_ba": 0.9998046875,
+    "uniform_std": 0.0018077400230357842,
+    "adaptive_psnr": 48.79975128173828,
+    "uniform_psnr": 48.75303268432617
+  },
+  "jpeg50_64": {
+    "adaptive_ba": 0.485546875,
+    "adaptive_std": 0.07186261498820307,
+    "uniform_ba": 0.4934895833333333,
+    "uniform_std": 0.06290828017367604,
+    "adaptive_psnr": 48.784481048583984,
+    "uniform_psnr": 48.73262405395508
+  },
+  "gblur1_64": {
+    "adaptive_ba": 0.5102864583333333,
+    "adaptive_std": 0.1044364183015912,
+    "uniform_ba": 0.49518229166666666,
+    "uniform_std": 0.0760879166926212,
+    "adaptive_psnr": 48.77902603149414,
+    "uniform_psnr": 48.729820251464844
+  },
+  "bright_pos_64": {
+    "adaptive_ba": 0.9861979166666667,
+    "adaptive_std": 0.07512964417032549,
+    "uniform_ba": 0.984765625,
+    "uniform_std": 0.08145163532111789,
+    "adaptive_psnr": 48.78330993652344,
+    "uniform_psnr": 48.73372268676758
+  },
+  "rem30_256": {
+    "adaptive_ba": 0.7786726804123711,
+    "adaptive_std": 0.18440029247784456,
+    "uniform_ba": 0.913659793814433,
+    "uniform_std": 0.15090891905370435,
+    "adaptive_psnr": 48.7660026550293,
+    "uniform_psnr": 48.77301025390625
+  },
+  "rem50_256": {
+    "adaptive_ba": 0.7193540592783505,
+    "adaptive_std": 0.21243734937772224,
+    "uniform_ba": 0.8468508376288659,
+    "uniform_std": 0.19614508282014279,
+    "adaptive_psnr": 48.7438850402832,
+    "uniform_psnr": 48.75141525268555
+  },
+  "delta_adaptive": 15,
+  "delta_uniform": 19,
+  "n_images": 120,
+  "total_time_s": 121.1
+}

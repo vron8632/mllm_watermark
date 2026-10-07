@@ -1,0 +1,233 @@
+{
+  "meta": {
+    "n": 10,
+    "msglen": 256,
+    "delta": 15,
+    "steps": 30,
+    "ts": "2026-09-09T09:41:34.069950"
+  },
+  "methods": {
+    "dwt_dct": {
+      "clean_ba": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "attacked_ba": [
+        0.984375,
+        0.89453125,
+        0.796875,
+        0.9453125,
+        0.93359375,
+        0.95703125,
+        0.88671875,
+        0.89453125,
+        0.9140625,
+        0.96484375
+      ]
+    },
+    "signal_check_v2": {
+      "clean_ba": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "attacked_ba": [
+        1.0,
+        0.99609375,
+        0.9765625,
+        1.0,
+        1.0,
+        1.0,
+        0.99609375,
+        0.98828125,
+        1.0,
+        1.0
+      ]
+    },
+    "robust_wide": {
+      "clean_ba": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "attacked_ba": [
+        0.984375,
+        0.96875,
+        0.921875,
+        0.984375,
+        0.890625,
+        1.0,
+        0.984375,
+        0.921875,
+        0.96875,
+        0.953125
+      ]
+    },
+    "trustmark": {
+      "clean_ba": [],
+      "attacked_ba": []
+    },
+    "stable_signature": {
+      "clean_ba": [],
+      "attacked_ba": []
+    },
+    "watermark_anything": {
+      "clean_ba": [],
+      "attacked_ba": []
+    }
+  },
+  "per_image": [
+    {
+      "img": "000000000139.jpg",
+      "psnr_dwt": 47.811805725097656,
+      "psnr_sc": 46.84014129638672,
+      "psnr_rw": 35.36899948120117,
+      "clean_ba_dwt": 1.0,
+      "clean_ba_sc": 1.0,
+      "clean_ba_rw": 1.0,
+      "edit_prompt": "\u5220\u9664\u753b\u9762\u5de6\u4fa7\u7684\u7535\u89c6",
+      "attacked_ba_dwt": 0.984375,
+      "attacked_ba_sc": 1.0,
+      "attacked_ba_rw": 0.984375
+    },
+    {
+      "img": "000000000285.jpg",
+      "psnr_dwt": 47.888038635253906,
+      "psnr_sc": 46.919288635253906,
+      "psnr_rw": 31.740835189819336,
+      "clean_ba_dwt": 1.0,
+      "clean_ba_sc": 1.0,
+      "clean_ba_rw": 1.0,
+      "edit_prompt": "\u5220\u9664\u753b\u9762\u4e2d\u592e\u7684\u718a",
+      "attacked_ba_dwt": 0.89453125,
+      "attacked_ba_sc": 0.99609375,
+      "attacked_ba_rw": 0.96875
+    },
+    {
+      "img": "000000000632.jpg",
+      "psnr_dwt": 47.975006103515625,
+      "psnr_sc": 47.01106643676758,
+      "psnr_rw": 31.753467559814453,
+      "clean_ba_dwt": 1.0,
+      "clean_ba_sc": 1.0,
+      "clean_ba_rw": 1.0,
+      "edit_prompt": "\u5220\u9664\u5899\u4e0a\u7684\u5706\u5f62\u955c\u5b50",
+      "attacked_ba_dwt": 0.796875,
+      "attacked_ba_sc": 0.9765625,
+      "attacked_ba_rw": 0.921875
+    },
+    {
+      "img": "000000000724.jpg",
+      "psnr_dwt": 48.1662712097168,
+      "psnr_sc": 47.138248443603516,
+      "psnr_rw": 31.19779396057129,
+      "clean_ba_dwt": 1.0,
+      "clean_ba_sc": 1.0,
+      "clean_ba_rw": 1.0,
+      "edit_prompt": "\u5c06\u753b\u9762\u4e2d\u592e\u7684\u5012\u7f6eSTOP\u6807\u5fd7\u4e0a\u7684\u6587\u5b57'POTS'\u4fee\u6539\u4e3a\u6b63\u786e\u7684'STOP'",
+      "attacked_ba_dwt": 0.9453125,
+      "attacked_ba_sc": 1.0,
+      "attacked_ba_rw": 0.984375
+    },
+    {
+      "img": "000000000776.jpg",
+      "psnr_dwt": 47.972110748291016,
+      "psnr_sc": 46.95240020751953,
+      "psnr_rw": 33.263275146484375,
+      "clean_ba_dwt": 1.0,
+      "clean_ba_sc": 1.0,
+      "clean_ba_rw": 1.0,
+      "edit_prompt": "\u628a\u5de6\u4e0a\u89d2\u7684\u6d45\u68d5\u8272\u6cf0\u8fea\u718a\u66ff\u6362\u6210\u4e00\u4e2a\u7c89\u8272\u7684\u6cf0\u8fea\u718a",
+      "attacked_ba_dwt": 0.93359375,
+      "attacked_ba_sc": 1.0,
+      "attacked_ba_rw": 0.890625
+    },
+    {
+      "img": "000000000785.jpg",
+      "psnr_dwt": 48.65129852294922,
+      "psnr_sc": 47.50422668457031,
+      "psnr_rw": 34.01748275756836,
+      "clean_ba_dwt": 1.0,
+      "clean_ba_sc": 1.0,
+      "clean_ba_rw": 1.0,
+      "edit_prompt": "\u5c06\u6ed1\u96ea\u8005\u7684\u7ea2\u8272\u6ed1\u96ea\u670d\u66ff\u6362\u4e3a\u9ed1\u8272\u6ed1\u96ea\u670d",
+      "attacked_ba_dwt": 0.95703125,
+      "attacked_ba_sc": 1.0,
+      "attacked_ba_rw": 1.0
+    },
+    {
+      "img": "000000000802.jpg",
+      "psnr_dwt": 47.783241271972656,
+      "psnr_sc": 46.830589294433594,
+      "psnr_rw": 38.56605911254883,
+      "clean_ba_dwt": 1.0,
+      "clean_ba_sc": 1.0,
+      "clean_ba_rw": 1.0,
+      "edit_prompt": "\u5c06\u767d\u8272\u51b0\u7bb1\u66ff\u6362\u6210\u94f6\u8272\u51b0\u7bb1",
+      "attacked_ba_dwt": 0.88671875,
+      "attacked_ba_sc": 0.99609375,
+      "attacked_ba_rw": 0.984375
+    },
+    {
+      "img": "000000000872.jpg",
+      "psnr_dwt": 48.036865234375,
+      "psnr_sc": 47.12104034423828,
+      "psnr_rw": 31.806514739990234,
+      "clean_ba_dwt": 1.0,
+      "clean_ba_sc": 1.0,
+      "clean_ba_rw": 1.0,
+      "edit_prompt": "\u5220\u9664\u753b\u9762\u53f3\u4fa7\u7684\u7403\u5458",
+      "attacked_ba_dwt": 0.89453125,
+      "attacked_ba_sc": 0.98828125,
+      "attacked_ba_rw": 0.921875
+    },
+    {
+      "img": "000000000885.jpg",
+      "psnr_dwt": 47.93988037109375,
+      "psnr_sc": 46.953956604003906,
+      "psnr_rw": 35.65830993652344,
+      "clean_ba_dwt": 1.0,
+      "clean_ba_sc": 1.0,
+      "clean_ba_rw": 1.0,
+      "edit_prompt": "\u5220\u9664\u753b\u9762\u4e2d\u592e\u7684\u7f51\u7403\u8fd0\u52a8\u5458",
+      "attacked_ba_dwt": 0.9140625,
+      "attacked_ba_sc": 1.0,
+      "attacked_ba_rw": 0.96875
+    },
+    {
+      "img": "000000001000.jpg",
+      "psnr_dwt": 47.888023376464844,
+      "psnr_sc": 46.96126937866211,
+      "psnr_rw": 30.374835968017578,
+      "clean_ba_dwt": 1.0,
+      "clean_ba_sc": 1.0,
+      "clean_ba_rw": 1.0,
+      "edit_prompt": "\u5c06\u6700\u5de6\u4fa7\u5c0f\u7537\u5b69\u7684\u9ec4\u8272\u5e3d\u5b50\u66ff\u6362\u4e3a\u84dd\u8272\u5e3d\u5b50",
+      "attacked_ba_dwt": 0.96484375,
+      "attacked_ba_sc": 1.0,
+      "attacked_ba_rw": 0.953125
+    }
+  ]
+}

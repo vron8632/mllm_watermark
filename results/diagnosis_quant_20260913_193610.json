@@ -1,0 +1,286 @@
+{
+ "meta": {
+  "n": 30,
+  "model": "mimo-v2.5",
+  "judge": false,
+  "ts": "2026-09-13T19:26:04.185206"
+ },
+ "per_image": [
+  {
+   "img": "0002_42",
+   "instruction": "replace the bookshelf on the right with a television",
+   "true_op": "replace",
+   "diagnosis": "The region has been edited to replace the bookshelf with a television and orange box.",
+   "confidence": 0.9,
+   "op_correct": true,
+   "damage_fail_frac": 0.5641666666666667
+  },
+  {
+   "img": "0002_43",
+   "instruction": "replace the bookshelf on the right with a television",
+   "true_op": "replace",
+   "diagnosis": "The bookshelf area was replaced with a TV stand and television setup.",
+   "confidence": 0.85,
+   "op_correct": true,
+   "damage_fail_frac": 0.5658333333333333
+  },
+  {
+   "img": "0002_44",
+   "instruction": "replace the bookshelf on the right with a television",
+   "true_op": "replace",
+   "diagnosis": "The region has been edited by adding a brown rectangle that replaces or obscures part of the original bookshelf content.",
+   "confidence": 0.8,
+   "op_correct": true,
+   "damage_fail_frac": 0.5647916666666667
+  },
+  {
+   "img": "0002_45",
+   "instruction": "replace the bookshelf on the right with a television",
+   "true_op": "replace",
+   "diagnosis": "The region has been entirely replaced with a different scene, changing from a bookshelf area to a TV cabinet area.",
+   "confidence": 0.95,
+   "op_correct": true,
+   "damage_fail_frac": 0.5664583333333333
+  },
+  {
+   "img": "0000_42",
+   "instruction": "replace the television on the left with a bookshelf",
+   "true_op": "replace",
+   "diagnosis": "No editing detected as the left and right images are identical.",
+   "confidence": 1.0,
+   "op_correct": false,
+   "damage_fail_frac": 0.5146226415094339
+  },
+  {
+   "img": "0000_43",
+   "instruction": "replace the television on the left with a bookshelf",
+   "true_op": "replace",
+   "diagnosis": "The specified region shows evidence of object removal, with residual inconsistencies in texture and edges.",
+   "confidence": 0.8,
+   "op_correct": false,
+   "damage_fail_frac": 0.5044811320754717
+  },
+  {
+   "img": "0005_42",
+   "instruction": "remove the skier in the center of the image",
+   "true_op": "remove",
+   "diagnosis": "The ski pole held by the skier in the left image has been removed in the right image.",
+   "confidence": 0.95,
+   "op_correct": true,
+   "damage_fail_frac": 0.5483490566037735
+  },
+  {
+   "img": "0005_43",
+   "instruction": "remove the skier in the center of the image",
+   "true_op": "remove",
+   "diagnosis": "The ski pole has been removed from the right image compared to the left image.",
+   "confidence": 0.95,
+   "op_correct": true,
+   "damage_fail_frac": 0.5495283018867925
+  },
+  {
+   "img": "0006_42",
+   "instruction": "replace the refrigerator on the right with a tall potted plant",
+   "true_op": "replace",
+   "diagnosis": "The area has been completely replaced from a kitchen interior to an outdoor plant display.",
+   "confidence": 0.95,
+   "op_correct": true,
+   "damage_fail_frac": 0.5910377358490566
+  },
+  {
+   "img": "0006_43",
+   "instruction": "replace the refrigerator on the right with a tall potted plant",
+   "true_op": "replace",
+   "diagnosis": "The kitchen scene has been replaced with an outdoor plant arrangement.",
+   "confidence": 0.9,
+   "op_correct": true,
+   "damage_fail_frac": 0.5818396226415095
+  },
+  {
+   "img": "0028_42",
+   "instruction": "remove the wine glass",
+   "true_op": "remove",
+   "diagnosis": "The background around the base of the wine glass has been replaced from a wooden surface to a solid black color.",
+   "confidence": 0.9,
+   "op_correct": false,
+   "damage_fail_frac": 0.512280701754386
+  },
+  {
+   "img": "0028_43",
+   "instruction": "remove the wine glass",
+   "true_op": "remove",
+   "diagnosis": "The table surface texture was replaced from a striped pattern to a wood grain texture.",
+   "confidence": 0.85,
+   "op_correct": false,
+   "damage_fail_frac": 0.5140350877192983
+  },
+  {
+   "img": "0030_42",
+   "instruction": "remove the person in the center of the image",
+   "true_op": "remove",
+   "diagnosis": "The upper part of the person has been deleted from the image.",
+   "confidence": 0.95,
+   "op_correct": true,
+   "damage_fail_frac": 0.5133333333333333
+  },
+  {
+   "img": "0030_43",
+   "instruction": "remove the person in the center of the image",
+   "true_op": "remove",
+   "diagnosis": "The image has been edited to enhance color saturation and brightness, particularly in the background and the person's clothing.",
+   "confidence": 0.9,
+   "op_correct": false,
+   "damage_fail_frac": 0.5120833333333333
+  },
+  {
+   "img": "0031_42",
+   "instruction": "remove the donut",
+   "true_op": "remove",
+   "diagnosis": "No changes detected between the left and right images.",
+   "confidence": 0.95,
+   "op_correct": false,
+   "damage_fail_frac": 0.5350631136044881
+  },
+  {
+   "img": "0031_43",
+   "instruction": "remove the donut",
+   "true_op": "remove",
+   "diagnosis": "The image region shows a modification in color properties, likely due to a filter or adjustment.",
+   "confidence": 0.8,
+   "op_correct": false,
+   "damage_fail_frac": 0.5336605890603086
+  },
+  {
+   "img": "0043_42",
+   "instruction": "replace the transparent cup in the hand with a red balloon",
+   "true_op": "replace",
+   "diagnosis": "The background color of the region was altered from dark to purple, and a red element was added.",
+   "confidence": 0.9,
+   "op_correct": false,
+   "damage_fail_frac": 0.4964622641509434
+  },
+  {
+   "img": "0043_43",
+   "instruction": "replace the transparent cup in the hand with a red balloon",
+   "true_op": "replace",
+   "diagnosis": "A blur effect has been applied to the white region, softening its edges.",
+   "confidence": 0.9,
+   "op_correct": false,
+   "damage_fail_frac": 0.49599056603773584
+  },
+  {
+   "img": "0023_42",
+   "instruction": "replace the large apple on the right with a red apple",
+   "true_op": "replace",
+   "diagnosis": "The apple's color was changed from green to red.",
+   "confidence": 0.95,
+   "op_correct": true,
+   "damage_fail_frac": 0.5455188679245283
+  },
+  {
+   "img": "0023_43",
+   "instruction": "replace the large apple on the right with a red apple",
+   "true_op": "replace",
+   "diagnosis": "The stem of the apple has been removed in the edited image.",
+   "confidence": 0.9,
+   "op_correct": false,
+   "damage_fail_frac": 0.5450471698113207
+  },
+  {
+   "img": "0035_42",
+   "instruction": "replace the toilet with a bathtub",
+   "true_op": "replace",
+   "diagnosis": "The leg area with striped socks in the left image has been replaced with a bathtub scene in the right image.",
+   "confidence": 0.95,
+   "op_correct": true,
+   "damage_fail_frac": 0.5322727272727272
+  },
+  {
+   "img": "0035_43",
+   "instruction": "replace the toilet with a bathtub",
+   "true_op": "replace",
+   "diagnosis": "The region has been replaced from a grayscale bed scene with a person's leg to a colored toilet scene with a submerged object.",
+   "confidence": 0.95,
+   "op_correct": true,
+   "damage_fail_frac": 0.5334090909090909
+  },
+  {
+   "img": "0045_42",
+   "instruction": "change the surfer jacket from yellow to red",
+   "true_op": "attribute",
+   "diagnosis": "The clothing color of the person has been changed from yellow and dark to red.",
+   "confidence": 0.9,
+   "op_correct": true,
+   "damage_fail_frac": 0.5171398891966759
+  },
+  {
+   "img": "0045_43",
+   "instruction": "change the surfer jacket from yellow to red",
+   "true_op": "attribute",
+   "diagnosis": "The colors of the child's clothing have been modified.",
+   "confidence": 0.95,
+   "op_correct": true,
+   "damage_fail_frac": 0.516101108033241
+  },
+  {
+   "img": "0048_42",
+   "instruction": "replace the bus with a truck",
+   "true_op": "replace",
+   "diagnosis": "The bus has been removed from the scene, revealing the trucks behind it.",
+   "confidence": 0.95,
+   "op_correct": false,
+   "damage_fail_frac": 0.6363207547169811
+  },
+  {
+   "img": "0048_43",
+   "instruction": "replace the bus with a truck",
+   "true_op": "replace",
+   "diagnosis": "The edited region shows a complete replacement of a bus with a truck.",
+   "confidence": 0.9,
+   "op_correct": true,
+   "damage_fail_frac": 0.6297169811320755
+  },
+  {
+   "img": "0017_42",
+   "instruction": "replace the red double-decker bus with a black taxi",
+   "true_op": "replace",
+   "diagnosis": "The double-decker bus has had its color changed from red to black.",
+   "confidence": 0.95,
+   "op_correct": true,
+   "damage_fail_frac": 0.612707756232687
+  },
+  {
+   "img": "0017_43",
+   "instruction": "replace the red double-decker bus with a black taxi",
+   "true_op": "replace",
+   "diagnosis": "The bus has been recolored from red to black.",
+   "confidence": 1.0,
+   "op_correct": false,
+   "damage_fail_frac": 0.6156509695290858
+  },
+  {
+   "img": "0032_42",
+   "instruction": "replace the skull logo on the cup with a smiley face",
+   "true_op": "replace",
+   "diagnosis": "The skull's eye patch was removed and replaced with normal eyes, indicating an attribute modification in the eye region.",
+   "confidence": 0.95,
+   "op_correct": true,
+   "damage_fail_frac": 0.5086111111111111
+  },
+  {
+   "img": "0032_43",
+   "instruction": "replace the skull logo on the cup with a smiley face",
+   "true_op": "replace",
+   "diagnosis": "The region has been completely edited by replacing the original pirate skull and crossbones design with a different cartoon-style skull.",
+   "confidence": 0.95,
+   "op_correct": true,
+   "damage_fail_frac": 0.5091666666666667
+  }
+ ],
+ "summary": {
+  "n": 30,
+  "op_accuracy": 0.6,
+  "n_with_confidence": 30,
+  "mean_confidence": 0.9166666666666665
+ }
+}

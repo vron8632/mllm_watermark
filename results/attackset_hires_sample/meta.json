@@ -1,0 +1,491 @@
+{
+  "generated": "2026-09-12T18:07:52.413392",
+  "steps": 40,
+  "guidance": 7.5,
+  "img_guidance": 1.5,
+  "generator": "instruct-pix2pix",
+  "instruction_lang": "en",
+  "samples": [
+    {
+      "id": "0002_42",
+      "cid": "0002",
+      "source": "000000000632.jpg",
+      "seed": 42,
+      "instruction": "replace the bookshelf on the right with a television",
+      "bbox": [
+        0.65,
+        0.0,
+        0.98,
+        0.82
+      ],
+      "w": 640,
+      "h": 480,
+      "psnr": 19.812499504173168
+    },
+    {
+      "id": "0002_43",
+      "cid": "0002",
+      "source": "000000000632.jpg",
+      "seed": 43,
+      "instruction": "replace the bookshelf on the right with a television",
+      "bbox": [
+        0.65,
+        0.0,
+        0.98,
+        0.82
+      ],
+      "w": 640,
+      "h": 480,
+      "psnr": 18.857594568587498
+    },
+    {
+      "id": "0002_44",
+      "cid": "0002",
+      "source": "000000000632.jpg",
+      "seed": 44,
+      "instruction": "replace the bookshelf on the right with a television",
+      "bbox": [
+        0.65,
+        0.0,
+        0.98,
+        0.82
+      ],
+      "w": 640,
+      "h": 480,
+      "psnr": 17.90227780042732
+    },
+    {
+      "id": "0002_45",
+      "cid": "0002",
+      "source": "000000000632.jpg",
+      "seed": 45,
+      "instruction": "replace the bookshelf on the right with a television",
+      "bbox": [
+        0.65,
+        0.0,
+        0.98,
+        0.82
+      ],
+      "w": 640,
+      "h": 480,
+      "psnr": 17.31216315338998
+    },
+    {
+      "id": "0000_42",
+      "cid": "0000",
+      "source": "000000000139.jpg",
+      "seed": 42,
+      "instruction": "replace the television on the left with a bookshelf",
+      "bbox": [
+        0.05,
+        0.3,
+        0.4,
+        0.6
+      ],
+      "w": 640,
+      "h": 424,
+      "psnr": 22.476347423989047
+    },
+    {
+      "id": "0000_43",
+      "cid": "0000",
+      "source": "000000000139.jpg",
+      "seed": 43,
+      "instruction": "replace the television on the left with a bookshelf",
+      "bbox": [
+        0.05,
+        0.3,
+        0.4,
+        0.6
+      ],
+      "w": 640,
+      "h": 424,
+      "psnr": 27.747608424036194
+    },
+    {
+      "id": "0005_42",
+      "cid": "0005",
+      "source": "000000000785.jpg",
+      "seed": 42,
+      "instruction": "remove the skier in the center of the image",
+      "bbox": [
+        0.35,
+        0.15,
+        0.65,
+        0.85
+      ],
+      "w": 640,
+      "h": 424,
+      "psnr": 26.69766811596422
+    },
+    {
+      "id": "0005_43",
+      "cid": "0005",
+      "source": "000000000785.jpg",
+      "seed": 43,
+      "instruction": "remove the skier in the center of the image",
+      "bbox": [
+        0.35,
+        0.15,
+        0.65,
+        0.85
+      ],
+      "w": 640,
+      "h": 424,
+      "psnr": 26.679509560089155
+    },
+    {
+      "id": "0006_42",
+      "cid": "0006",
+      "source": "000000000802.jpg",
+      "seed": 42,
+      "instruction": "replace the refrigerator on the right with a tall potted plant",
+      "bbox": [
+        0.5,
+        0.1,
+        1.0,
+        0.9
+      ],
+      "w": 424,
+      "h": 640,
+      "psnr": 16.69404693810302
+    },
+    {
+      "id": "0006_43",
+      "cid": "0006",
+      "source": "000000000802.jpg",
+      "seed": 43,
+      "instruction": "replace the refrigerator on the right with a tall potted plant",
+      "bbox": [
+        0.5,
+        0.1,
+        1.0,
+        0.9
+      ],
+      "w": 424,
+      "h": 640,
+      "psnr": 17.610308483542344
+    },
+    {
+      "id": "0028_42",
+      "cid": "0028",
+      "source": "000000002431.jpg",
+      "seed": 42,
+      "instruction": "remove the wine glass",
+      "bbox": [
+        0.7,
+        0.1,
+        0.9,
+        0.4
+      ],
+      "w": 456,
+      "h": 640,
+      "psnr": 36.1354488170622
+    },
+    {
+      "id": "0028_43",
+      "cid": "0028",
+      "source": "000000002431.jpg",
+      "seed": 43,
+      "instruction": "remove the wine glass",
+      "bbox": [
+        0.7,
+        0.1,
+        0.9,
+        0.4
+      ],
+      "w": 456,
+      "h": 640,
+      "psnr": 36.51749204125237
+    },
+    {
+      "id": "0030_42",
+      "cid": "0030",
+      "source": "000000002532.jpg",
+      "seed": 42,
+      "instruction": "remove the person in the center of the image",
+      "bbox": [
+        0.4,
+        0.3,
+        0.6,
+        0.7
+      ],
+      "w": 480,
+      "h": 640,
+      "psnr": 31.94509060551665
+    },
+    {
+      "id": "0030_43",
+      "cid": "0030",
+      "source": "000000002532.jpg",
+      "seed": 43,
+      "instruction": "remove the person in the center of the image",
+      "bbox": [
+        0.4,
+        0.3,
+        0.6,
+        0.7
+      ],
+      "w": 480,
+      "h": 640,
+      "psnr": 32.02246728447578
+    },
+    {
+      "id": "0031_42",
+      "cid": "0031",
+      "source": "000000002587.jpg",
+      "seed": 42,
+      "instruction": "remove the donut",
+      "bbox": [
+        0.3,
+        0.1,
+        0.7,
+        0.6
+      ],
+      "w": 496,
+      "h": 368,
+      "psnr": 32.58573622268588
+    },
+    {
+      "id": "0031_43",
+      "cid": "0031",
+      "source": "000000002587.jpg",
+      "seed": 43,
+      "instruction": "remove the donut",
+      "bbox": [
+        0.3,
+        0.1,
+        0.7,
+        0.6
+      ],
+      "w": 496,
+      "h": 368,
+      "psnr": 23.146481761070863
+    },
+    {
+      "id": "0043_42",
+      "cid": "0043",
+      "source": "000000004395.jpg",
+      "seed": 42,
+      "instruction": "replace the transparent cup in the hand with a red balloon",
+      "bbox": [
+        0.7,
+        0.35,
+        0.95,
+        0.65
+      ],
+      "w": 424,
+      "h": 640,
+      "psnr": 28.21817215419434
+    },
+    {
+      "id": "0043_43",
+      "cid": "0043",
+      "source": "000000004395.jpg",
+      "seed": 43,
+      "instruction": "replace the transparent cup in the hand with a red balloon",
+      "bbox": [
+        0.7,
+        0.35,
+        0.95,
+        0.65
+      ],
+      "w": 424,
+      "h": 640,
+      "psnr": 44.74212793708517
+    },
+    {
+      "id": "0023_42",
+      "cid": "0023",
+      "source": "000000002149.jpg",
+      "seed": 42,
+      "instruction": "replace the large apple on the right with a red apple",
+      "bbox": [
+        0.55,
+        0.15,
+        0.95,
+        0.85
+      ],
+      "w": 640,
+      "h": 424,
+      "psnr": 19.83229333906934
+    },
+    {
+      "id": "0023_43",
+      "cid": "0023",
+      "source": "000000002149.jpg",
+      "seed": 43,
+      "instruction": "replace the large apple on the right with a red apple",
+      "bbox": [
+        0.55,
+        0.15,
+        0.95,
+        0.85
+      ],
+      "w": 640,
+      "h": 424,
+      "psnr": 21.028896855158912
+    },
+    {
+      "id": "0035_42",
+      "cid": "0035",
+      "source": "000000003156.jpg",
+      "seed": 42,
+      "instruction": "replace the toilet with a bathtub",
+      "bbox": [
+        0.42,
+        0.55,
+        0.92,
+        0.92
+      ],
+      "w": 440,
+      "h": 640,
+      "psnr": 15.57892912858167
+    },
+    {
+      "id": "0035_43",
+      "cid": "0035",
+      "source": "000000003156.jpg",
+      "seed": 43,
+      "instruction": "replace the toilet with a bathtub",
+      "bbox": [
+        0.42,
+        0.55,
+        0.92,
+        0.92
+      ],
+      "w": 440,
+      "h": 640,
+      "psnr": 16.159888636286595
+    },
+    {
+      "id": "0045_42",
+      "cid": "0045",
+      "source": "000000004765.jpg",
+      "seed": 42,
+      "instruction": "change the surfer jacket from yellow to red",
+      "bbox": [
+        0.35,
+        0.15,
+        0.65,
+        0.45
+      ],
+      "w": 608,
+      "h": 608,
+      "psnr": 25.52156775509889
+    },
+    {
+      "id": "0045_43",
+      "cid": "0045",
+      "source": "000000004765.jpg",
+      "seed": 43,
+      "instruction": "change the surfer jacket from yellow to red",
+      "bbox": [
+        0.35,
+        0.15,
+        0.65,
+        0.45
+      ],
+      "w": 608,
+      "h": 608,
+      "psnr": 29.1592865902249
+    },
+    {
+      "id": "0048_42",
+      "cid": "0048",
+      "source": "000000005037.jpg",
+      "seed": 42,
+      "instruction": "replace the bus with a truck",
+      "bbox": [
+        0.15,
+        0.2,
+        0.95,
+        0.95
+      ],
+      "w": 640,
+      "h": 424,
+      "psnr": 11.5020276287852
+    },
+    {
+      "id": "0048_43",
+      "cid": "0048",
+      "source": "000000005037.jpg",
+      "seed": 43,
+      "instruction": "replace the bus with a truck",
+      "bbox": [
+        0.15,
+        0.2,
+        0.95,
+        0.95
+      ],
+      "w": 640,
+      "h": 424,
+      "psnr": 12.480875906043687
+    },
+    {
+      "id": "0017_42",
+      "cid": "0017",
+      "source": "000000001584.jpg",
+      "seed": 42,
+      "instruction": "replace the red double-decker bus with a black taxi",
+      "bbox": [
+        0.11,
+        0.12,
+        0.78,
+        0.95
+      ],
+      "w": 608,
+      "h": 608,
+      "psnr": 14.491575073100583
+    },
+    {
+      "id": "0017_43",
+      "cid": "0017",
+      "source": "000000001584.jpg",
+      "seed": 43,
+      "instruction": "replace the red double-decker bus with a black taxi",
+      "bbox": [
+        0.11,
+        0.12,
+        0.78,
+        0.95
+      ],
+      "w": 608,
+      "h": 608,
+      "psnr": 14.525847073020799
+    },
+    {
+      "id": "0032_42",
+      "cid": "0032",
+      "source": "000000002592.jpg",
+      "seed": 42,
+      "instruction": "replace the skull logo on the cup with a smiley face",
+      "bbox": [
+        0.32,
+        0.33,
+        0.54,
+        0.59
+      ],
+      "w": 640,
+      "h": 360,
+      "psnr": 25.29594193612938
+    },
+    {
+      "id": "0032_43",
+      "cid": "0032",
+      "source": "000000002592.jpg",
+      "seed": 43,
+      "instruction": "replace the skull logo on the cup with a smiley face",
+      "bbox": [
+        0.32,
+        0.33,
+        0.54,
+        0.59
+      ],
+      "w": 640,
+      "h": 360,
+      "psnr": 23.8845489668717
+    }
+  ],
+  "total_time_s": 81.3
+}

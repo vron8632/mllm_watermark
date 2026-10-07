@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "n": 500,
+    "msglen": 256,
+    "delta": 15,
+    "steps": 30,
+    "ts": "2026-09-09T23:34:50.296136"
+  },
+  "methods": {
+    "dwt_dct": {
+      "clean_ba": [],
+      "attacked_ba": []
+    },
+    "signal_check_v2": {
+      "clean_ba": [],
+      "attacked_ba": []
+    },
+    "robust_wide": {
+      "clean_ba": [],
+      "attacked_ba": []
+    },
+    "trustmark": {
+      "clean_ba": [],
+      "attacked_ba": []
+    },
+    "stable_signature": {
+      "clean_ba": [],
+      "attacked_ba": []
+    },
+    "watermark_anything": {
+      "clean_ba": [],
+      "attacked_ba": []
+    }
+  },
+  "per_image": []
+}

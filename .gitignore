@@ -24,7 +24,8 @@ README.local.md.bak
 # 数据与 baseline（体积大 / 第三方代码 / 数据集）
 data/
 baselines/
-results/
+# results/（攻击集 + 逐图结果文件）按论文 Data availability 随仓库发布，见 README。
+# 其中的 *.log 仍被下面的规则排除。
 *.log
 
 # ============================================================

@@ -1,0 +1,244 @@
+{
+  "semantic_confirmation": {
+    "conclusion": "psnr_* = PSNR(水印图 wm_X, 原图 img)，即嵌入保真度 embedding fidelity；与攻击无关（攻击图 att_* 从不参与 psnr 计算）。",
+    "conclusion_en": "psnr_* is PSNR(watermarked image, original image) = embedding fidelity; attacked images (att_*) never enter any psnr() call.",
+    "evidence": [
+      {
+        "file": "code/run_sota_comparison.py",
+        "line": 505,
+        "snippet": "img = load(p, 256)   # 原图",
+        "role": "img 是未加水印的原图"
+      },
+      {
+        "file": "code/run_sota_comparison.py",
+        "lines": "512-517",
+        "snippet": "wm_dwt/wm_sc/wm_rw/wm_tm = *_embed(img, msg, ...)   # 嵌入后的水印图",
+        "role": "wm_X 是嵌入输出"
+      },
+      {
+        "file": "code/run_sota_comparison.py",
+        "lines": "519-524",
+        "snippet": "row['psnr_dwt'] = psnr(img, wm_dwt); row['psnr_sc'] = psnr(img, wm_sc); row['psnr_rw'] = psnr(img, wm_rw); row['psnr_tm'] = psnr(img, wm_tm)",
+        "role": "psnr_* 全部在嵌入之后、任何攻击（562-578 行 sd_execute）之前计算，参数是 (原图, 水印图)"
+      },
+      {
+        "file": "code/run_sota_comparison.py",
+        "lines": "562-578",
+        "snippet": "att_* = sd_execute(edit, wm_*, steps)   # MLLM 语义编辑攻击",
+        "role": "攻击图只用于 attacked_ba，不用于 psnr"
+      },
+      {
+        "file": "code/run_idea_probe.py",
+        "lines": "105-107",
+        "snippet": "def psnr(a, b): mse = np.mean((a-b)**2); return 20*log10(255/sqrt(mse))",
+        "role": "psnr 定义对称，语义完全由调用方参数决定"
+      }
+    ]
+  },
+  "data_source": {
+    "file": "results/sota_comparison_20260910_174221.json",
+    "meta": {
+      "n": 500,
+      "msglen": 256,
+      "delta": 15,
+      "steps": 30,
+      "ts": "2026-09-10T11:25:35.296884"
+    },
+    "per_image_records": 600,
+    "dataset_mix": {
+      "coco_jpg": 500,
+      "div2k_png": 100
+    },
+    "note": "meta.n=500 但 per_image 共 600 条（COCO 500 + DIV2K 100），0 条 error，600 张唯一图；每张图对 6 个方法共用同一批图与同一编辑指令，可做配对比较。",
+    "n_imgsize": 256,
+    "message_bits": 256
+  },
+  "per_method": {
+    "dwt_dct": {
+      "display": "DWT-DCT",
+      "trained": "No",
+      "capacity_bits": 256,
+      "psnr_db": {
+        "n": 600,
+        "mean": 48.09251172383626,
+        "median": 48.001760482788086,
+        "std": 0.4301757340044614,
+        "p5": 47.66129627227783,
+        "min": 47.267417907714844,
+        "max": 50.171791076660156
+      },
+      "clean_ba_mean_pct": 99.83072916666667,
+      "clean_ba_n": 600,
+      "attacked_ba_mean_pct": 88.275390625,
+      "attacked_ba_n": 600
+    },
+    "signal_check_v2": {
+      "display": "Ours (Signal-Check)",
+      "trained": "No",
+      "capacity_bits": 256,
+      "psnr_db": {
+        "n": 600,
+        "mean": 47.10990290959676,
+        "median": 47.03399658203125,
+        "std": 0.3539675855527008,
+        "p5": 46.759338569641116,
+        "min": 46.40768051147461,
+        "max": 48.82999038696289
+      },
+      "clean_ba_mean_pct": 99.96744791666666,
+      "clean_ba_n": 600,
+      "attacked_ba_mean_pct": 94.53190104166667,
+      "attacked_ba_n": 600
+    },
+    "robust_wide": {
+      "display": "Robust-Wide",
+      "trained": "Yes",
+      "capacity_bits": 64,
+      "psnr_db": {
+        "n": 600,
+        "mean": 33.270631608963015,
+        "median": 33.048200607299805,
+        "std": 3.1209907425016987,
+        "p5": 28.731007194519044,
+        "min": 24.817541122436523,
+        "max": 44.44220733642578
+      },
+      "clean_ba_mean_pct": 99.99739583333334,
+      "clean_ba_n": 600,
+      "attacked_ba_mean_pct": 91.6171875,
+      "attacked_ba_n": 600
+    },
+    "trustmark": {
+      "display": "TrustMark",
+      "trained": "Yes",
+      "capacity_bits": 100,
+      "psnr_db": {
+        "n": 600,
+        "mean": 41.492713101704915,
+        "median": 41.25179672241211,
+        "std": 1.9312199885917565,
+        "p5": 38.61655693054199,
+        "min": 35.97732925415039,
+        "max": 48.49898910522461
+      },
+      "clean_ba_mean_pct": 94.34242255611204,
+      "clean_ba_n": 599,
+      "attacked_ba_mean_pct": 94.44444444444446,
+      "attacked_ba_n": 228
+    },
+    "stable_signature": {
+      "display": "Stable Sig",
+      "trained": "Yes",
+      "capacity_bits": 48,
+      "psnr_db": null,
+      "psnr_note": "no psnr_* field recorded for this method in the source JSON",
+      "clean_ba_mean_pct": 77.34375,
+      "clean_ba_n": 600,
+      "attacked_ba_mean_pct": 75.83680555555556,
+      "attacked_ba_n": 600
+    },
+    "watermark_anything": {
+      "display": "Watermark Anything",
+      "trained": "Yes",
+      "capacity_bits": 32,
+      "psnr_db": null,
+      "psnr_note": "no psnr_* field recorded for this method in the source JSON",
+      "clean_ba_mean_pct": 99.99479166666667,
+      "clean_ba_n": 600,
+      "attacked_ba_mean_pct": 97.65104166666667,
+      "attacked_ba_n": 600
+    }
+  },
+  "paired_comparisons": {
+    "psnr_sc_minus_psnr_rw": {
+      "n_pairs": 600,
+      "mean_diff_db": 13.839271300633749,
+      "std_diff_db": 3.1845442735029854,
+      "median_diff_db": 14.129148483276367,
+      "win_rate_a_gt_b": 1.0,
+      "t_approx": {
+        "mean": 13.839271300633749,
+        "se": 0.13000847555640785,
+        "ci95_low": 13.58445468854319,
+        "ci95_high": 14.094087912724309,
+        "z": 1.96
+      },
+      "bootstrap": {
+        "n_boot": 10000,
+        "seed": 42,
+        "ci95_low": 13.590483804543814,
+        "ci95_high": 14.091556414763133
+      }
+    },
+    "psnr_sc_minus_psnr_dwt": {
+      "n_pairs": 600,
+      "mean_diff_db": -0.982608814239502,
+      "std_diff_db": 0.09676631540950036,
+      "median_diff_db": -0.9664306640625,
+      "win_rate_a_gt_b": 0.0,
+      "t_approx": {
+        "mean": -0.982608814239502,
+        "se": 0.0039504682840415485,
+        "ci95_low": -0.9903517320762234,
+        "ci95_high": -0.9748658964027805,
+        "z": 1.96
+      },
+      "bootstrap": {
+        "n_boot": 10000,
+        "seed": 42,
+        "ci95_low": -0.9904230360984803,
+        "ci95_high": -0.9750858325958252
+      }
+    },
+    "psnr_sc_minus_psnr_tm": {
+      "n_pairs": 600,
+      "mean_diff_db": 5.617189807891846,
+      "std_diff_db": 1.9905714695456103,
+      "median_diff_db": 5.817150115966797,
+      "win_rate_a_gt_b": 0.9966666666666667,
+      "t_approx": {
+        "mean": 5.617189807891846,
+        "se": 0.0812647399488135,
+        "ci95_low": 5.457910917592171,
+        "ci95_high": 5.77646869819152,
+        "z": 1.96
+      },
+      "bootstrap": {
+        "n_boot": 10000,
+        "seed": 42,
+        "ci95_low": 5.459293272813161,
+        "ci95_high": 5.777232655048371
+      }
+    },
+    "psnr_dwt_minus_psnr_rw": {
+      "n_pairs": 600,
+      "mean_diff_db": 14.82188011487325,
+      "std_diff_db": 3.2065075337926867,
+      "median_diff_db": 15.087181091308594,
+      "win_rate_a_gt_b": 1.0,
+      "t_approx": {
+        "mean": 14.82188011487325,
+        "se": 0.1309051219030362,
+        "ci95_low": 14.5653060759433,
+        "ci95_high": 15.078454153803202,
+        "z": 1.96
+      },
+      "bootstrap": {
+        "n_boot": 10000,
+        "seed": 42,
+        "ci95_low": 14.57113831305504,
+        "ci95_high": 15.075702587922414
+      }
+    }
+  },
+  "interpretation": {
+    "vs_trained_baselines": "Ours (Signal-Check, training-free) has much higher embedding fidelity than both trained baselines: +13.84 dB vs Robust-Wide (95% CI [13.59, 14.09], paired n=600) and +5.62 dB vs TrustMark (95% CI [5.46, 5.78]); win rate 100.0% and 99.7% of images respectively.",
+    "vs_training_free_dwt_dct": "Against the training-free DWT-DCT baseline the difference is -0.98 dB (95% CI [-0.99, -0.98]) -- statistically distinguishable at n=600 but small (~0.98 dB, i.e. <2% in MSE terms); both sit far above the trained baselines. So the defensible claim is 'fidelity at parity with the classical training-free baseline and far above the trained baselines', not 'better than DWT-DCT'.",
+    "caveat": "TrustMark attacked_ba has only n=228 (detection succeeded on 38% = 228/600 of attacked images), so its attacked BA is subject to survivor bias."
+  },
+  "other_json_ss_wa_fidelity": {
+    "searched": "results/**/*.json (72 files)",
+    "hits": [],
+    "conclusion": "除主文件外，results/ 下没有任何 JSON 含 stable_signature / watermark_anything 的 psnr 或 ssim 字段；其它含 psnr/ssim 的文件均属于本方法(dwt/sc/uniform/semantic 等变体)或攻击保真度(ip2p_psnr 等)，与 SS/WA 无关。"
+  }
+}

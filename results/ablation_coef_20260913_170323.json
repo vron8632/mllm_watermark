@@ -1,0 +1,37 @@
+{
+ "meta": {
+  "n": 50,
+  "msglen": 256,
+  "delta": 15,
+  "attackset": "/media/oyp/\u5de5\u4f5c/Projects/042_image_forensic/watermark-mllm-robustness/results/attackset_20260817_082819",
+  "ts": "2026-09-13T17:03:15.700083"
+ },
+ "A_coefficient": [],
+ "B_confidence": [
+  {
+   "mode": "uniform (no check)",
+   "clean_ba": 0.997890625,
+   "att_ba": 0.878046875,
+   "desc": "baseline: check bit unused"
+  },
+  {
+   "mode": "v1 binary removal",
+   "clean_ba": 0.997890625,
+   "att_ba": 0.913515625,
+   "desc": "check-failing blocks get weight 0"
+  },
+  {
+   "mode": "soft confidence (no dilation)",
+   "clean_ba": 0.997890625,
+   "att_ba": 0.927734375,
+   "desc": "w_b = 1 - d_best/(d_best+d_other)"
+  },
+  {
+   "mode": "soft + dilation (v2, full)",
+   "clean_ba": 0.997890625,
+   "att_ba": 0.94734375,
+   "desc": "final configuration"
+  }
+ ],
+ "C_dilation": []
+}

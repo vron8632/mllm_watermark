@@ -1,0 +1,443 @@
+{
+  "meta": {
+    "n": 200,
+    "datasets": "coco",
+    "msglen": 256,
+    "delta": 15,
+    "steps": 30,
+    "check_coef": [
+      3,
+      2
+    ],
+    "diagnose": false,
+    "ts": "2026-09-08T19:01:45.912965"
+  },
+  "per_image": [
+    {
+      "img": "000000000139.jpg",
+      "psnr": 46.84014129638672,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u4e2d\u592e\u7684\u9910\u684c",
+      "error": "OSError('Error no file named model.safetensors found in directory /home/oyp/.cache/huggingface/hub/models--runwayml--sta"
+    },
+    {
+      "img": "000000000285.jpg",
+      "psnr": 46.919288635253906,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u753b\u9762\u4e2d\u7684\u718a",
+      "error": "OSError('Error no file named model.safetensors found in directory /home/oyp/.cache/huggingface/hub/models--runwayml--sta"
+    },
+    {
+      "img": "000000000632.jpg",
+      "psnr": 47.01106643676758,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5c06\u53f3\u4fa7\u7684\u4e66\u67b6\u66ff\u6362\u4e3a\u4e00\u4e2a\u5927\u955c\u5b50",
+      "error": "OSError('Error no file named model.safetensors found in directory /home/oyp/.cache/huggingface/hub/models--runwayml--sta"
+    },
+    {
+      "img": "000000000724.jpg",
+      "psnr": 47.138248443603516,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5c06\u53cd\u8f6c\u7684\u201cSTOP\u201d\u6807\u5fd7\u4fee\u6b63\u4e3a\u6b63\u5411\u6587\u5b57",
+      "error": "OSError('Error no file named model.safetensors found in directory /home/oyp/.cache/huggingface/hub/models--runwayml--sta"
+    },
+    {
+      "img": "000000000776.jpg",
+      "psnr": 46.95240020751953,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u753b\u9762\u4e2d\u592e\u7684\u718a",
+      "error": "OSError('Error no file named model.safetensors found in directory /home/oyp/.cache/huggingface/hub/models--runwayml--sta"
+    },
+    {
+      "img": "000000000785.jpg",
+      "psnr": 47.50422668457031,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u628a\u811a\u4e0b\u7684\u6ed1\u96ea\u677f\u66ff\u6362\u6210\u4e00\u53cc\u8fd0\u52a8\u978b",
+      "error": "OSError('Error no file named model.safetensors found in directory /home/oyp/.cache/huggingface/hub/models--runwayml--sta"
+    },
+    {
+      "img": "000000000802.jpg",
+      "psnr": 46.830589294433594,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u53f3\u4fa7\u7684\u51b0\u7bb1",
+      "error": "OSError('Error no file named model.safetensors found in directory /home/oyp/.cache/huggingface/hub/models--runwayml--sta"
+    },
+    {
+      "img": "000000000872.jpg",
+      "psnr": 47.12104034423828,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u753b\u9762\u5de6\u4fa7\u7a7f\u7740\u767d\u8272\u7403\u8863\u7684\u68d2\u7403\u8fd0\u52a8\u5458",
+      "error": "OSError('Error no file named model.safetensors found in directory /home/oyp/.cache/huggingface/hub/models--runwayml--sta"
+    },
+    {
+      "img": "000000000885.jpg",
+      "psnr": 46.953956604003906,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u628a\u4e2d\u592e\u7684\u7f51\u7403\u8fd0\u52a8\u5458\u66ff\u6362\u6210\u4e00\u4e2a\u673a\u5668\u4eba",
+      "error": "OSError('Error no file named model.safetensors found in directory /home/oyp/.cache/huggingface/hub/models--runwayml--sta"
+    },
+    {
+      "img": "000000001000.jpg",
+      "psnr": 46.96126937866211,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u753b\u9762\u53f3\u4fa7\u7a7f\u767d\u8272\u8863\u670d\u7684\u5b69\u5b50",
+      "error": "OSError('Error no file named model.safetensors found in directory /home/oyp/.cache/huggingface/hub/models--runwayml--sta"
+    },
+    {
+      "img": "000000001268.jpg",
+      "psnr": 47.336647033691406,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0009765625,
+      "edit_prompt": "\u5220\u9664\u53f3\u4fa7\u62ff\u7740\u624b\u673a\u7684\u4eba\u7269",
+      "error": "OSError('Error no file named model.safetensors found in directory /home/oyp/.cache/huggingface/hub/models--runwayml--sta"
+    },
+    {
+      "img": "000000001296.jpg",
+      "psnr": 47.27035140991211,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.00390625,
+      "edit_prompt": "\u628aHello Kitty\u624b\u673a\u58f3\u66ff\u6362\u6210\u4e00\u4e2a\u82f9\u679c",
+      "error": "OSError('Error no file named model.safetensors found in directory /home/oyp/.cache/huggingface/hub/models--runwayml--sta"
+    },
+    {
+      "img": "000000001353.jpg",
+      "psnr": 47.057830810546875,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u6700\u524d\u9762\u7684\u5b69\u5b50",
+      "error": "OSError('Error no file named model.safetensors found in directory /home/oyp/.cache/huggingface/hub/models--runwayml--sta"
+    },
+    {
+      "img": "000000001425.jpg",
+      "psnr": 47.913978576660156,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5c06\u6c49\u5821\u66ff\u6362\u6210\u4e00\u4e2a\u4e09\u660e\u6cbb",
+      "error": "OSError('Error no file named model.safetensors found in directory /home/oyp/.cache/huggingface/hub/models--runwayml--sta"
+    },
+    {
+      "img": "000000001490.jpg",
+      "psnr": 48.2430419921875,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u753b\u9762\u53f3\u4fa7\u7ad9\u5728\u51b2\u6d6a\u677f\u4e0a\u7684\u4eba\u7269",
+      "error": "OSError('Error no file named model.safetensors found in directory /home/oyp/.cache/huggingface/hub/models--runwayml--sta"
+    },
+    {
+      "img": "000000001503.jpg",
+      "psnr": 47.48786926269531,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u5de6\u4fa7\u7684\u7b14\u8bb0\u672c\u7535\u8111",
+      "error": "OSError('Error no file named model.safetensors found in directory /home/oyp/.cache/huggingface/hub/models--runwayml--sta"
+    },
+    {
+      "img": "000000001532.jpg",
+      "psnr": 46.638240814208984,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5c06\u53f3\u4fa7\u7684\u2018Sunset Blvd\u2019\u7eff\u8272\u8def\u724c\u66ff\u6362\u4e3a\u2018Ocean Blvd\u2019\u7eff\u8272\u8def\u724c",
+      "error": "OSError('Error no file named model.safetensors found in directory /home/oyp/.cache/huggingface/hub/models--runwayml--sta"
+    },
+    {
+      "img": "000000001584.jpg",
+      "psnr": 47.20225524902344,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u628a\u524d\u666f\u7684\u7ea2\u8272\u53cc\u5c42\u5df4\u58eb\u66ff\u6362\u6210\u4e00\u8f86\u9ed1\u8272\u7684\u655e\u7bf7\u8dd1\u8f66",
+      "error": "OSError('Error no file named model.safetensors found in directory /home/oyp/.cache/huggingface/hub/models--runwayml--sta"
+    },
+    {
+      "img": "000000001675.jpg",
+      "psnr": 46.954593658447266,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5c06\u9ed1\u8272\u957f\u6bdb\u732b\u66ff\u6362\u4e3a\u4e00\u53ea\u767d\u8272\u77ed\u6bdb\u5c0f\u732b",
+      "error": "OSError('Error no file named model.safetensors found in directory /home/oyp/.cache/huggingface/hub/models--runwayml--sta"
+    },
+    {
+      "img": "000000001761.jpg",
+      "psnr": 47.419185638427734,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "{\"instruction\": \"\u5220\u9664\u753b\u9762\u53f3\u4fa7\u7684\u5c0f\u578b\u98de\u673a\", \"bbox\": [0.63,0.22,0.74,0.28]}",
+      "error": "OSError('Error no file named model.safetensors found in directory /home/oyp/.cache/huggingface/hub/models--runwayml--sta"
+    },
+    {
+      "img": "000000001818.jpg",
+      "psnr": 48.364524841308594,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u53f3\u4fa7\u7684\u6591\u9a6c",
+      "error": "OSError('Error no file named model.safetensors found in directory /home/oyp/.cache/huggingface/hub/models--runwayml--sta"
+    },
+    {
+      "img": "000000001993.jpg",
+      "psnr": 46.91381072998047,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u753b\u9762\u53f3\u4fa7\u7684\u5e8a",
+      "error": "OSError('Error no file named model.safetensors found in directory /home/oyp/.cache/huggingface/hub/models--runwayml--sta"
+    },
+    {
+      "img": "000000002006.jpg",
+      "psnr": 47.30539321899414,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u753b\u9762\u4e2d\u592e\u7684\u516c\u4ea4\u8f66",
+      "error": "OSError('Error no file named model.safetensors found in directory /home/oyp/.cache/huggingface/hub/models--runwayml--sta"
+    },
+    {
+      "img": "000000002149.jpg",
+      "psnr": 47.08232879638672,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5c06\u53f3\u4e0a\u89d2\u7684\u9752\u82f9\u679c\u66ff\u6362\u4e3a\u6a59\u5b50",
+      "error": "OSError('Error no file named model.safetensors found in directory /home/oyp/.cache/huggingface/hub/models--runwayml--sta"
+    },
+    {
+      "img": "000000002153.jpg",
+      "psnr": 46.879825592041016,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u51fb\u7403\u624b",
+      "error": "OSError('Error no file named model.safetensors found in directory /home/oyp/.cache/huggingface/hub/models--runwayml--sta"
+    },
+    {
+      "img": "000000002157.jpg",
+      "psnr": 47.06252670288086,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5c06\u5de6\u4fa7\u7684\u86cb\u7cd5\u66ff\u6362\u4e3a\u4e00\u4e2a\u6c34\u679c\u6c99\u62c9",
+      "error": "OSError('Error no file named model.safetensors found in directory /home/oyp/.cache/huggingface/hub/models--runwayml--sta"
+    },
+    {
+      "img": "000000002261.jpg",
+      "psnr": 47.12531280517578,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u628a\u4eba\u7269\u66ff\u6362\u4e3a\u4e00\u53ea\u6d77\u8c5a",
+      "error": "OSError('Error no file named model.safetensors found in directory /home/oyp/.cache/huggingface/hub/models--runwayml--sta"
+    },
+    {
+      "img": "000000002299.jpg",
+      "psnr": 48.532875061035156,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0009765625,
+      "edit_prompt": "\u5220\u9664\u753b\u9762\u4e2d\u592e\u7684\u4e00\u4e2a\u513f\u7ae5",
+      "error": "OSError('Error no file named model.safetensors found in directory /home/oyp/.cache/huggingface/hub/models--runwayml--sta"
+    },
+    {
+      "img": "000000002431.jpg",
+      "psnr": 47.270259857177734,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5c06\u9999\u69df\u74f6\u66ff\u6362\u6210\u4e00\u4e2a\u6c34\u679c\u7bee",
+      "error": "OSError('Error no file named model.safetensors found in directory /home/oyp/.cache/huggingface/hub/models--runwayml--sta"
+    },
+    {
+      "img": "000000002473.jpg",
+      "psnr": 46.564430236816406,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u753b\u9762\u4e2d\u592e\u7684\u4eba\u7269",
+      "error": "OSError('Error no file named model.safetensors found in directory /home/oyp/.cache/huggingface/hub/models--runwayml--sta"
+    },
+    {
+      "img": "000000002532.jpg",
+      "psnr": 46.752567291259766,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u753b\u9762\u4e2d\u592e\u7684\u6ed1\u96ea\u8005",
+      "error": "OSError('Error no file named model.safetensors found in directory /home/oyp/.cache/huggingface/hub/models--runwayml--sta"
+    },
+    {
+      "img": "000000002587.jpg",
+      "psnr": 46.937896728515625,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u753b\u9762\u4e2d\u592e\u7684\u751c\u751c\u5708",
+      "error": "OSError('Error no file named model.safetensors found in directory /home/oyp/.cache/huggingface/hub/models--runwayml--sta"
+    },
+    {
+      "img": "000000002592.jpg",
+      "psnr": 46.795005798339844,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5c06\u9a6c\u514b\u676f\u4e0a\u7684\u9ab7\u9ac5\u56fe\u6848\u6539\u4e3a\u7b11\u8138",
+      "error": "OSError('Error no file named model.safetensors found in directory /home/oyp/.cache/huggingface/hub/models--runwayml--sta"
+    },
+    {
+      "img": "000000002685.jpg",
+      "psnr": 46.89901351928711,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u753b\u9762\u4e2d\u592e\u7684\u4eba\u7269",
+      "error": "OSError('Error no file named model.safetensors found in directory /home/oyp/.cache/huggingface/hub/models--runwayml--sta"
+    },
+    {
+      "img": "000000002923.jpg",
+      "psnr": 47.06575393676758,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u4e2d\u666f\u7684\u5de5\u4e1a\u8bbe\u5907",
+      "error": "OSError('Error no file named model.safetensors found in directory /home/oyp/.cache/huggingface/hub/models--runwayml--sta"
+    },
+    {
+      "img": "000000003156.jpg",
+      "psnr": 48.32736587524414,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0009765625,
+      "edit_prompt": "\u5220\u9664\u753b\u9762\u4e2d\u7684\u4eba\u7269",
+      "error": "OSError('Error no file named model.safetensors found in directory /home/oyp/.cache/huggingface/hub/models--runwayml--sta"
+    },
+    {
+      "img": "000000003255.jpg",
+      "psnr": 47.019142150878906,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "{\"instruction\": \"\u5220\u9664\u753b\u9762\u5e95\u90e8\u7684\u4eba\u7269\", \"bbox\": [0.4, 0.8, 0.6, 0.95]}",
+      "error": "OSError('Error no file named model.safetensors found in directory /home/oyp/.cache/huggingface/hub/models--runwayml--sta"
+    },
+    {
+      "img": "000000003501.jpg",
+      "psnr": 47.131046295166016,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5c06\u8089\u9171\u66ff\u6362\u4e3a\u70e4\u9e21",
+      "error": "OSError('Error no file named model.safetensors found in directory /home/oyp/.cache/huggingface/hub/models--runwayml--sta"
+    },
+    {
+      "img": "000000003553.jpg",
+      "psnr": 47.157569885253906,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u6ed1\u677f",
+      "error": "OSError('Error no file named model.safetensors found in directory /home/oyp/.cache/huggingface/hub/models--runwayml--sta"
+    },
+    {
+      "img": "000000003661.jpg",
+      "psnr": 46.922245025634766,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u628a\u753b\u9762\u4e2d\u7684\u9999\u8549\u66ff\u6362\u6210\u82f9\u679c",
+      "error": "OSError('Error no file named model.safetensors found in directory /home/oyp/.cache/huggingface/hub/models--runwayml--sta"
+    },
+    {
+      "img": "000000003845.jpg",
+      "psnr": 47.060813903808594,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u76d8\u4e2d\u7684\u7c73\u996d",
+      "error": "OSError('Error no file named model.safetensors found in directory /home/oyp/.cache/huggingface/hub/models--runwayml--sta"
+    },
+    {
+      "img": "000000003934.jpg",
+      "psnr": 46.94561767578125,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u753b\u9762\u4e2d\u592e\u7684\u5c0f\u5973\u5b69",
+      "error": "OSError('Error no file named model.safetensors found in directory /home/oyp/.cache/huggingface/hub/models--runwayml--sta"
+    },
+    {
+      "img": "000000004134.jpg",
+      "psnr": 47.00828552246094,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u628a\u53f3\u4fa7\u4eba\u7269\u7684\u9ec4\u8272\u9886\u5e26\u66ff\u6362\u6210\u84dd\u8272\u9886\u5e26",
+      "error": "OSError('Error no file named model.safetensors found in directory /home/oyp/.cache/huggingface/hub/models--runwayml--sta"
+    },
+    {
+      "img": "000000004395.jpg",
+      "psnr": 47.6490478515625,
+      "clean_ba": 0.9921875,
+      "clean_fail_frac": 0.0703125,
+      "edit_prompt": "\u5c06\u9ed1\u767d\u6761\u7eb9\u9886\u5e26\u66ff\u6362\u4e3a\u7eaf\u7ea2\u8272\u9886\u5e26",
+      "error": "OSError('Error no file named model.safetensors found in directory /home/oyp/.cache/huggingface/hub/models--runwayml--sta"
+    },
+    {
+      "img": "000000004495.jpg",
+      "psnr": 46.8768310546875,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u5de6\u4fa7\u7684\u6447\u6905",
+      "error": "OSError('Error no file named model.safetensors found in directory /home/oyp/.cache/huggingface/hub/models--runwayml--sta"
+    },
+    {
+      "img": "000000004765.jpg",
+      "psnr": 47.42855453491211,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u51b2\u6d6a\u8005",
+      "error": "OSError('Error no file named model.safetensors found in directory /home/oyp/.cache/huggingface/hub/models--runwayml--sta"
+    },
+    {
+      "img": "000000004795.jpg",
+      "psnr": 46.90142822265625,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u753b\u9762\u4e2d\u592e\u7684\u732b",
+      "error": "OSError('Error no file named model.safetensors found in directory /home/oyp/.cache/huggingface/hub/models--runwayml--sta"
+    },
+    {
+      "img": "000000005001.jpg",
+      "psnr": 48.280860900878906,
+      "clean_ba": 0.984375,
+      "clean_fail_frac": 0.08203125,
+      "edit_prompt": "\u5220\u9664\u753b\u9762\u4e2d\u592e\u7684\u84dd\u8272\u6c14\u7403",
+      "error": "OSError('Error no file named model.safetensors found in directory /home/oyp/.cache/huggingface/hub/models--runwayml--sta"
+    },
+    {
+      "img": "000000005037.jpg",
+      "psnr": 47.15571975708008,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0048828125,
+      "edit_prompt": "{\"instruction\": \"\u4fee\u6539\u516c\u4ea4\u8f66\u4e0a\u7684\u6570\u5b5767145\u4e3a12345\", \"bbox\": [0.6,0.5,0.7,0.6]}",
+      "error": "OSError('Error no file named model.safetensors found in directory /home/oyp/.cache/huggingface/hub/models--runwayml--sta"
+    },
+    {
+      "img": "000000005060.jpg",
+      "psnr": 46.79530334472656,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u955c\u5b50\u4e2d\u53cd\u5c04\u7684\u4eba\u7269",
+      "error": "OSError('Error no file named model.safetensors found in directory /home/oyp/.cache/huggingface/hub/models--runwayml--sta"
+    },
+    {
+      "img": "000000005193.jpg",
+      "psnr": 47.273197174072266,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u628a\u5de6\u4fa7\u7684\u76f8\u673a\u66ff\u6362\u6210\u4e00\u4e2a\u6c14\u7403",
+      "error": "OSError('Error no file named model.safetensors found in directory /home/oyp/.cache/huggingface/hub/models--runwayml--sta"
+    },
+    {
+      "img": "000000005477.jpg",
+      "psnr": 47.097312927246094,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5c06\u98de\u673a\u7684\u989c\u8272\u4ece\u91d1\u8272\u6539\u4e3a\u84dd\u8272",
+      "error": "OSError('Error no file named model.safetensors found in directory /home/oyp/.cache/huggingface/hub/models--runwayml--sta"
+    },
+    {
+      "img": "000000005503.jpg",
+      "psnr": 48.10832977294922,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u9a6c\u6876\u76d6",
+      "error": "OSError('Error no file named model.safetensors found in directory /home/oyp/.cache/huggingface/hub/models--runwayml--sta"
+    }
+  ],
+  "summary": {},
+  "tmp_out": "../results/signal_ra_20260908_190145.tmp.json"
+}

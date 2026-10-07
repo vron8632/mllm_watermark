@@ -1,0 +1,326 @@
+{
+  "meta": {
+    "n": 24,
+    "datasets": "kodak",
+    "msglen": 256,
+    "delta": 15,
+    "steps": 30,
+    "check_coef": [
+      3,
+      2
+    ],
+    "diagnose": true,
+    "ts": "2026-08-16T08:15:26.000433"
+  },
+  "per_image": [
+    {
+      "img": "kodim01.png",
+      "psnr": 46.93001174926758,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u628a\u4e2d\u95f4\u504f\u5de6\u7684\u7ea2\u8272\u95e8\u66ff\u6362\u6210\u6728\u6805\u680f\u95e8",
+      "uniform_ba": 0.99609375,
+      "signal_ra_ba": 1.0,
+      "att_fail_frac": 0.029296875,
+      "bbox_ra_ba": 1.0,
+      "diagnosis": "\u8be5\u533a\u57df\u88ab\u66ff\u6362\uff08\u62fc\u63a5\uff09\u4e86\uff0c\u7f6e\u4fe1\u5ea6 0.95\uff0c\u7406\u7531\uff1a\u5de6\u56fe\u7684\u7ea2\u8272\u5c01\u95ed\u67dc\u95e8\u533a\u57df\uff0c\u5728\u53f3\u56fe\u4e2d\u88ab\u66ff\u6362\u4e3a\u5e26\u6709\u73bb\u7483\u95e8\u3001\u653e\u7f6e\u4e66\u7c4d\u7684\u5f00\u653e\u5f0f\u4e66\u67b6\u7ed3\u6784\uff0c\u539f\u533a\u57df\u5185\u5bb9\u88ab\u5b8c\u5168\u66f4\u6362"
+    },
+    {
+      "img": "kodim02.png",
+      "psnr": 46.84063720703125,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u753b\u9762\u4e2d\u592e\u7684\u6302\u9501",
+      "uniform_ba": 0.63671875,
+      "signal_ra_ba": 0.71484375,
+      "att_fail_frac": 0.373046875,
+      "bbox_ra_ba": 0.65234375,
+      "diagnosis": "\u8be5\u533a\u57df\u88ab\u66ff\u6362\u4e86\uff0c\u7f6e\u4fe1\u5ea6 0.95\uff0c\u7406\u7531\uff1a\u5de6\u56fe\u4e3a\u73b0\u5b9e\u7269\u4f53\u8868\u9762\uff0c\u53f3\u56fe\u4e3a\u62bd\u8c61\u6570\u5b57\u56fe\u6848\uff0c\u5185\u5bb9\u5b8c\u5168\u4e0d\u540c\u3002"
+    },
+    {
+      "img": "kodim03.png",
+      "psnr": 46.59761047363281,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5c06\u6700\u53f3\u4fa7\u7684\u84dd\u8272\u5e3d\u5b50\u66ff\u6362\u4e3a\u4e00\u4e2a\u5f69\u8679\u8272\u7684\u5e3d\u5b50",
+      "uniform_ba": 0.98828125,
+      "signal_ra_ba": 1.0,
+      "att_fail_frac": 0.02734375,
+      "bbox_ra_ba": 1.0,
+      "diagnosis": "\u8be5\u533a\u57df\u88ab\u4fee\u6539\u4e86\uff0c\u7f6e\u4fe1\u5ea60.8\uff0c\u7406\u7531\u7b80\u8ff0\uff1a\u84dd\u8272\u7269\u4f53\u5728\u7f16\u8f91\u540e\u6d88\u5931\uff0c\u7ea2\u8272\u7269\u4f53\u4f4d\u7f6e\u6539\u53d8\u3002"
+    },
+    {
+      "img": "kodim04.png",
+      "psnr": 46.86378860473633,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u628a\u7ea2\u8272\u7684\u5bbd\u6a90\u5e3d\u66ff\u6362\u6210\u6d45\u84dd\u8272\u7684\u5bbd\u6a90\u5e3d",
+      "uniform_ba": 0.80078125,
+      "signal_ra_ba": 0.953125,
+      "att_fail_frac": 0.2255859375,
+      "bbox_ra_ba": 1.0,
+      "diagnosis": "\u8be5\u533a\u57df\u88ab\u66ff\u6362\u4e86\uff0c\u7f6e\u4fe1\u5ea6 0.9\uff0c\u7406\u7531\u7b80\u8ff0\uff1a\u5e3d\u5b50\u6dfb\u52a0\u4e86\u84dd\u8272\u88c5\u9970\uff0c\u5934\u53d1\u4ece\u91d1\u8272\u53d8\u4e3a\u7ea2\u8272\uff0c\u9762\u90e8\u4ece\u4e0d\u5b8c\u6574\u66ff\u6362\u4e3a\u5b8c\u6574\u73a9\u5076\u8138\u3002"
+    },
+    {
+      "img": "kodim05.png",
+      "psnr": 46.93122100830078,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u628a\u753b\u9762\u4e2d\u592e\u7684\u7ea2\u8272\u8d8a\u91ce\u6469\u6258\u8f66\u66ff\u6362\u4e3a\u4e00\u8f86\u9ec4\u8272\u7684\u540c\u6b3e\u6469\u6258\u8f66",
+      "uniform_ba": 0.9296875,
+      "signal_ra_ba": 0.953125,
+      "att_fail_frac": 0.115234375,
+      "bbox_ra_ba": 0.9921875,
+      "diagnosis": "\u8be5\u533a\u57df\u88ab\u4fee\u6539\u4e86\uff0c\u7f6e\u4fe1\u5ea6 0.9\uff0c\u7406\u7531\u7b80\u8ff0\uff1a\u53f3\u56fe\u7684\u989c\u8272\u548c\u56fe\u6848\u4e0e\u5de6\u56fe\u6709\u663e\u8457\u5dee\u5f02\uff0c\u8868\u660e\u56fe\u50cf\u5185\u5bb9\u88ab\u7f16\u8f91\u4fee\u6539\u3002"
+    },
+    {
+      "img": "kodim06.png",
+      "psnr": 46.85194396972656,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5c06\u753b\u9762\u4e2d\u7684\u5e06\u8239\u66ff\u6362\u6210\u4e00\u8258\u73b0\u4ee3\u6e38\u8247",
+      "uniform_ba": 0.7734375,
+      "signal_ra_ba": 0.86328125,
+      "att_fail_frac": 0.275390625,
+      "bbox_ra_ba": 0.98828125,
+      "diagnosis": "\u8be5\u533a\u57df\u88ab\u66ff\u6362\u4e86\uff0c\u7f6e\u4fe1\u5ea6 0.95\uff0c\u7406\u7531\u7b80\u8ff0\uff1a\u5de6\u56fe\u4e3a\u6c34\u9762\u5e06\u8239\uff0c\u53f3\u56fe\u5b8c\u5168\u66ff\u6362\u4e3a\u98ce\u683c\u8fe5\u5f02\u7684\u60ac\u6d6e\u5efa\u7b51\uff0c\u65e0\u539f\u59cb\u56fe\u50cf\u5143\u7d20\u6b8b\u7559"
+    },
+    {
+      "img": "kodim07.png",
+      "psnr": 46.892147064208984,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5c06\u753b\u9762\u4e2d\u592e\u7684\u7c89\u8272\u82b1\u6735\u66ff\u6362\u4e3a\u4e00\u6735\u84dd\u8272\u82b1\u6735",
+      "uniform_ba": 0.96484375,
+      "signal_ra_ba": 0.9921875,
+      "att_fail_frac": 0.068359375,
+      "bbox_ra_ba": 1.0,
+      "diagnosis": "\u8be5\u533a\u57df\u88ab\u5220\u9664\u4e86\uff0c\u7f6e\u4fe1\u5ea6 0.95\uff0c\u7406\u7531\u7b80\u8ff0\uff1a\u5de6\u56fe\u4e2d\u7684\u7c89\u8272\u767e\u5408\u82b1\u5728\u53f3\u56fe\u4e2d\u6d88\u5931\uff0c\u80cc\u666f\u7ed3\u6784\u4fdd\u6301\u4e0d\u53d8\uff0c\u8868\u660e\u82b1\u88ab\u79fb\u9664\u3002"
+    },
+    {
+      "img": "kodim08.png",
+      "psnr": 46.923484802246094,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u628a\u4e2d\u592e\u7684\u9ec4\u8272\u5efa\u7b51\u66ff\u6362\u6210\u4e00\u68f5\u6811",
+      "uniform_ba": 0.93359375,
+      "signal_ra_ba": 0.94921875,
+      "att_fail_frac": 0.0791015625,
+      "bbox_ra_ba": 0.9921875,
+      "diagnosis": "\u8be5\u533a\u57df\u88ab\u66ff\u6362\uff0c\u7f6e\u4fe1\u5ea6 0.95\uff0c\u7406\u7531\u7b80\u8ff0\uff1a\u5de6\u56fe\u663e\u793a\u53e4\u5178\u5efa\u7b51\u98ce\u683c\uff0c\u53f3\u56fe\u53d8\u4e3a\u73b0\u4ee3\u5f69\u8272\u5361\u901a\u98ce\u683c\uff0c\u5dee\u5f02\u663e\u8457\uff0c\u8868\u660e\u5185\u5bb9\u88ab\u5b8c\u5168\u66ff\u6362\u3002"
+    },
+    {
+      "img": "kodim09.png",
+      "psnr": 46.64802551269531,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u5e26\u6709\u6570\u5b571425\u7684\u5e06\u8239",
+      "uniform_ba": 0.765625,
+      "signal_ra_ba": 0.80078125,
+      "att_fail_frac": 0.2353515625,
+      "bbox_ra_ba": 0.8359375,
+      "diagnosis": "\u8be5\u533a\u57df\u88ab\u66ff\u6362\u4e86\uff0c\u7f6e\u4fe1\u5ea6 0.85\uff0c\u7406\u7531\u7b80\u8ff0\uff1a\u53f3\u56fe\u663e\u793a\u4e00\u4e2a\u5e26\u6709\u54c1\u724c\u6807\u8bc6\u7684\u5b8c\u6574\u5e06\u8239\u5e06\uff0c\u5de6\u56fe\u5bf9\u5e94\u533a\u57df\u662f\u4e0d\u5b8c\u6574\u7684\u5e06\u8239\u5e06\u4e14\u65e0\u54c1\u724c\u4fe1\u606f\uff0c\u8868\u660e\u56fe\u50cf\u66ff\u6362\u64cd\u4f5c\u3002"
+    },
+    {
+      "img": "kodim10.png",
+      "psnr": 46.7823600769043,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u753b\u9762\u53f3\u4fa7\u7684\u5e06\u8239",
+      "uniform_ba": 0.8984375,
+      "signal_ra_ba": 0.90625,
+      "att_fail_frac": 0.107421875,
+      "bbox_ra_ba": 0.9921875,
+      "diagnosis": "\u8be5\u533a\u57df\u88ab\u66ff\u6362\u4e86\uff0c\u7f6e\u4fe1\u5ea6 0.9\uff0c\u7406\u7531\u7b80\u8ff0\uff1a\u524d\u666f\u4eba\u7269\u4ece\u7a7f\u7ea2\u8863\u84dd\u88e4\u53d8\u4e3a\u7a7f\u84dd\u7ea2\u670d\u88c5\uff0c\u80cc\u666f\u589e\u52a0\u4e86\u5149\u675f\u6548\u679c\uff0c\u8868\u660e\u56fe\u50cf\u5143\u7d20\u88ab\u66ff\u6362\u548c\u4fee\u6539\u3002"
+    },
+    {
+      "img": "kodim11.png",
+      "psnr": 46.64915466308594,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5c06\u753b\u9762\u4e2d\u7684\u5c0f\u8239\u66ff\u6362\u4e3a\u4e00\u8258\u6c89\u6ca1\u7684\u6b8b\u9ab8",
+      "uniform_ba": 0.890625,
+      "signal_ra_ba": 0.953125,
+      "att_fail_frac": 0.16796875,
+      "bbox_ra_ba": 0.98828125,
+      "diagnosis": "\u8be5\u533a\u57df\u88ab\u66ff\u6362\u4e86\uff0c\u7f6e\u4fe1\u5ea6 0.9\uff0c\u7406\u7531\u7b80\u8ff0\uff1a\u5de6\u56fe\u548c\u53f3\u56fe\u4e2d\u7684\u8239\u5728\u989c\u8272\u3001\u5f62\u72b6\u548c\u7ec6\u8282\u4e0a\u5b58\u5728\u663e\u8457\u5dee\u5f02\uff0c\u8868\u660e\u6574\u4e2a\u5bf9\u8c61\u88ab\u66ff\u6362\u4e3a\u53e6\u4e00\u4e2a\u7248\u672c\u3002"
+    },
+    {
+      "img": "kodim12.png",
+      "psnr": 46.914730072021484,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u753b\u9762\u53f3\u4fa7\u7684\u7537\u6027\u4eba\u7269",
+      "uniform_ba": 0.95703125,
+      "signal_ra_ba": 0.984375,
+      "att_fail_frac": 0.07421875,
+      "bbox_ra_ba": 0.9921875,
+      "diagnosis": "\u8be5\u533a\u57df\u88ab\u4fee\u6539\u4e86\uff0c\u7f6e\u4fe1\u5ea6 0.9\uff0c\u7406\u7531\u7b80\u8ff0\uff1a\u53f3\u56fe\u4e2d\u65b0\u589e\u4e86\u9ec4\u8272\u7269\u4f53\uff0c\u5de6\u56fe\u4e2d\u4e0d\u5b58\u5728\u3002"
+    },
+    {
+      "img": "kodim13.png",
+      "psnr": 46.90388488769531,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u753b\u9762\u4e2d\u592e\u7684\u5ca9\u77f3",
+      "uniform_ba": 1.0,
+      "signal_ra_ba": 1.0,
+      "att_fail_frac": 0.0234375,
+      "bbox_ra_ba": 1.0,
+      "diagnosis": "\u8be5\u533a\u57df\u88ab\u4fee\u6539\u4e86\uff0c\u7f6e\u4fe1\u5ea6 0.6\uff0c\u7406\u7531\u7b80\u8ff0\uff1a\u4ec5\u63d0\u4f9b\u5de6\u56fe\u94fe\u63a5\uff0c\u65e0\u6cd5\u76f4\u63a5\u5bf9\u6bd4\u53f3\u56fe\uff0c\u4f46\u57fa\u4e8e\u5e38\u89c1\u56fe\u50cf\u7f16\u8f91\u6a21\u5f0f\uff0c\u63a8\u6d4b\u8be5\u533a\u57df\u53ef\u80fd\u7ecf\u5386\u4e86\u4fee\u6539\u64cd\u4f5c\u3002"
+    },
+    {
+      "img": "kodim14.png",
+      "psnr": 46.97157287597656,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u753b\u9762\u4e2d\u592e\u7684\u4eba\u7269",
+      "uniform_ba": 0.97265625,
+      "signal_ra_ba": 0.9921875,
+      "att_fail_frac": 0.048828125,
+      "bbox_ra_ba": 0.99609375,
+      "diagnosis": "\u8be5\u533a\u57df\u88ab\u66ff\u6362\u4e86\uff0c\u7f6e\u4fe1\u5ea6 0.85\uff0c\u7406\u7531\u7b80\u8ff0\uff1a\u5bf9\u6bd4\u5de6\u53f3\u56fe\uff0c\u4eba\u7269\u5934\u90e8\u548c\u670d\u88c5\u53d1\u751f\u663e\u8457\u53d8\u5316\uff0c\u4f46\u6a61\u76ae\u8247\u548c\u80cc\u666f\u4fdd\u6301\u4e00\u81f4\uff0c\u8868\u660e\u5c40\u90e8\u533a\u57df\u88ab\u66ff\u6362\u6216\u4fee\u6539\u3002"
+    },
+    {
+      "img": "kodim15.png",
+      "psnr": 46.718017578125,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u8138\u4e0a\u7684\u9ec4\u8272\u773c\u955c",
+      "uniform_ba": 0.984375,
+      "signal_ra_ba": 1.0,
+      "att_fail_frac": 0.056640625,
+      "bbox_ra_ba": 1.0,
+      "diagnosis": "\u8be5\u533a\u57df\u88ab\u66ff\u6362\u7f6e\u4fe1\u5ea6 0.9\uff0c\u7406\u7531\u7b80\u8ff0\uff1a\u5de6\u56fe\u4e0e\u53f3\u56fe\u7684\u773c\u775b\u5f62\u72b6\u3001\u77b3\u5b54\u7ec6\u8282\u53ca\u9762\u90e8\u5f69\u7ed8\u56fe\u6848\u5747\u4e0d\u540c\uff0c\u8868\u660e\u7f16\u8f91\u540e\u533a\u57df\u88ab\u5b8c\u5168\u66ff\u6362\u4e3a\u53e6\u4e00\u4e2a\u56fe\u50cf\u3002"
+    },
+    {
+      "img": "kodim16.png",
+      "psnr": 46.94414138793945,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5c06\u524d\u666f\u7684\u6df1\u8272\u6c34\u9762\u66ff\u6362\u4e3a\u6d45\u8272\u6c99\u6ee9",
+      "uniform_ba": 0.79296875,
+      "signal_ra_ba": 0.95703125,
+      "att_fail_frac": 0.26171875,
+      "bbox_ra_ba": 1.0,
+      "diagnosis": "\u8be5\u533a\u57df\u88ab\u4fee\u6539\u4e86\uff0c\u7f6e\u4fe1\u5ea6 0.95\uff0c\u7406\u7531\u7b80\u8ff0\uff1a\u53f3\u56fe\u5728\u5de6\u56fe\u6c34\u6ce2\u7eb9\u57fa\u7840\u4e0a\u6dfb\u52a0\u4e86\u72b6\u6001\u680f\u56fe\u6807\uff0c\u6539\u53d8\u4e86\u539f\u59cb\u56fe\u50cf\u5185\u5bb9\uff0c\u5c5e\u4e8e\u5c40\u90e8\u4fee\u6539\u3002"
+    },
+    {
+      "img": "kodim17.png",
+      "psnr": 46.88441848754883,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u628a\u96d5\u50cf\u7684\u91d1\u8272\u5934\u53d1\u66ff\u6362\u6210\u94f6\u8272\u5934\u53d1",
+      "uniform_ba": 1.0,
+      "signal_ra_ba": 1.0,
+      "att_fail_frac": 0.0625,
+      "bbox_ra_ba": 1.0,
+      "diagnosis": "\u8be5\u533a\u57df\u88ab\u66ff\u6362\u4e86\uff0c\u7f6e\u4fe1\u5ea6 0.95\uff0c\u7406\u7531\u7b80\u8ff0\uff1a\u5de6\u53f3\u533a\u57df\u7684\u9762\u90e8\u88c5\u9970\uff08\u9762\u5177\u53ca\u5934\u9970\uff09\u5728\u9020\u578b\u3001\u8272\u5f69\u3001\u7ec6\u8282\u7279\u5f81\u4e0a\u5747\u65e0\u5173\u8054\uff0c\u5dee\u5f02\u663e\u8457\uff0c\u5224\u65ad\u4e3a\u66ff\u6362\u64cd\u4f5c\u3002"
+    },
+    {
+      "img": "kodim18.png",
+      "psnr": 46.9621467590332,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u753b\u9762\u4e2d\u592e\u7684\u5973\u6027",
+      "uniform_ba": 0.890625,
+      "signal_ra_ba": 0.91015625,
+      "att_fail_frac": 0.14453125,
+      "bbox_ra_ba": 0.9921875,
+      "diagnosis": "\u8be5\u533a\u57df\u88ab\u66ff\u6362\u7f6e\u4fe1\u5ea6 0.9\uff0c\u7406\u7531\u7b80\u8ff0\uff1a\u5de6\u56fe\u4e3a\u6237\u5916\u4eba\u7269\uff0c\u53f3\u56fe\u4e3a\u5ba4\u5185\u5efa\u7b51\uff0c\u5185\u5bb9\u5b8c\u5168\u4e0d\u540c\u3002"
+    },
+    {
+      "img": "kodim19.png",
+      "psnr": 47.054588317871094,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u7ea2\u8272\u7684\u6551\u751f\u5708",
+      "uniform_ba": 1.0,
+      "signal_ra_ba": 1.0,
+      "att_fail_frac": 0.0166015625,
+      "bbox_ra_ba": 1.0,
+      "diagnosis": "\u8be5\u533a\u57df\u88ab\u4fee\u6539\u4e86\uff0c\u7f6e\u4fe1\u5ea6 0.9\uff0c\u7406\u7531\u7b80\u8ff0\uff1a\u53f3\u56fe\u6269\u5c55\u4e86\u7ea2\u8272\u7269\u4f53\u7684\u7ec6\u8282\uff0c\u4f7f\u5176\u66f4\u5b8c\u6574\uff0c\u8868\u660e\u56fe\u50cf\u88ab\u7f16\u8f91\u4ee5\u6dfb\u52a0\u6216\u4fee\u590d\u5185\u5bb9\u3002"
+    },
+    {
+      "img": "kodim20.png",
+      "psnr": 46.99775314331055,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5c06\u5de6\u4fa7\u7684\u98de\u673a\u66ff\u6362\u6210\u4e00\u68f5\u6811",
+      "uniform_ba": 0.953125,
+      "signal_ra_ba": 0.98046875,
+      "att_fail_frac": 0.08203125,
+      "bbox_ra_ba": 0.99609375,
+      "diagnosis": "\u8be5\u533a\u57df\u88ab\u66ff\u6362\u4e86\uff0c\u7f6e\u4fe1\u5ea6 0.9\uff0c\u7406\u7531\u7b80\u8ff0\uff1a\u7f16\u8f91\u524d\u663e\u793a\u9ec4\u8272\u98de\u673a\uff0c\u7f16\u8f91\u540e\u663e\u793a\u767d\u8272\u98de\u673a\uff0c\u5185\u5bb9\u5b8c\u5168\u4e0d\u540c"
+    },
+    {
+      "img": "kodim21.png",
+      "psnr": 46.811275482177734,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "{\"instruction\": \"\u5c06\u753b\u9762\u53f3\u4fa7\u7684\u7ea2\u8272\u5c0f\u5c4b\u66ff\u6362\u4e3a\u6728\u8d28\u50a8\u7269\u68da\", \"bbox\": [0.52, 0.5, 0.66, 0.62]}",
+      "uniform_ba": 0.484375,
+      "signal_ra_ba": 0.4921875,
+      "att_fail_frac": 0.4765625,
+      "bbox_ra_ba": 0.5,
+      "diagnosis": "\u8be5\u533a\u57df\u88ab\u66ff\u6362\uff0c\u7f6e\u4fe1\u5ea6 0.95\uff0c\u7406\u7531\u7b80\u8ff0\uff1a\u7f16\u8f91\u540e\u533a\u57df\u663e\u793a\u4e86\u4e00\u4e2a\u5b8c\u5168\u4e0d\u540c\u7684\u6570\u5b57\u89d2\u8272\u7279\u5199\uff0c\u4e0e\u7f16\u8f91\u524d\u7684\u771f\u5b9e\u98ce\u666f\u573a\u666f\u65e0\u89c6\u89c9\u8fde\u7eed\u6027\uff0c\u8868\u660e\u6574\u4e2a\u533a\u57df\u88ab\u66ff\u6362\u3002"
+    },
+    {
+      "img": "kodim22.png",
+      "psnr": 46.88423156738281,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5c06\u753b\u9762\u4e2d\u7684\u7ea2\u8272\u8c37\u4ed3\u66ff\u6362\u4e3a\u4e00\u5ea7\u84dd\u8272\u7684\u8c37\u4ed3",
+      "uniform_ba": 0.87890625,
+      "signal_ra_ba": 0.93359375,
+      "att_fail_frac": 0.1279296875,
+      "bbox_ra_ba": 0.984375,
+      "diagnosis": "\u8be5\u533a\u57df\u88ab\u62fc\u63a5\u4e86\uff0c\u7f6e\u4fe1\u5ea6 0.9\uff0c\u7406\u7531\u7b80\u8ff0\uff1a\u53f3\u56fe\u5728\u5de6\u56fe\u573a\u666f\u57fa\u7840\u4e0a\u6dfb\u52a0\u4e86\u52a8\u7269\u548c\u5176\u4ed6\u5143\u7d20\uff0c\u8868\u660e\u4e0d\u540c\u6765\u6e90\u56fe\u50cf\u88ab\u7ec4\u5408\u3002"
+    },
+    {
+      "img": "kodim23.png",
+      "psnr": 46.717918395996094,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u5de6\u4fa7\u7684\u9e66\u9e49",
+      "uniform_ba": 0.87890625,
+      "signal_ra_ba": 0.93359375,
+      "att_fail_frac": 0.16796875,
+      "bbox_ra_ba": 0.984375,
+      "diagnosis": "\u8be5\u533a\u57df\u88ab\u66ff\u6362\uff0c\u7f6e\u4fe1\u5ea6 0.99\uff0c\u7406\u7531\u662f\u539f\u9e66\u9e49\u56fe\u50cf\u5b8c\u5168\u88ab\u5e26\u6709\u6587\u5b57\u56fe\u6848\u7684\u84dd\u8272\u56fe\u6848\u8986\u76d6\uff0c\u89c6\u89c9\u7279\u5f81\u65e0\u5173\u8054\u6027\u3002"
+    },
+    {
+      "img": "kodim24.png",
+      "psnr": 47.01454544067383,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "{\"instruction\": \"\u5220\u9664\u623f\u5b50\u53f3\u4e0a\u89d2\u7684\u70df\u56f1\", \"bbox\": [0.75, 0.1, 0.85, 0.3]}",
+      "uniform_ba": 0.53125,
+      "signal_ra_ba": 0.5,
+      "att_fail_frac": 0.4765625,
+      "bbox_ra_ba": 0.5234375,
+      "diagnosis": "\u8be5\u533a\u57df\u88ab\u66ff\u6362 \u4e86\uff0c\u7f6e\u4fe1\u5ea6 0.95\uff0c\u7406\u7531\u7b80\u8ff0\uff1a\u539f\u56fe\u5185\u5bb9\u4e3a\u623f\u5b50\uff0c\u7f16\u8f91\u540e\u53d8\u4e3a\u4eba\u7269\u9762\u90e8\uff0c\u4e24\u8005\u65e0\u89c6\u89c9\u5173\u8054\uff0c\u6574\u4f53\u5185\u5bb9\u88ab\u5b8c\u5168\u53d6\u4ee3\u3002"
+    }
+  ],
+  "summary": {
+    "clean_ba": {
+      "ba": 1.0,
+      "n": 24
+    },
+    "uniform_ba": {
+      "ba": 0.8709309895833334,
+      "n": 24
+    },
+    "signal_ra_ba": {
+      "ba": 0.9070638020833334,
+      "n": 24
+    },
+    "bbox_ra_ba": {
+      "ba": 0.9337565104166666,
+      "n": 24
+    },
+    "clean_fail_frac": 0.0,
+    "att_fail_frac": 0.1551513671875
+  },
+  "tmp_out": "../results/signal_ra_20260816_081526.tmp.json"
+}

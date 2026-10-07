@@ -1,0 +1,203 @@
+{
+  "coco_1000": {
+    "ba_mean": 1.0,
+    "ba_std": 0.0,
+    "psnr_mean": 49.565025329589844,
+    "psnr_std": 0.3227551579475403
+  },
+  "cross_COCO": {
+    "ba_mean": 1.0,
+    "ba_std": 0.0
+  },
+  "cross_CASIA_auth": {
+    "ba_mean": 1.0,
+    "ba_std": 0.0
+  },
+  "cross_CASIA_tamp": {
+    "ba_mean": 1.0,
+    "ba_std": 0.0
+  },
+  "cross_AIGC_auth": {
+    "ba_mean": 0.998515625,
+    "ba_std": 0.012362278420031438
+  },
+  "cross_AIGC_forg": {
+    "ba_mean": 0.98984375,
+    "ba_std": 0.07093044430769835
+  },
+  "cross_Columbia": {
+    "ba_mean": 0.9994791666666667,
+    "ba_std": 0.005182226234930312
+  },
+  "jpeg_95": {
+    "ba_mean": 0.9990625,
+    "ba_std": 0.007434610783356449
+  },
+  "jpeg_75": {
+    "ba_mean": 0.989375,
+    "ba_std": 0.056005545205363376
+  },
+  "jpeg_50": {
+    "ba_mean": 0.4425,
+    "ba_std": 0.14199643756534877
+  },
+  "jpeg_25": {
+    "ba_mean": 0.498984375,
+    "ba_std": 0.06333576933877391
+  },
+  "noise_0.005": {
+    "ba_mean": 1.0,
+    "ba_std": 0.0
+  },
+  "noise_0.01": {
+    "ba_mean": 0.999921875,
+    "ba_std": 0.0011020887484113973
+  },
+  "noise_0.02": {
+    "ba_mean": 0.99296875,
+    "ba_std": 0.01931126108485668
+  },
+  "noise_0.05": {
+    "ba_mean": 0.5159375,
+    "ba_std": 0.06428999241717175
+  },
+  "crop_10": {
+    "ba_mean": 1.0,
+    "ba_std": 0.0
+  },
+  "crop_25": {
+    "ba_mean": 1.0,
+    "ba_std": 0.0
+  },
+  "crop_50": {
+    "ba_mean": 0.996328125,
+    "ba_std": 0.029147117239263564
+  },
+  "attack_median_3": {
+    "ba_mean": 0.51484375,
+    "ba_std": 0.06854995754694163
+  },
+  "attack_median_5": {
+    "ba_mean": 0.50859375,
+    "ba_std": 0.062142532422950876
+  },
+  "attack_scale_75": {
+    "ba_mean": 0.96171875,
+    "ba_std": 0.09887983454520695
+  },
+  "attack_scale_50": {
+    "ba_mean": 0.503125,
+    "ba_std": 0.060191750888306944
+  },
+  "attack_brightness+0.2": {
+    "ba_mean": 0.986015625,
+    "ba_std": 0.07742494948486808
+  },
+  "attack_brightness-0.2": {
+    "ba_mean": 0.94671875,
+    "ba_std": 0.14470800003260875
+  },
+  "attack_gblur_r1": {
+    "ba_mean": 0.563515625,
+    "ba_std": 0.15536528828130938
+  },
+  "attack_gblur_r2": {
+    "ba_mean": 0.501640625,
+    "ba_std": 0.06309090779569093
+  },
+  "ablation_clean": {
+    "uniform_ba": 1.0,
+    "uniform_std": 0.0,
+    "strength_ba": 1.0,
+    "strength_std": 0.0
+  },
+  "local_attack": {
+    "uniform_mean": 1.0,
+    "uniform_std": 0.0,
+    "ours_mean": 1.0,
+    "ours_std": 0.0
+  },
+  "param_s3_b2": {
+    "ba_mean": 1.0,
+    "ba_std": 0.0
+  },
+  "param_s3_b3": {
+    "ba_mean": 1.0,
+    "ba_std": 0.0
+  },
+  "param_s5_b2": {
+    "ba_mean": 1.0,
+    "ba_std": 0.0
+  },
+  "param_s5_b3": {
+    "ba_mean": 1.0,
+    "ba_std": 0.0
+  },
+  "param_s7_b2": {
+    "ba_mean": 1.0,
+    "ba_std": 0.0
+  },
+  "param_s7_b3": {
+    "ba_mean": 1.0,
+    "ba_std": 0.0
+  },
+  "param_s11_b2": {
+    "ba_mean": 1.0,
+    "ba_std": 0.0
+  },
+  "param_s11_b3": {
+    "ba_mean": 1.0,
+    "ba_std": 0.0
+  },
+  "delta_10": {
+    "ba_mean": 0.957578125,
+    "ba_std": 0.11008006563229046,
+    "psnr_mean": 51.0586051940918,
+    "psnr_std": 0.23576274514198303
+  },
+  "delta_15": {
+    "ba_mean": 1.0,
+    "ba_std": 0.0,
+    "psnr_mean": 49.570640563964844,
+    "psnr_std": 0.3296712338924408
+  },
+  "delta_20": {
+    "ba_mean": 1.0,
+    "ba_std": 0.0,
+    "psnr_mean": 48.57024383544922,
+    "psnr_std": 0.2559770941734314
+  },
+  "delta_25": {
+    "ba_mean": 1.0,
+    "ba_std": 0.0,
+    "psnr_mean": 47.065860748291016,
+    "psnr_std": 0.3795751929283142
+  },
+  "delta_30": {
+    "ba_mean": 1.0,
+    "ba_std": 0.0,
+    "psnr_mean": 45.87173843383789,
+    "psnr_std": 0.3545112609863281
+  },
+  "msglen_32": {
+    "ba_mean": 1.0,
+    "ba_std": 0.0
+  },
+  "msglen_64": {
+    "ba_mean": 1.0,
+    "ba_std": 0.0
+  },
+  "msglen_128": {
+    "ba_mean": 1.0,
+    "ba_std": 0.0
+  },
+  "msglen_256": {
+    "ba_mean": 1.0,
+    "ba_std": 0.0
+  },
+  "ssim": {
+    "mean": 0.9964447008750108,
+    "std": 0.0018240020489629792
+  },
+  "total_time_s": 1048.5
+}

@@ -147,9 +147,32 @@ python rev_paired_tests.py        # -> results/paired_tests_*.json
 ### Result files
 
 All analysis scripts write their outputs (per-image records plus summary tables) into `results/`.
-That directory is excluded from this repository by default; the generated attack sets and the
-per-image result files are distributed as described in the *Data availability* section of the
-paper.
+The generated attack sets and all result files are released in this repository:
+
+| path | contents | size |
+|---|---|---|
+| `results/attackset_20260817_082819/` | 50-image attack set (capacity and design-space tables) | 11 MB |
+| `results/attackset_ip2p_20260908_075547/` | 200-image attack set (revision analyses) | 44 MB |
+| `results/attackset_20261001_222447/` | 1200-image attack set (damage distribution) | 258 MB |
+| `results/attackset_hires_sample/`, `results/attackset_kodak_hires/` | high-resolution qualitative sets | 39 MB |
+| `results/*.json` | per-image records and summary tables behind every table of the paper | 4.3 MB |
+
+Log files (`results/*.log`) are not tracked.
+
+### Two check-sequence implementations
+
+`run_signal_ra.py` — the pipeline behind the main tables — draws the check sequence from a
+single 32-bit seed. That is the *seeded comparison* variant documented in the paper: its key
+space is too small to resist exhaustive search, which is why the paper recommends the keyed
+hash of Eq. (1) instead. That construction,
+
+```
+c_k(i, j) = LSB( SHA-256( K || block index ) ),   K is 128-bit,
+```
+
+is implemented in `rev_analysis_r2r4r5.py`; switching to it costs 0.14 points of attacked bit
+accuracy (95.40% vs. 95.54%) and 0.003 dB of embedding PSNR, and the decoder is otherwise
+unchanged.
 
 ---
 

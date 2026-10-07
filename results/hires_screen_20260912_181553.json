@@ -1,0 +1,698 @@
+{
+  "generated": "2026-09-12T18:15:53.496102",
+  "criteria": {
+    "min_strength": 8.0
+  },
+  "samples": [
+    {
+      "id": "0032_42",
+      "cid": "0032",
+      "seed": 42,
+      "wh": [
+        640,
+        360
+      ],
+      "instruction": "replace the skull logo on the cup with a smiley face",
+      "bbox": [
+        0.32,
+        0.33,
+        0.54,
+        0.59
+      ],
+      "edit_strength": 34.20313364518887,
+      "leak": 0.0,
+      "seam": 0.9491658401485072,
+      "edge_ratio": 0.9291235208511353,
+      "edited": true,
+      "psnr": 25.29594193612938,
+      "score": 0.9338145149987817
+    },
+    {
+      "id": "0030_42",
+      "cid": "0030",
+      "seed": 42,
+      "wh": [
+        480,
+        640
+      ],
+      "instruction": "remove the person in the center of the image",
+      "bbox": [
+        0.4,
+        0.3,
+        0.6,
+        0.7
+      ],
+      "edit_strength": 11.89260525173611,
+      "leak": 0.0,
+      "seam": 1.02254706484069,
+      "edge_ratio": 0.9454973936080933,
+      "edited": true,
+      "psnr": 31.94509060551665,
+      "score": 0.8882332367105842
+    },
+    {
+      "id": "0030_43",
+      "cid": "0030",
+      "seed": 43,
+      "wh": [
+        480,
+        640
+      ],
+      "instruction": "remove the person in the center of the image",
+      "bbox": [
+        0.4,
+        0.3,
+        0.6,
+        0.7
+      ],
+      "edit_strength": 12.220621744791666,
+      "leak": 0.0,
+      "seam": 1.0827901477305293,
+      "edge_ratio": 0.9392226338386536,
+      "edited": true,
+      "psnr": 32.02246728447578,
+      "score": 0.7551483499539948
+    },
+    {
+      "id": "0031_42",
+      "cid": "0031",
+      "seed": 42,
+      "wh": [
+        496,
+        368
+      ],
+      "instruction": "remove the donut",
+      "bbox": [
+        0.3,
+        0.1,
+        0.7,
+        0.6
+      ],
+      "edit_strength": 8.999371859296483,
+      "leak": 0.0,
+      "seam": 1.077207900483768,
+      "edge_ratio": 1.122116208076477,
+      "edited": true,
+      "psnr": 32.58573622268588,
+      "score": 0.7235759552734078
+    },
+    {
+      "id": "0032_43",
+      "cid": "0032",
+      "seed": 43,
+      "wh": [
+        640,
+        360
+      ],
+      "instruction": "replace the skull logo on the cup with a smiley face",
+      "bbox": [
+        0.32,
+        0.33,
+        0.54,
+        0.59
+      ],
+      "edit_strength": 41.27828077058498,
+      "leak": 0.0,
+      "seam": 1.1051619927670069,
+      "edge_ratio": 0.8061783909797668,
+      "edited": true,
+      "psnr": 23.8845489668717,
+      "score": 0.6367578988626031
+    },
+    {
+      "id": "0005_42",
+      "cid": "0005",
+      "seed": 42,
+      "wh": [
+        640,
+        424
+      ],
+      "instruction": "remove the skier in the center of the image",
+      "bbox": [
+        0.35,
+        0.15,
+        0.65,
+        0.85
+      ],
+      "edit_strength": 11.178269968200524,
+      "leak": 0.0,
+      "seam": 1.1575679910005798,
+      "edge_ratio": 0.8275038599967957,
+      "edited": true,
+      "psnr": 26.69766811596422,
+      "score": 0.5791260757297739
+    },
+    {
+      "id": "0045_43",
+      "cid": "0045",
+      "seed": 43,
+      "wh": [
+        608,
+        608
+      ],
+      "instruction": "change the surfer jacket from yellow to red",
+      "bbox": [
+        0.35,
+        0.15,
+        0.65,
+        0.45
+      ],
+      "edit_strength": 19.16283352348926,
+      "leak": 0.0,
+      "seam": 1.2141197662488934,
+      "edge_ratio": 1.2300697565078735,
+      "edited": true,
+      "psnr": 29.1592865902249,
+      "score": 0.4949964514494675
+    },
+    {
+      "id": "0045_42",
+      "cid": "0045",
+      "seed": 42,
+      "wh": [
+        608,
+        608
+      ],
+      "instruction": "change the surfer jacket from yellow to red",
+      "bbox": [
+        0.35,
+        0.15,
+        0.65,
+        0.45
+      ],
+      "edit_strength": 27.883604555735705,
+      "leak": 0.0,
+      "seam": 1.2893636079215485,
+      "edge_ratio": 1.098670482635498,
+      "edited": true,
+      "psnr": 25.52156775509889,
+      "score": 0.48723060026681264
+    },
+    {
+      "id": "0005_43",
+      "cid": "0005",
+      "seed": 43,
+      "wh": [
+        640,
+        424
+      ],
+      "instruction": "remove the skier in the center of the image",
+      "bbox": [
+        0.35,
+        0.15,
+        0.65,
+        0.85
+      ],
+      "edit_strength": 10.993020482603816,
+      "leak": 0.0,
+      "seam": 1.250039736191194,
+      "edge_ratio": 0.7825300097465515,
+      "edited": true,
+      "psnr": 26.679509560089155,
+      "score": 0.4693254481882389
+    },
+    {
+      "id": "0002_42",
+      "cid": "0002",
+      "seed": 42,
+      "wh": [
+        640,
+        480
+      ],
+      "instruction": "replace the bookshelf on the right with a television",
+      "bbox": [
+        0.65,
+        0.0,
+        0.98,
+        0.82
+      ],
+      "edit_strength": 35.34902660701293,
+      "leak": 0.0,
+      "seam": 1.0521447693870918,
+      "edge_ratio": 0.12334074079990387,
+      "edited": true,
+      "psnr": 19.812499504173168,
+      "score": 0.460779985342741
+    },
+    {
+      "id": "0028_43",
+      "cid": "0028",
+      "seed": 43,
+      "wh": [
+        456,
+        640
+      ],
+      "instruction": "remove the wine glass",
+      "bbox": [
+        0.7,
+        0.1,
+        0.9,
+        0.4
+      ],
+      "edit_strength": 11.383451617826617,
+      "leak": 0.0,
+      "seam": 1.3160940227975135,
+      "edge_ratio": 0.7788259983062744,
+      "edited": true,
+      "psnr": 36.51749204125237,
+      "score": 0.42031086521427685
+    },
+    {
+      "id": "0048_42",
+      "cid": "0048",
+      "seed": 42,
+      "wh": [
+        640,
+        424
+      ],
+      "instruction": "replace the bus with a truck",
+      "bbox": [
+        0.15,
+        0.2,
+        0.95,
+        0.95
+      ],
+      "edit_strength": 67.19737413194444,
+      "leak": 0.0,
+      "seam": 1.4374006692996721,
+      "edge_ratio": 1.0689458847045898,
+      "edited": true,
+      "psnr": 11.5020276287852,
+      "score": 0.40459313204934333
+    },
+    {
+      "id": "0048_43",
+      "cid": "0048",
+      "seed": 43,
+      "wh": [
+        640,
+        424
+      ],
+      "instruction": "replace the bus with a truck",
+      "bbox": [
+        0.15,
+        0.2,
+        0.95,
+        0.95
+      ],
+      "edit_strength": 56.63008140068134,
+      "leak": 0.0,
+      "seam": 1.4150179986404952,
+      "edge_ratio": 1.114231824874878,
+      "edited": true,
+      "psnr": 12.480875906043687,
+      "score": 0.39975844822537226
+    },
+    {
+      "id": "0028_42",
+      "cid": "0028",
+      "seed": 42,
+      "wh": [
+        456,
+        640
+      ],
+      "instruction": "remove the wine glass",
+      "bbox": [
+        0.7,
+        0.1,
+        0.9,
+        0.4
+      ],
+      "edit_strength": 11.692593864468865,
+      "leak": 0.0,
+      "seam": 1.5580855044086694,
+      "edge_ratio": 0.9443956017494202,
+      "edited": true,
+      "psnr": 36.1354488170622,
+      "score": 0.3542384889926443
+    },
+    {
+      "id": "0017_42",
+      "cid": "0017",
+      "seed": 42,
+      "wh": [
+        608,
+        608
+      ],
+      "instruction": "replace the red double-decker bus with a black taxi",
+      "bbox": [
+        0.11,
+        0.12,
+        0.78,
+        0.95
+      ],
+      "edit_strength": 39.6272083090662,
+      "leak": 0.0,
+      "seam": 1.5684064364714478,
+      "edge_ratio": 1.3023829460144043,
+      "edited": true,
+      "psnr": 14.491575073100583,
+      "score": 0.2838303420473165
+    },
+    {
+      "id": "0017_43",
+      "cid": "0017",
+      "seed": 43,
+      "wh": [
+        608,
+        608
+      ],
+      "instruction": "replace the red double-decker bus with a black taxi",
+      "bbox": [
+        0.11,
+        0.12,
+        0.78,
+        0.95
+      ],
+      "edit_strength": 39.63507409564486,
+      "leak": 0.0,
+      "seam": 1.5840422138765289,
+      "edge_ratio": 1.446618676185608,
+      "edited": true,
+      "psnr": 14.525847073020799,
+      "score": 0.2511756402049691
+    },
+    {
+      "id": "0031_43",
+      "cid": "0031",
+      "seed": 43,
+      "wh": [
+        496,
+        368
+      ],
+      "instruction": "remove the donut",
+      "bbox": [
+        0.3,
+        0.1,
+        0.7,
+        0.6
+      ],
+      "edit_strength": 27.614676644090014,
+      "leak": 0.0,
+      "seam": 1.5569799460840497,
+      "edge_ratio": 0.367363303899765,
+      "edited": true,
+      "psnr": 23.146481761070863,
+      "score": 0.229322327207867
+    },
+    {
+      "id": "0002_43",
+      "cid": "0002",
+      "seed": 43,
+      "wh": [
+        640,
+        480
+      ],
+      "instruction": "replace the bookshelf on the right with a television",
+      "bbox": [
+        0.65,
+        0.0,
+        0.98,
+        0.82
+      ],
+      "edit_strength": 40.36661722320707,
+      "leak": 0.0,
+      "seam": 1.4852419523721283,
+      "edge_ratio": 0.08468496054410934,
+      "edited": true,
+      "psnr": 18.857594568587498,
+      "score": 0.2126081448933825
+    },
+    {
+      "id": "0002_45",
+      "cid": "0002",
+      "seed": 45,
+      "wh": [
+        640,
+        480
+      ],
+      "instruction": "replace the bookshelf on the right with a television",
+      "bbox": [
+        0.65,
+        0.0,
+        0.98,
+        0.82
+      ],
+      "edit_strength": 48.92279986654286,
+      "leak": 0.0,
+      "seam": 1.6219991273719465,
+      "edge_ratio": 0.15277263522148132,
+      "edited": true,
+      "psnr": 17.31216315338998,
+      "score": 0.18888777768795864
+    },
+    {
+      "id": "0002_44",
+      "cid": "0002",
+      "seed": 44,
+      "wh": [
+        640,
+        480
+      ],
+      "instruction": "replace the bookshelf on the right with a television",
+      "bbox": [
+        0.65,
+        0.0,
+        0.98,
+        0.82
+      ],
+      "edit_strength": 45.899227797675756,
+      "leak": 0.0,
+      "seam": 1.999016029961374,
+      "edge_ratio": 0.06070379167795181,
+      "edited": true,
+      "psnr": 17.90227780042732,
+      "score": 0.12900795121544206
+    },
+    {
+      "id": "0023_42",
+      "cid": "0023",
+      "seed": 42,
+      "wh": [
+        640,
+        424
+      ],
+      "instruction": "replace the large apple on the right with a red apple",
+      "bbox": [
+        0.55,
+        0.15,
+        0.95,
+        0.85
+      ],
+      "edit_strength": 34.48406811167228,
+      "leak": 0.0,
+      "seam": 2.496509302333975,
+      "edge_ratio": 1.5962514877319336,
+      "edited": true,
+      "psnr": 19.83229333906934,
+      "score": 0.11412050576617684
+    },
+    {
+      "id": "0006_43",
+      "cid": "0006",
+      "seed": 43,
+      "wh": [
+        424,
+        640
+      ],
+      "instruction": "replace the refrigerator on the right with a tall potted plant",
+      "bbox": [
+        0.5,
+        0.1,
+        1.0,
+        0.9
+      ],
+      "edit_strength": 40.55293398683176,
+      "leak": 0.0,
+      "seam": 3.1179035277232714,
+      "edge_ratio": 0.7504121661186218,
+      "edited": true,
+      "psnr": 17.610308483542344,
+      "score": 0.10882449945136125
+    },
+    {
+      "id": "0035_43",
+      "cid": "0035",
+      "seed": 43,
+      "wh": [
+        440,
+        640
+      ],
+      "instruction": "replace the toilet with a bathtub",
+      "bbox": [
+        0.42,
+        0.55,
+        0.92,
+        0.92
+      ],
+      "edit_strength": 77.24376605033385,
+      "leak": 0.0,
+      "seam": 2.8927229480174073,
+      "edge_ratio": 0.2645470201969147,
+      "edited": true,
+      "psnr": 16.159888636286595,
+      "score": 0.08628389734278344
+    },
+    {
+      "id": "0000_43",
+      "cid": "0000",
+      "seed": 43,
+      "wh": [
+        640,
+        424
+      ],
+      "instruction": "replace the television on the left with a bookshelf",
+      "bbox": [
+        0.05,
+        0.3,
+        0.4,
+        0.6
+      ],
+      "edit_strength": 22.3560531496063,
+      "leak": 0.0,
+      "seam": 3.6214332044035844,
+      "edge_ratio": 0.6874072551727295,
+      "edited": true,
+      "psnr": 27.747608424036194,
+      "score": 0.08594598114738393
+    },
+    {
+      "id": "0006_42",
+      "cid": "0006",
+      "seed": 42,
+      "wh": [
+        424,
+        640
+      ],
+      "instruction": "replace the refrigerator on the right with a tall potted plant",
+      "bbox": [
+        0.5,
+        0.1,
+        1.0,
+        0.9
+      ],
+      "edit_strength": 47.3980290634827,
+      "leak": 0.0,
+      "seam": 4.705482168045484,
+      "edge_ratio": 1.1319223642349243,
+      "edited": true,
+      "psnr": 16.69404693810302,
+      "score": 0.07291352423685207
+    },
+    {
+      "id": "0035_42",
+      "cid": "0035",
+      "seed": 42,
+      "wh": [
+        440,
+        640
+      ],
+      "instruction": "replace the toilet with a bathtub",
+      "bbox": [
+        0.42,
+        0.55,
+        0.92,
+        0.92
+      ],
+      "edit_strength": 78.85894966615305,
+      "leak": 0.0,
+      "seam": 3.441235774546887,
+      "edge_ratio": 0.23290017247200012,
+      "edited": true,
+      "psnr": 15.57892912858167,
+      "score": 0.06798641082399573
+    },
+    {
+      "id": "0023_43",
+      "cid": "0023",
+      "seed": 43,
+      "wh": [
+        640,
+        424
+      ],
+      "instruction": "replace the large apple on the right with a red apple",
+      "bbox": [
+        0.55,
+        0.15,
+        0.95,
+        0.85
+      ],
+      "edit_strength": 29.2858971661055,
+      "leak": 0.0,
+      "seam": 4.48080226056797,
+      "edge_ratio": 1.3385744094848633,
+      "edited": true,
+      "psnr": 21.028896855158912,
+      "score": 0.06528901235351812
+    },
+    {
+      "id": "0043_42",
+      "cid": "0043",
+      "seed": 42,
+      "wh": [
+        424,
+        640
+      ],
+      "instruction": "replace the transparent cup in the hand with a red balloon",
+      "bbox": [
+        0.7,
+        0.35,
+        0.95,
+        0.65
+      ],
+      "edit_strength": 25.66990959119497,
+      "leak": 0.0,
+      "seam": 5.020685354842555,
+      "edge_ratio": 0.4151967763900757,
+      "edited": true,
+      "psnr": 28.21817215419434,
+      "score": 0.04830733849565136
+    },
+    {
+      "id": "0000_42",
+      "cid": "0000",
+      "seed": 42,
+      "wh": [
+        640,
+        424
+      ],
+      "instruction": "replace the television on the left with a bookshelf",
+      "bbox": [
+        0.05,
+        0.3,
+        0.4,
+        0.6
+      ],
+      "edit_strength": 47.6344441319835,
+      "leak": 0.0,
+      "seam": 5.103687763469617,
+      "edge_ratio": 2.0786421298980713,
+      "edited": true,
+      "psnr": 22.476347423989047,
+      "score": 0.03614161259019784
+    },
+    {
+      "id": "0043_43",
+      "cid": "0043",
+      "seed": 43,
+      "wh": [
+        424,
+        640
+      ],
+      "instruction": "replace the transparent cup in the hand with a red balloon",
+      "bbox": [
+        0.7,
+        0.35,
+        0.95,
+        0.65
+      ],
+      "edit_strength": 2.421105214884696,
+      "leak": 0.0,
+      "seam": 1.0842581476792936,
+      "edge_ratio": 0.9708874225616455,
+      "edited": false,
+      "psnr": 44.74212793708517,
+      "score": 0.0
+    }
+  ]
+}

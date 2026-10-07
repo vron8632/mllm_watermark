@@ -1,0 +1,256 @@
+{
+  "meta": {
+    "n": 20,
+    "msglen": 256,
+    "delta": 15,
+    "steps": 30,
+    "check_coef": [
+      3,
+      2
+    ],
+    "ts": "2026-08-15T11:02:38.633846"
+  },
+  "per_image": [
+    {
+      "img": "000000000139.jpg",
+      "psnr": 46.84014129638672,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u4e2d\u592e\u7684\u684c\u5b50",
+      "uniform_ba": 0.9765625,
+      "signal_ra_ba": 0.98828125,
+      "att_fail_frac": 0.05078125,
+      "bbox_ra_ba": 1.0
+    },
+    {
+      "img": "000000000285.jpg",
+      "psnr": 46.919288635253906,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5c06\u753b\u9762\u4e2d\u7684\u718a\u66ff\u6362\u6210\u4e00\u53ea\u5317\u6781\u718a",
+      "uniform_ba": 0.48828125,
+      "signal_ra_ba": 0.48046875,
+      "att_fail_frac": 0.4765625,
+      "bbox_ra_ba": 0.47265625
+    },
+    {
+      "img": "000000000632.jpg",
+      "psnr": 47.01106643676758,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "{\"instruction\": \"\u5220\u9664\u53f3\u4e0b\u89d2\u7684\u6a59\u8272\u5783\u573e\u6876\", \"bbox\": [0.75, 0.6, 0.85, 0.8]}",
+      "uniform_ba": 0.7421875,
+      "signal_ra_ba": 0.82421875,
+      "att_fail_frac": 0.25,
+      "bbox_ra_ba": 0.98828125
+    },
+    {
+      "img": "000000000724.jpg",
+      "psnr": 47.138248443603516,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u5012\u7f6e\u7684\u505c\u8f66\u6807\u5fd7",
+      "uniform_ba": 0.9609375,
+      "signal_ra_ba": 0.98828125,
+      "att_fail_frac": 0.0869140625,
+      "bbox_ra_ba": 0.9921875
+    },
+    {
+      "img": "000000000776.jpg",
+      "psnr": 46.95240020751953,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u628a\u753b\u9762\u9876\u90e8\u7684\u718a\u66ff\u6362\u6210\u4e00\u53ea\u732b",
+      "uniform_ba": 0.8125,
+      "signal_ra_ba": 0.8671875,
+      "att_fail_frac": 0.2646484375,
+      "bbox_ra_ba": 0.96875
+    },
+    {
+      "img": "000000000785.jpg",
+      "psnr": 47.50422668457031,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u753b\u9762\u4e2d\u592e\u7684\u6ed1\u96ea\u8005",
+      "uniform_ba": 0.8515625,
+      "signal_ra_ba": 0.87890625,
+      "att_fail_frac": 0.162109375,
+      "bbox_ra_ba": 0.953125
+    },
+    {
+      "img": "000000000802.jpg",
+      "psnr": 46.830589294433594,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u753b\u9762\u5de6\u4fa7\u7684\u5f71\u5b50",
+      "uniform_ba": 0.80859375,
+      "signal_ra_ba": 0.8671875,
+      "att_fail_frac": 0.181640625,
+      "bbox_ra_ba": 1.0
+    },
+    {
+      "img": "000000000872.jpg",
+      "psnr": 47.12104034423828,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u8dd1\u52a8\u7684\u68d2\u7403\u8fd0\u52a8\u5458",
+      "uniform_ba": 0.90234375,
+      "signal_ra_ba": 0.9453125,
+      "att_fail_frac": 0.10546875,
+      "bbox_ra_ba": 0.98046875
+    },
+    {
+      "img": "000000000885.jpg",
+      "psnr": 46.953956604003906,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u628a\u80cc\u666f\u7684\u5e7f\u544a\u724c\u66ff\u6362\u6210\u661f\u7a7a\u56fe\u6848",
+      "uniform_ba": 0.85546875,
+      "signal_ra_ba": 0.96484375,
+      "att_fail_frac": 0.203125,
+      "bbox_ra_ba": 1.0
+    },
+    {
+      "img": "000000001000.jpg",
+      "psnr": 46.96126937866211,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u628a\u5de6\u4fa7\u6234\u9ec4\u8272\u5e3d\u5b50\u7684\u5b69\u5b50\u66ff\u6362\u4e3a\u4e00\u68f5\u6811",
+      "uniform_ba": 0.98828125,
+      "signal_ra_ba": 0.99609375,
+      "att_fail_frac": 0.0458984375,
+      "bbox_ra_ba": 0.99609375
+    },
+    {
+      "img": "000000001268.jpg",
+      "psnr": 47.336849212646484,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0009765625,
+      "edit_prompt": "\u5220\u9664\u6c34\u9762\u4e0a\u7684\u5929\u9e45",
+      "uniform_ba": 0.953125,
+      "signal_ra_ba": 0.9609375,
+      "att_fail_frac": 0.109375,
+      "bbox_ra_ba": 0.953125
+    },
+    {
+      "img": "000000001296.jpg",
+      "psnr": 47.27035140991211,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.00390625,
+      "edit_prompt": "\u628a\u624b\u673a\u58f3\u4e0a\u7684 HELLO KITTY \u56fe\u6848\u66ff\u6362\u6210\u5176\u4ed6\u56fe\u6848",
+      "uniform_ba": 0.65625,
+      "signal_ra_ba": 0.74609375,
+      "att_fail_frac": 0.34375,
+      "bbox_ra_ba": 0.6953125
+    },
+    {
+      "img": "000000001353.jpg",
+      "psnr": 47.057830810546875,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u753b\u9762\u80cc\u666f\u4e2d\u7684\u88c5\u9970\u7bb1\u5b50",
+      "uniform_ba": 0.94140625,
+      "signal_ra_ba": 0.984375,
+      "att_fail_frac": 0.078125,
+      "bbox_ra_ba": 0.96484375
+    },
+    {
+      "img": "000000001425.jpg",
+      "psnr": 47.913978576660156,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u753b\u9762\u4e2d\u592e\u7684\u4e09\u660e\u6cbb",
+      "uniform_ba": 0.94140625,
+      "signal_ra_ba": 0.97265625,
+      "att_fail_frac": 0.12890625,
+      "bbox_ra_ba": 0.99609375
+    },
+    {
+      "img": "000000001490.jpg",
+      "psnr": 48.2430419921875,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5c06\u6c34\u9762\u4e0a\u7684\u7acb\u5f0f\u5212\u6868\u8005\u66ff\u6362\u6210\u4e00\u53ea\u5b09\u620f\u7684\u6d77\u8c5a",
+      "uniform_ba": 0.99609375,
+      "signal_ra_ba": 1.0,
+      "att_fail_frac": 0.0302734375,
+      "bbox_ra_ba": 1.0
+    },
+    {
+      "img": "000000001503.jpg",
+      "psnr": 47.48786926269531,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u5de6\u4fa7\u7684\u7b14\u8bb0\u672c\u7535\u8111",
+      "uniform_ba": 0.87109375,
+      "signal_ra_ba": 0.91796875,
+      "att_fail_frac": 0.1318359375,
+      "bbox_ra_ba": 0.984375
+    },
+    {
+      "img": "000000001532.jpg",
+      "psnr": 46.638240814208984,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u753b\u9762\u4e2d\u592e\u7684\u9ed1\u8272SUV\u8f66\u8f86",
+      "uniform_ba": 0.984375,
+      "signal_ra_ba": 0.99609375,
+      "att_fail_frac": 0.05078125,
+      "bbox_ra_ba": 1.0
+    },
+    {
+      "img": "000000001584.jpg",
+      "psnr": 47.20225524902344,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u7ea2\u8272\u7684\u53cc\u5c42\u5df4\u58eb",
+      "uniform_ba": 0.75390625,
+      "signal_ra_ba": 0.78515625,
+      "att_fail_frac": 0.2373046875,
+      "bbox_ra_ba": 0.93359375
+    },
+    {
+      "img": "000000001675.jpg",
+      "psnr": 46.954593658447266,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "\u5220\u9664\u753b\u9762\u4e2d\u592e\u7684\u732b",
+      "uniform_ba": 0.63671875,
+      "signal_ra_ba": 0.69140625,
+      "att_fail_frac": 0.40625,
+      "bbox_ra_ba": 0.90234375
+    },
+    {
+      "img": "000000001761.jpg",
+      "psnr": 47.419185638427734,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "edit_prompt": "{\"instruction\": \"\u5220\u9664\u53f3\u4fa7\u7684\u98de\u673a\", \"bbox\": [0.65, 0.2, 0.75, 0.3]}",
+      "uniform_ba": 0.54296875,
+      "signal_ra_ba": 0.55078125,
+      "att_fail_frac": 0.4765625,
+      "bbox_ra_ba": 0.55078125
+    }
+  ],
+  "summary": {
+    "clean_ba": {
+      "ba": 1.0,
+      "n": 20
+    },
+    "uniform_ba": {
+      "ba": 0.833203125,
+      "n": 20
+    },
+    "signal_ra_ba": {
+      "ba": 0.8703125,
+      "n": 20
+    },
+    "bbox_ra_ba": {
+      "ba": 0.9166015625,
+      "n": 20
+    },
+    "clean_fail_frac": 0.000244140625,
+    "att_fail_frac": 0.191015625
+  },
+  "tmp_out": "../results/signal_ra_20260815_110238.tmp.json"
+}

@@ -1,0 +1,41 @@
+{
+ "meta": {
+  "n": 50,
+  "msglen": 256,
+  "delta": 15,
+  "attackset": "/media/oyp/\u5de5\u4f5c/Projects/042_image_forensic/watermark-mllm-robustness/results/attackset_20260817_082819",
+  "ts": "2026-09-13T17:07:17.067878"
+ },
+ "A_coefficient": [],
+ "B_confidence": [],
+ "C_dilation": [
+  {
+   "dilate": 0,
+   "decay": 0.3,
+   "clean_ba": 0.997890625,
+   "att_uniform_ba": 0.878046875,
+   "att_v2_ba": 0.927734375
+  },
+  {
+   "dilate": 1,
+   "decay": 0.3,
+   "clean_ba": 0.997890625,
+   "att_uniform_ba": 0.878046875,
+   "att_v2_ba": 0.94734375
+  },
+  {
+   "dilate": 2,
+   "decay": 0.3,
+   "clean_ba": 0.997890625,
+   "att_uniform_ba": 0.878046875,
+   "att_v2_ba": 0.9403125
+  },
+  {
+   "dilate": 3,
+   "decay": 0.3,
+   "clean_ba": 0.997890625,
+   "att_uniform_ba": 0.878046875,
+   "att_v2_ba": 0.933125
+  }
+ ]
+}

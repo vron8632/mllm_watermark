@@ -1,0 +1,1046 @@
+{
+  "meta": {
+    "attackset": "attackset_20260817_082819",
+    "msglen": 256,
+    "delta": 15,
+    "check_coef": [
+      3,
+      2
+    ],
+    "pay_coef": [
+      4,
+      1
+    ],
+    "ts": "2026-08-17T12:42:07.720141"
+  },
+  "per_image": [
+    {
+      "id": "0000",
+      "img": "000000000139.jpg",
+      "instruction": "把左侧的电视替换成一个书架",
+      "bbox": [
+        0.05,
+        0.3,
+        0.4,
+        0.6
+      ],
+      "psnr": 46.84014129638672,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "uniform_ba": 0.9765625,
+      "signal_ra_ba": 0.9921875,
+      "signal_soft_ba": 1.0,
+      "signal_soft_dilate_ba": 1.0,
+      "att_fail_frac": 0.0576171875,
+      "bbox_ra_ba": 0.99609375
+    },
+    {
+      "id": "0001",
+      "img": "000000000285.jpg",
+      "instruction": "把熊的眼睛改成蓝色",
+      "bbox": [
+        0.3,
+        0.35,
+        0.7,
+        0.45
+      ],
+      "psnr": 46.89126968383789,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "uniform_ba": 1.0,
+      "signal_ra_ba": 1.0,
+      "signal_soft_ba": 1.0,
+      "signal_soft_dilate_ba": 1.0,
+      "att_fail_frac": 0.0302734375,
+      "bbox_ra_ba": 1.0
+    },
+    {
+      "id": "0002",
+      "img": "000000000632.jpg",
+      "instruction": "将右侧的书架替换成一个电视",
+      "bbox": [
+        0.65,
+        0.0,
+        0.98,
+        0.82
+      ],
+      "psnr": 47.034358978271484,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "uniform_ba": 0.85546875,
+      "signal_ra_ba": 0.86328125,
+      "signal_soft_ba": 0.90234375,
+      "signal_soft_dilate_ba": 0.9296875,
+      "att_fail_frac": 0.142578125,
+      "bbox_ra_ba": 0.92578125
+    },
+    {
+      "id": "0003",
+      "img": "000000000724.jpg",
+      "instruction": "将画面中央倒立的红色停止标志替换为正立的红色停止标志",
+      "bbox": [
+        0.3,
+        0.15,
+        0.7,
+        0.48
+      ],
+      "psnr": 47.13206481933594,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "uniform_ba": 0.96484375,
+      "signal_ra_ba": 0.99609375,
+      "signal_soft_ba": 1.0,
+      "signal_soft_dilate_ba": 1.0,
+      "att_fail_frac": 0.0908203125,
+      "bbox_ra_ba": 0.99609375
+    },
+    {
+      "id": "0004",
+      "img": "000000000776.jpg",
+      "instruction": "把左侧的浅色毛绒熊替换成一个玩具汽车",
+      "bbox": [
+        0.0,
+        0.1,
+        0.5,
+        0.6
+      ],
+      "psnr": 46.98377227783203,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "uniform_ba": 0.88671875,
+      "signal_ra_ba": 0.96484375,
+      "signal_soft_ba": 0.98046875,
+      "signal_soft_dilate_ba": 0.98828125,
+      "att_fail_frac": 0.123046875,
+      "bbox_ra_ba": 0.9765625
+    },
+    {
+      "id": "0005",
+      "img": "000000000785.jpg",
+      "instruction": "删除画面中央的滑雪者",
+      "bbox": [
+        0.35,
+        0.15,
+        0.65,
+        0.85
+      ],
+      "psnr": 47.503501892089844,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "uniform_ba": 0.8984375,
+      "signal_ra_ba": 0.921875,
+      "signal_soft_ba": 0.94140625,
+      "signal_soft_dilate_ba": 0.97265625,
+      "att_fail_frac": 0.1015625,
+      "bbox_ra_ba": 0.984375
+    },
+    {
+      "id": "0006",
+      "img": "000000000802.jpg",
+      "instruction": "把右侧的冰箱替换成一个高大的植物",
+      "bbox": [
+        0.5,
+        0.1,
+        1.0,
+        0.9
+      ],
+      "psnr": 46.8141975402832,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "uniform_ba": 0.80078125,
+      "signal_ra_ba": 0.8359375,
+      "signal_soft_ba": 0.86328125,
+      "signal_soft_dilate_ba": 0.9140625,
+      "att_fail_frac": 0.1962890625,
+      "bbox_ra_ba": 0.9453125
+    },
+    {
+      "id": "0007",
+      "img": "000000000872.jpg",
+      "instruction": "删除穿白色制服的棒球运动员",
+      "bbox": [
+        0.25,
+        0.2,
+        0.5,
+        0.9
+      ],
+      "psnr": 47.13483810424805,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "uniform_ba": 0.9140625,
+      "signal_ra_ba": 0.93359375,
+      "signal_soft_ba": 0.9453125,
+      "signal_soft_dilate_ba": 0.99609375,
+      "att_fail_frac": 0.0849609375,
+      "bbox_ra_ba": 1.0
+    },
+    {
+      "id": "0008",
+      "img": "000000000885.jpg",
+      "instruction": "删除画面中央的网球运动员",
+      "bbox": [
+        0.3,
+        0.3,
+        0.7,
+        0.9
+      ],
+      "psnr": 46.91215515136719,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "uniform_ba": 0.87109375,
+      "signal_ra_ba": 0.921875,
+      "signal_soft_ba": 0.95703125,
+      "signal_soft_dilate_ba": 1.0,
+      "att_fail_frac": 0.1240234375,
+      "bbox_ra_ba": 0.98046875
+    },
+    {
+      "id": "0009",
+      "img": "000000001000.jpg",
+      "instruction": "{\"instruction\": \"将左侧孩子的黄色帽子改为红色\", \"bbox\": [0.05, 0.2, 0.15, 0.3]}",
+      "bbox": [
+        0.031,
+        0.203,
+        1.0,
+        1.0
+      ],
+      "psnr": 46.985164642333984,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "uniform_ba": 0.6484375,
+      "signal_ra_ba": 0.71875,
+      "signal_soft_ba": 0.77734375,
+      "signal_soft_dilate_ba": 0.859375,
+      "att_fail_frac": 0.3916015625,
+      "bbox_ra_ba": 0.890625
+    },
+    {
+      "id": "0010",
+      "img": "000000001268.jpg",
+      "instruction": "删除画面右侧的拍照女性",
+      "bbox": [
+        0.7,
+        0.2,
+        1.0,
+        1.0
+      ],
+      "psnr": 47.37202072143555,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0009765625,
+      "uniform_ba": 0.90234375,
+      "signal_ra_ba": 0.921875,
+      "signal_soft_ba": 0.9453125,
+      "signal_soft_dilate_ba": 0.953125,
+      "att_fail_frac": 0.13671875,
+      "bbox_ra_ba": 0.9765625
+    },
+    {
+      "id": "0011",
+      "img": "000000001296.jpg",
+      "instruction": "修改女孩的脸部为微笑表情",
+      "bbox": [
+        0.35,
+        0.1,
+        0.65,
+        0.5
+      ],
+      "psnr": 47.20092010498047,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0048828125,
+      "uniform_ba": 0.94921875,
+      "signal_ra_ba": 0.984375,
+      "signal_soft_ba": 1.0,
+      "signal_soft_dilate_ba": 1.0,
+      "att_fail_frac": 0.0712890625,
+      "bbox_ra_ba": 1.0
+    },
+    {
+      "id": "0012",
+      "img": "000000001353.jpg",
+      "instruction": "删除画面中的红色游乐设施",
+      "bbox": [
+        0.15,
+        0.5,
+        0.85,
+        0.95
+      ],
+      "psnr": 46.9974479675293,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "uniform_ba": 0.921875,
+      "signal_ra_ba": 0.984375,
+      "signal_soft_ba": 1.0,
+      "signal_soft_dilate_ba": 1.0,
+      "att_fail_frac": 0.1474609375,
+      "bbox_ra_ba": 1.0
+    },
+    {
+      "id": "0013",
+      "img": "000000001425.jpg",
+      "instruction": "把中央的三明治替换成一个甜甜圈",
+      "bbox": [
+        0.1,
+        0.3,
+        0.7,
+        0.8
+      ],
+      "psnr": 47.97038650512695,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "uniform_ba": 0.8515625,
+      "signal_ra_ba": 0.9609375,
+      "signal_soft_ba": 0.98828125,
+      "signal_soft_dilate_ba": 1.0,
+      "att_fail_frac": 0.150390625,
+      "bbox_ra_ba": 0.98046875
+    },
+    {
+      "id": "0014",
+      "img": "000000001490.jpg",
+      "instruction": "将人物替换为一艘帆船",
+      "bbox": [
+        0.4,
+        0.3,
+        0.6,
+        0.7
+      ],
+      "psnr": 48.29888916015625,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "uniform_ba": 0.96875,
+      "signal_ra_ba": 0.98828125,
+      "signal_soft_ba": 0.99609375,
+      "signal_soft_dilate_ba": 1.0,
+      "att_fail_frac": 0.05859375,
+      "bbox_ra_ba": 0.99609375
+    },
+    {
+      "id": "0015",
+      "img": "000000001503.jpg",
+      "instruction": "删除左侧的笔记本电脑",
+      "bbox": [
+        0.0,
+        0.5,
+        0.3,
+        1.0
+      ],
+      "psnr": 47.46759033203125,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "uniform_ba": 0.96484375,
+      "signal_ra_ba": 0.99609375,
+      "signal_soft_ba": 1.0,
+      "signal_soft_dilate_ba": 1.0,
+      "att_fail_frac": 0.08984375,
+      "bbox_ra_ba": 1.0
+    },
+    {
+      "id": "0016",
+      "img": "000000001532.jpg",
+      "instruction": "删除指向Hollywood的交通标志",
+      "bbox": [
+        0.4,
+        0.25,
+        0.6,
+        0.45
+      ],
+      "psnr": 46.67856216430664,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "uniform_ba": 1.0,
+      "signal_ra_ba": 1.0,
+      "signal_soft_ba": 1.0,
+      "signal_soft_dilate_ba": 1.0,
+      "att_fail_frac": 0.0244140625,
+      "bbox_ra_ba": 1.0
+    },
+    {
+      "id": "0017",
+      "img": "000000001584.jpg",
+      "instruction": "将画面中的红色双层巴士替换为一辆黑色的单层出租车",
+      "bbox": [
+        0.11,
+        0.12,
+        0.78,
+        0.95
+      ],
+      "psnr": 47.25811767578125,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "uniform_ba": 0.71484375,
+      "signal_ra_ba": 0.75,
+      "signal_soft_ba": 0.7578125,
+      "signal_soft_dilate_ba": 0.80078125,
+      "att_fail_frac": 0.28515625,
+      "bbox_ra_ba": 0.87109375
+    },
+    {
+      "id": "0018",
+      "img": "000000001675.jpg",
+      "instruction": "删除画面中的猫",
+      "bbox": [
+        0.0,
+        0.0,
+        1.0,
+        0.8
+      ],
+      "psnr": 46.93462371826172,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "uniform_ba": 0.61328125,
+      "signal_ra_ba": 0.68359375,
+      "signal_soft_ba": 0.734375,
+      "signal_soft_dilate_ba": 0.8203125,
+      "att_fail_frac": 0.4189453125,
+      "bbox_ra_ba": 0.87890625
+    },
+    {
+      "id": "0019",
+      "img": "000000001761.jpg",
+      "instruction": "{\"instruction\": \"删除左侧的飞机\", \"bbox\": [0.35, 0.05, 0.45, 0.15]}",
+      "bbox": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "psnr": 47.3594856262207,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "uniform_ba": 0.5078125,
+      "signal_ra_ba": 0.5078125,
+      "signal_soft_ba": 0.4921875,
+      "signal_soft_dilate_ba": 0.4765625,
+      "att_fail_frac": 0.4765625,
+      "bbox_ra_ba": 0.5078125
+    },
+    {
+      "id": "0020",
+      "img": "000000001818.jpg",
+      "instruction": "删除画面中央偏下的斑马幼崽头部",
+      "bbox": [
+        0.2,
+        0.4,
+        0.7,
+        0.9
+      ],
+      "psnr": 48.38377380371094,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "uniform_ba": 0.890625,
+      "signal_ra_ba": 0.96484375,
+      "signal_soft_ba": 0.98046875,
+      "signal_soft_dilate_ba": 1.0,
+      "att_fail_frac": 0.126953125,
+      "bbox_ra_ba": 0.97265625
+    },
+    {
+      "id": "0021",
+      "img": "000000001993.jpg",
+      "instruction": "删除右侧的床",
+      "bbox": [
+        0.35,
+        0.3,
+        0.85,
+        0.9
+      ],
+      "psnr": 47.01644515991211,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "uniform_ba": 0.86328125,
+      "signal_ra_ba": 0.91796875,
+      "signal_soft_ba": 0.94921875,
+      "signal_soft_dilate_ba": 0.98828125,
+      "att_fail_frac": 0.15625,
+      "bbox_ra_ba": 0.9765625
+    },
+    {
+      "id": "0022",
+      "img": "000000002006.jpg",
+      "instruction": "删除画面中央的公交车",
+      "bbox": [
+        0.1,
+        0.1,
+        0.9,
+        0.8
+      ],
+      "psnr": 47.23681640625,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "uniform_ba": 0.765625,
+      "signal_ra_ba": 0.8359375,
+      "signal_soft_ba": 0.87890625,
+      "signal_soft_dilate_ba": 0.984375,
+      "att_fail_frac": 0.3017578125,
+      "bbox_ra_ba": 1.0
+    },
+    {
+      "id": "0023",
+      "img": "000000002149.jpg",
+      "instruction": "把右侧的大苹果替换成一个红色的苹果",
+      "bbox": [
+        0.55,
+        0.15,
+        0.95,
+        0.85
+      ],
+      "psnr": 47.04629898071289,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "uniform_ba": 0.8984375,
+      "signal_ra_ba": 0.93359375,
+      "signal_soft_ba": 0.9375,
+      "signal_soft_dilate_ba": 0.9921875,
+      "att_fail_frac": 0.142578125,
+      "bbox_ra_ba": 0.9765625
+    },
+    {
+      "id": "0024",
+      "img": "000000002153.jpg",
+      "instruction": "删除击球手",
+      "bbox": [
+        0.5,
+        0.4,
+        0.7,
+        0.8
+      ],
+      "psnr": 46.85285186767578,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "uniform_ba": 0.9765625,
+      "signal_ra_ba": 0.98828125,
+      "signal_soft_ba": 1.0,
+      "signal_soft_dilate_ba": 1.0,
+      "att_fail_frac": 0.0439453125,
+      "bbox_ra_ba": 1.0
+    },
+    {
+      "id": "0025",
+      "img": "000000002157.jpg",
+      "instruction": "删除画面左下角的蛋糕",
+      "bbox": [
+        0.0,
+        0.3,
+        0.4,
+        1.0
+      ],
+      "psnr": 47.097259521484375,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "uniform_ba": 0.859375,
+      "signal_ra_ba": 0.890625,
+      "signal_soft_ba": 0.91796875,
+      "signal_soft_dilate_ba": 0.99609375,
+      "att_fail_frac": 0.15625,
+      "bbox_ra_ba": 0.98828125
+    },
+    {
+      "id": "0026",
+      "img": "000000002261.jpg",
+      "instruction": "删除海浪中的冲浪者",
+      "bbox": [
+        0.4,
+        0.3,
+        0.6,
+        0.7
+      ],
+      "psnr": 47.06663513183594,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "uniform_ba": 0.98046875,
+      "signal_ra_ba": 0.99609375,
+      "signal_soft_ba": 1.0,
+      "signal_soft_dilate_ba": 1.0,
+      "att_fail_frac": 0.056640625,
+      "bbox_ra_ba": 0.99609375
+    },
+    {
+      "id": "0027",
+      "img": "000000002299.jpg",
+      "instruction": "把右侧坐着的女孩替换成一只猫",
+      "bbox": [
+        0.7,
+        0.6,
+        0.9,
+        0.9
+      ],
+      "psnr": 48.58884811401367,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0009765625,
+      "uniform_ba": 1.0,
+      "signal_ra_ba": 1.0,
+      "signal_soft_ba": 1.0,
+      "signal_soft_dilate_ba": 1.0,
+      "att_fail_frac": 0.03125,
+      "bbox_ra_ba": 1.0
+    },
+    {
+      "id": "0028",
+      "img": "000000002431.jpg",
+      "instruction": "删除画面中的酒杯",
+      "bbox": [
+        0.7,
+        0.1,
+        0.9,
+        0.4
+      ],
+      "psnr": 47.1973876953125,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "uniform_ba": 0.98828125,
+      "signal_ra_ba": 1.0,
+      "signal_soft_ba": 1.0,
+      "signal_soft_dilate_ba": 1.0,
+      "att_fail_frac": 0.033203125,
+      "bbox_ra_ba": 1.0
+    },
+    {
+      "id": "0029",
+      "img": "000000002473.jpg",
+      "instruction": "删除画面中央的滑雪者",
+      "bbox": [
+        0.35,
+        0.2,
+        0.65,
+        0.75
+      ],
+      "psnr": 46.607662200927734,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "uniform_ba": 0.89453125,
+      "signal_ra_ba": 0.953125,
+      "signal_soft_ba": 0.98828125,
+      "signal_soft_dilate_ba": 1.0,
+      "att_fail_frac": 0.083984375,
+      "bbox_ra_ba": 1.0
+    },
+    {
+      "id": "0030",
+      "img": "000000002532.jpg",
+      "instruction": "删除画面中央的人物",
+      "bbox": [
+        0.4,
+        0.3,
+        0.6,
+        0.7
+      ],
+      "psnr": 46.72112274169922,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "uniform_ba": 0.96484375,
+      "signal_ra_ba": 0.9921875,
+      "signal_soft_ba": 1.0,
+      "signal_soft_dilate_ba": 1.0,
+      "att_fail_frac": 0.05078125,
+      "bbox_ra_ba": 1.0
+    },
+    {
+      "id": "0031",
+      "img": "000000002587.jpg",
+      "instruction": "删除图像中的甜甜圈",
+      "bbox": [
+        0.3,
+        0.1,
+        0.7,
+        0.6
+      ],
+      "psnr": 47.006202697753906,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "uniform_ba": 0.80859375,
+      "signal_ra_ba": 0.953125,
+      "signal_soft_ba": 0.96875,
+      "signal_soft_dilate_ba": 0.9921875,
+      "att_fail_frac": 0.1044921875,
+      "bbox_ra_ba": 0.984375
+    },
+    {
+      "id": "0032",
+      "img": "000000002592.jpg",
+      "instruction": "把杯子上的骷髅图案替换为一个笑脸图案",
+      "bbox": [
+        0.32,
+        0.33,
+        0.54,
+        0.59
+      ],
+      "psnr": 46.84129333496094,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "uniform_ba": 1.0,
+      "signal_ra_ba": 1.0,
+      "signal_soft_ba": 1.0,
+      "signal_soft_dilate_ba": 1.0,
+      "att_fail_frac": 0.03125,
+      "bbox_ra_ba": 1.0
+    },
+    {
+      "id": "0033",
+      "img": "000000002685.jpg",
+      "instruction": "删除画面中穿黑色上衣的女性",
+      "bbox": [
+        0.5,
+        0.1,
+        0.8,
+        0.8
+      ],
+      "psnr": 46.90565490722656,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "uniform_ba": 0.92578125,
+      "signal_ra_ba": 0.9609375,
+      "signal_soft_ba": 0.95703125,
+      "signal_soft_dilate_ba": 0.9921875,
+      "att_fail_frac": 0.119140625,
+      "bbox_ra_ba": 1.0
+    },
+    {
+      "id": "0034",
+      "img": "000000002923.jpg",
+      "instruction": "删除右侧的大船",
+      "bbox": [
+        0.55,
+        0.3,
+        0.95,
+        0.7
+      ],
+      "psnr": 47.05512237548828,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "uniform_ba": 0.95703125,
+      "signal_ra_ba": 0.98828125,
+      "signal_soft_ba": 1.0,
+      "signal_soft_dilate_ba": 1.0,
+      "att_fail_frac": 0.0830078125,
+      "bbox_ra_ba": 0.99609375
+    },
+    {
+      "id": "0035",
+      "img": "000000003156.jpg",
+      "instruction": "将画面中的马桶替换成一个浴缸",
+      "bbox": [
+        0.42,
+        0.55,
+        0.92,
+        0.92
+      ],
+      "psnr": 48.29296875,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "uniform_ba": 0.9609375,
+      "signal_ra_ba": 0.99609375,
+      "signal_soft_ba": 1.0,
+      "signal_soft_dilate_ba": 1.0,
+      "att_fail_frac": 0.119140625,
+      "bbox_ra_ba": 0.99609375
+    },
+    {
+      "id": "0036",
+      "img": "000000003255.jpg",
+      "instruction": "{\"instruction\": \"删除画面中央的人物\", \"bbox\": [0.4, 0.8, 0.5, 1.0]}",
+      "bbox": [
+        0.0,
+        0.016,
+        0.996,
+        0.996
+      ],
+      "psnr": 47.0477294921875,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "uniform_ba": 0.5,
+      "signal_ra_ba": 0.5,
+      "signal_soft_ba": 0.4921875,
+      "signal_soft_dilate_ba": 0.515625,
+      "att_fail_frac": 0.5087890625,
+      "bbox_ra_ba": 0.5078125
+    },
+    {
+      "id": "0037",
+      "img": "000000003501.jpg",
+      "instruction": "删除碗中的西兰花",
+      "bbox": [
+        0.1,
+        0.1,
+        0.4,
+        0.5
+      ],
+      "psnr": 47.05500030517578,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "uniform_ba": 0.9609375,
+      "signal_ra_ba": 0.99609375,
+      "signal_soft_ba": 0.99609375,
+      "signal_soft_dilate_ba": 1.0,
+      "att_fail_frac": 0.0546875,
+      "bbox_ra_ba": 1.0
+    },
+    {
+      "id": "0038",
+      "img": "000000003553.jpg",
+      "instruction": "删除滑板",
+      "bbox": [
+        0.35,
+        0.4,
+        0.65,
+        0.8
+      ],
+      "psnr": 47.12879943847656,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "uniform_ba": 0.97265625,
+      "signal_ra_ba": 0.99609375,
+      "signal_soft_ba": 1.0,
+      "signal_soft_dilate_ba": 1.0,
+      "att_fail_frac": 0.076171875,
+      "bbox_ra_ba": 1.0
+    },
+    {
+      "id": "0039",
+      "img": "000000003661.jpg",
+      "instruction": "将画面下方的单根香蕉替换为一个红色苹果",
+      "bbox": [
+        0.14,
+        0.43,
+        0.83,
+        0.93
+      ],
+      "psnr": 46.92857360839844,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "uniform_ba": 0.88671875,
+      "signal_ra_ba": 0.97265625,
+      "signal_soft_ba": 1.0,
+      "signal_soft_dilate_ba": 1.0,
+      "att_fail_frac": 0.17578125,
+      "bbox_ra_ba": 1.0
+    },
+    {
+      "id": "0040",
+      "img": "000000003845.jpg",
+      "instruction": "删除盘子中的西兰花",
+      "bbox": [
+        0.15,
+        0.5,
+        0.35,
+        0.7
+      ],
+      "psnr": 47.082794189453125,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "uniform_ba": 1.0,
+      "signal_ra_ba": 1.0,
+      "signal_soft_ba": 1.0,
+      "signal_soft_dilate_ba": 1.0,
+      "att_fail_frac": 0.0302734375,
+      "bbox_ra_ba": 1.0
+    },
+    {
+      "id": "0041",
+      "img": "000000003934.jpg",
+      "instruction": "删除画面左侧的新娘",
+      "bbox": [
+        0.1,
+        0.1,
+        0.3,
+        0.9
+      ],
+      "psnr": 46.927181243896484,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "uniform_ba": 0.9296875,
+      "signal_ra_ba": 0.9453125,
+      "signal_soft_ba": 0.953125,
+      "signal_soft_dilate_ba": 0.9609375,
+      "att_fail_frac": 0.0810546875,
+      "bbox_ra_ba": 0.98046875
+    },
+    {
+      "id": "0042",
+      "img": "000000004134.jpg",
+      "instruction": "删除左侧的人物",
+      "bbox": [
+        0.0,
+        0.1,
+        0.4,
+        0.9
+      ],
+      "psnr": 47.02590560913086,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "uniform_ba": 0.81640625,
+      "signal_ra_ba": 0.859375,
+      "signal_soft_ba": 0.89453125,
+      "signal_soft_dilate_ba": 0.90625,
+      "att_fail_frac": 0.1533203125,
+      "bbox_ra_ba": 0.94140625
+    },
+    {
+      "id": "0043",
+      "img": "000000004395.jpg",
+      "instruction": "把手中的透明杯子替换成一个红色气球",
+      "bbox": [
+        0.7,
+        0.35,
+        0.95,
+        0.65
+      ],
+      "psnr": 47.64543151855469,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0693359375,
+      "uniform_ba": 0.94140625,
+      "signal_ra_ba": 0.97265625,
+      "signal_soft_ba": 0.96875,
+      "signal_soft_dilate_ba": 0.984375,
+      "att_fail_frac": 0.09375,
+      "bbox_ra_ba": 0.9609375
+    },
+    {
+      "id": "0044",
+      "img": "000000004495.jpg",
+      "instruction": "把电视替换成一个书架",
+      "bbox": [
+        0.35,
+        0.3,
+        0.55,
+        0.45
+      ],
+      "psnr": 46.87439727783203,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "uniform_ba": 1.0,
+      "signal_ra_ba": 1.0,
+      "signal_soft_ba": 1.0,
+      "signal_soft_dilate_ba": 1.0,
+      "att_fail_frac": 0.0185546875,
+      "bbox_ra_ba": 1.0
+    },
+    {
+      "id": "0045",
+      "img": "000000004765.jpg",
+      "instruction": "把冲浪者的黄色上衣换成红色上衣",
+      "bbox": [
+        0.35,
+        0.15,
+        0.65,
+        0.45
+      ],
+      "psnr": 47.42626190185547,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "uniform_ba": 0.99609375,
+      "signal_ra_ba": 1.0,
+      "signal_soft_ba": 1.0,
+      "signal_soft_dilate_ba": 1.0,
+      "att_fail_frac": 0.0556640625,
+      "bbox_ra_ba": 1.0
+    },
+    {
+      "id": "0046",
+      "img": "000000004795.jpg",
+      "instruction": "删除画面中央的黑色猫咪",
+      "bbox": [
+        0.23,
+        0.2,
+        0.86,
+        0.99
+      ],
+      "psnr": 46.94850158691406,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "uniform_ba": 0.76171875,
+      "signal_ra_ba": 0.83203125,
+      "signal_soft_ba": 0.8671875,
+      "signal_soft_dilate_ba": 0.89453125,
+      "att_fail_frac": 0.2705078125,
+      "bbox_ra_ba": 0.92578125
+    },
+    {
+      "id": "0047",
+      "img": "000000005001.jpg",
+      "instruction": "{\"instruction\": \"把蓝色气球替换成红色气球\", \"bbox\": [0.55, 0.3, 0.65, 0.45]}",
+      "bbox": [
+        0.062,
+        0.055,
+        1.0,
+        1.0
+      ],
+      "psnr": 48.29914093017578,
+      "clean_ba": 0.984375,
+      "clean_fail_frac": 0.0810546875,
+      "uniform_ba": 0.51953125,
+      "signal_ra_ba": 0.55078125,
+      "signal_soft_ba": 0.54296875,
+      "signal_soft_dilate_ba": 0.54296875,
+      "att_fail_frac": 0.474609375,
+      "bbox_ra_ba": 0.5859375
+    },
+    {
+      "id": "0048",
+      "img": "000000005037.jpg",
+      "instruction": "把巴士替换成一辆卡车",
+      "bbox": [
+        0.15,
+        0.2,
+        0.95,
+        0.95
+      ],
+      "psnr": 47.12759017944336,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0048828125,
+      "uniform_ba": 0.703125,
+      "signal_ra_ba": 0.76171875,
+      "signal_soft_ba": 0.8125,
+      "signal_soft_dilate_ba": 0.90625,
+      "att_fail_frac": 0.32421875,
+      "bbox_ra_ba": 0.94140625
+    },
+    {
+      "id": "0049",
+      "img": "000000005060.jpg",
+      "instruction": "删除镜中反射的人物",
+      "bbox": [
+        0.3,
+        0.4,
+        0.7,
+        0.7
+      ],
+      "psnr": 46.801509857177734,
+      "clean_ba": 1.0,
+      "clean_fail_frac": 0.0,
+      "uniform_ba": 0.96875,
+      "signal_ra_ba": 0.9921875,
+      "signal_soft_ba": 1.0,
+      "signal_soft_dilate_ba": 1.0,
+      "att_fail_frac": 0.0673828125,
+      "bbox_ra_ba": 0.99609375
+    }
+  ],
+  "summary": {
+    "clean_ba": {
+      "ba": 0.9996875,
+      "n": 50
+    },
+    "uniform_ba": {
+      "ba": 0.878046875,
+      "n": 50
+    },
+    "signal_ra_ba": {
+      "ba": 0.913515625,
+      "n": 50
+    },
+    "signal_soft_ba": {
+      "ba": 0.927734375,
+      "n": 50
+    },
+    "signal_soft_dilate_ba": {
+      "ba": 0.94734375,
+      "n": 50
+    },
+    "bbox_ra_ba": {
+      "ba": 0.95265625,
+      "n": 50
+    },
+    "clean_fail_frac": 0.0032421875,
+    "att_fail_frac": 0.14455078125
+  }
+}

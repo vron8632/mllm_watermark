@@ -1,0 +1,10 @@
+{
+ "inside": 0.4998,
+ "ring1": 0.1231,
+ "ring2": 0.002,
+ "far": 0.0027,
+ "clean_inside": 0.0011,
+ "clean_ring1": 0.0016,
+ "clean_ring2": 0.002,
+ "clean_far": 0.0027
+}
