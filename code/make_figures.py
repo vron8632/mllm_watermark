@@ -280,7 +280,8 @@ def fig2_qualitative():
         ('0045_42', 'jacket: yellow $\\rightarrow$ red', 'attribute editing'),
     ]
     n = len(rows)
-    fig, axes = plt.subplots(n, 3, figsize=(10.2, 3.25 * n))
+    fig, axes = plt.subplots(n, 3, figsize=(10.2, 3.0 * n),
+                             gridspec_kw={'hspace': 0.12, 'wspace': 0.04})
     for r, (cid, inst, lbl) in enumerate(rows):
         o = Image.open(f'{HIRES}/images/{cid}_orig.png').convert('RGB')
         a = Image.open(f'{HIRES}/images/{cid}_att.png').convert('RGB')
@@ -300,7 +301,6 @@ def fig2_qualitative():
         axes[r, 0].annotate(f'{lbl}   ({w}$\\times${h})', xy=(0, 1.185),
                             xycoords='axes fraction', fontsize=9.5,
                             fontweight='bold', color='#2c6fbb', va='bottom')
-    fig.tight_layout()
     fig.savefig(f'{FIG_DIR}/fig2_qualitative.pdf', bbox_inches='tight')
     fig.savefig(f'{FIG_DIR}/fig2_qualitative.png', dpi=220, bbox_inches='tight')
     plt.close(fig)

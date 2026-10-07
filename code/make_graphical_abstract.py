@@ -81,7 +81,7 @@ def main():
     def panel(ax, img, title, tcolor):
         ax.imshow(img, interpolation='lanczos')
         ax.axis('off')
-        ax.set_title(title, fontsize=15, fontweight='bold', color=tcolor, pad=6)
+        ax.set_title(title, fontsize=13, fontweight='bold', color=tcolor, pad=6)
 
     # ---------- (1) 局部编辑 ----------
     ax = fig.add_subplot(gs[0, 0])
@@ -89,7 +89,7 @@ def main():
     ax.add_patch(mpatches.Rectangle((x1, y1), x2 - x1, y2 - y1, fill=False,
                  ec='#d62728', lw=3.0, ls=(0, (6, 4))))
     ax.text(0.03, 0.03, f'MLLM: "{s["instruction"][:34]}"', transform=ax.transAxes,
-            fontsize=10.5, color='white', va='bottom',
+            fontsize=9.5, color='white', va='bottom',
             bbox=dict(boxstyle='round,pad=0.35', fc='#4b3f8f', ec='none', alpha=0.92))
 
     # ---------- (2) 损伤外溢 ----------
@@ -115,12 +115,12 @@ def main():
     txt = ('Each 8$\\times$8 DCT block carries a payload bit and a pseudo-random check bit. '
            'Blocks whose check bit fails are soft-weighted and dilated before voting.\n'
            'Bit accuracy under MLLM-guided semantic editing:  '
-           '$\\mathbf{88.3\\% \\rightarrow 94.5\\%}$  ($+6.2$pt), training-free, '
-           'beating the best trained baseline at 256-bit payload.')
-    ax.text(0.5, 0.62, txt, ha='center', va='center', fontsize=13.5, color='#1a1a1a',
+           '$\\mathbf{89.1\\% \\rightarrow 95.4\\%}$  ($+6.4$pt), training-free, '
+           'matching or exceeding trained baselines at 256-bit payload.')
+    ax.text(0.5, 0.62, txt, ha='center', va='center', fontsize=11.5, color='#1a1a1a',
             bbox=dict(boxstyle='round,pad=0.6', fc='#eaf3fb', ec='#2c6fbb', lw=1.6))
     ax.text(0.5, 0.06, 'Image Watermarking Robustness under MLLM-Guided Semantic Editing',
-            ha='center', va='bottom', fontsize=12, style='italic', color='#555')
+            ha='center', va='bottom', fontsize=11, style='italic', color='#555')
 
     fig.savefig(f'{FIG_DIR}/graphical_abstract.pdf', bbox_inches='tight', facecolor='white')
     # Elsevier 要求: 最小 1328x531 px, >=300 dpi, 比例 2.5:1 (500x200)

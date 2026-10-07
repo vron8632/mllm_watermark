@@ -92,9 +92,29 @@ code/
 |- run_diagnosis_quant.py            # quantified reliability of MLLM diagnosis
 |
 |- run_sota_comparison.py            # comparison against trained baselines
+|- run_fidelity_metrics.py           # PSNR / SSIM / LPIPS over the 600-image set
 |- make_figures.py                   # main figures
 |- make_graphical_abstract.py        # graphical abstract
-`- make_supplementary.py             # supplementary figures
+|- make_supplementary_v2.py          # supplementary figures
+`- make_teaser.py                    # teaser and qualitative panels
+```
+
+### Revision analyses
+
+Scripts added for the revised manuscript. Each one writes a timestamped JSON record into
+`results/` (per-image rows, seeds and attack-set metadata included).
+
+```
+|- rev_analysis_r2r4r5.py            # per-block joint counts, budget- and fidelity-matched
+|                                    #   controls, keyed-hash check sequence with key space
+|                                    #   and throughput measurement, step-size x texture
+|                                    #   sweep, chroma statistics
+|- rev_delta_complete.py             # full step-size grid (7 steps x 6 decoder variants)
+|- rev_capacity_control.py           # multi-message and second-attack-set capacity replication
+|- rev_paired_tests.py               # per-image paired tests: bootstrap CI, t-test, Wilcoxon
+|                                    #   signed-rank, Cohen's d (defense vs. baselines/oracle)
+|- stratify_by_edit_area.py          # stratification by edited-area fraction
+`- run_delta_sweep.py                # step-size sweep driver
 ```
 
 ### Reproducing the defense evaluation
@@ -114,6 +134,22 @@ python analyze_second_mllm.py
 
 `--provider` selects the attacker MLLM; the script reads `<PROVIDER>_API_KEY`,
 `<PROVIDER>_BASE_URL` and `<PROVIDER>_MODEL` from `.mllm_env`.
+
+### Reproducing a revision table
+
+```bash
+cd code
+python rev_delta_complete.py      # -> results/delta_sweep_complete_*.json
+python rev_capacity_control.py    # -> results/capacity_control_*.json
+python rev_paired_tests.py        # -> results/paired_tests_*.json
+```
+
+### Result files
+
+All analysis scripts write their outputs (per-image records plus summary tables) into `results/`.
+That directory is excluded from this repository by default; the generated attack sets and the
+per-image result files are distributed as described in the *Data availability* section of the
+paper.
 
 ---
 
