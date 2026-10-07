@@ -178,10 +178,15 @@ unchanged.
 
 ## Key findings
 
-![Teaser: damage is not confined to the edit region](assets/teaser.png)
+![Teaser: the watermark damage follows the block grid, not the declared box](assets/teaser.png)
 
-*A semantic edit is locally invisible but the watermark damage is not local: orange marks
-check-bit failures, which leak well outside the declared edit box.*
+*Semantic editing is local, but the watermark damage follows the block grid. Orange marks
+check-bit failures: about half of the blocks inside the declared region (red dashed) fail their
+check, roughly an eighth of the immediately adjacent blocks just outside it fail, and blocks
+further out sit at the clean-image false-failure baseline. Because about half of the inside
+blocks still vote correctly, a defense that discards the whole declared region throws those
+votes away while also missing the boundary ring — which is why the damage is localized from the
+watermark signal itself.*
 
 1. **Semantic edits damage the watermark outside the edited region.** A bounding-box oracle that
    discards only the declared edit box underperforms the check-bit defense, because the damage
